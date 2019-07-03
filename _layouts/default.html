@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en"> 
+{% include header.html %}
+<body>
+    <!-- <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div> -->
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    <!--The Main Wrapper-->
+    <div class="page"> 
+      <!--
+      ========================================================
+      												HEADER
+      ========================================================
+      -->
+      {% include nav.html %}
+
+      {{ content }}
+
+      <!--
+      ========================================================
+      												FOOTER
+      ========================================================
+      -->
+      {% include footer.html %}
+    </div>
+    <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
+    <!--Core Scripts-->
+    <script src="{{ "js/core.min.js" | prepend: site.baseurl }}"></script>
+    <!--Additional Functionality Scripts-->
+    <script src="{{ "js/script.js" | prepend: site.baseurl }}"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<header class="{% if layout == home %} page-header {% else %} page-header subpage-header {% endif %}">
+
+    <!--RD Navbar-->
+    <div class="rd-navbar-wrap">
+        <nav class="rd-navbar top-panel-none-items" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
+            data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed"
+            data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static"
+            data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px"
+            data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-top-panel">
+                <!-- <div class="rd-navbar-inner">
+                    <button class="rd-navbar-collapse-toggle"
+                        data-rd-navbar-toggle=".list-inline, .fa-envelope, .fa-phone, .fa-shopping-cart"><span></span></button><a
+                        class="fa-envelope" href="mailto:#">allen092911@gmail.com</a><a class="fa-phone"
+                        href="tel:#">+86 15029679576</a>
+                    <ul class="list-inline pull-right">
+                        <li><a class="fa-facebook" href="#"></a></li>
+                        <li><a class="fa-pinterest-p" href="#"></a></li>
+                        <li><a class="fa-twitter" href="#"></a></li>
+                        <li><a class="fa-google-plus" href="#"></a></li>
+                        <li><a class="fa-instagram" href="#"></a></li>
+                    </ul>
+                </div> -->
+            </div>
+            <div class="rd-navbar-inner">
+
+                <!--RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+
+                    <!--RD Navbar Toggle-->
+                    <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar"><span></span></button>
+                    <!--END RD Navbar Toggle-->
+
+                    <!--RD Navbar Brand-->
+                    <div class="rd-navbar-brand"><a class="brand-name" href="index.html">{{ site.labname }}</a></div>
+                    <!--END RD Navbar Brand-->
+                </div>
+                <!--END RD Navbar Panel-->
+
+                <div class="rd-navbar-nav-wrap">
+                    <!--<a class="fa-shopping-cart" href="shop-cart.html"></a>short icon could be in there-->
+                    <!--RD Navbar Search-->
+                    <div class="rd-navbar-search">
+                        <form class="rd-search rd-navbar-search-form" action="search-results.html"
+                            data-search-live="rd-search-results-live" method="GET">
+                            <label class="rd-navbar-search-form-input">
+                                <input type="text" name="s" placeholder="Search.." autocomplete="off">
+                            </label>
+                            <button class="rd-navbar-search-form-submit" type="submit"></button>
+                            <div class="rd-search-results-live" id="rd-search-results-live"></div>
+                        </form>
+                        <button class="rd-navbar-search-toggle"
+                            data-rd-navbar-toggle=".rd-navbar-search, .rd-navbar-live-search-results"></button>
+                    </div>
+                    <!--END RD Navbar Search-->
+
+                    <!--RD Navbar Nav-->
+                    <ul class="rd-navbar-nav">
+                        {% for nav in site.nav %}
+                            <li><a href="{{ nav.href }}">{{ nav.name }}</a></li>
+                        {% endfor %}
+                        <!-- class="active" -->
+                        <!-- <li><a href="#">Blog</a></li> -->
+                        <!-- <li><a href="#">Contact us</a></li> -->
+                    </ul>
+                    <!--END RD Navbar Nav-->
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--END RD Navbar-->
+</header>

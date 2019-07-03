@@ -1,0 +1,37 @@
+<head>
+    <!--Site Title-->
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport"
+        content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <!--Stylesheets  -->
+    <link
+        href="//fonts.googleapis.com/css?family=Pacifico%7CLato:400,100,100italic,300,300italic,700,400italic,900,700italic,900italic%7CMontserrat:400,700"
+        rel="stylesheet" type="text/css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!--Bootstrap -->
+    <link rel="stylesheet" href="{{ "css/bootstrap.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "css/fonts.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "css/style.css" | prepend: site.baseurl }}">
+
+    <!-- <style>
+        .ie-panel {
+            display: none;
+            background: #212121;
+            padding: 10px 0;
+            box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
+            clear: both;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        html.ie-10 .ie-panel,
+        html.lt-ie-10 .ie-panel {
+            display: block;
+        }
+    </style> -->
+</head>

@@ -1,0 +1,99 @@
+---
+layout: default
+---
+<section>
+    <!--Swiper-->
+    <div class="swiper-container swiper-slider" data-autoplay="5000" data-slide-effect="fade" data-loop="false"
+        style="height: 380px;">
+        <div class="jumbotron text-center">
+            <h1>Publications</h1>
+            <p class="big"></p>
+        </div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" data-slide-bg="images/header-1.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+            <div class="swiper-slide" data-slide-bg="images/header-3.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+            <div class="swiper-slide" data-slide-bg="images/header-4.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<main class="page-content">
+    <ol class="breadcrumb section-border">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="#">Publications</a></li>
+    </ol>
+
+    <!--Start section-->
+    <section class="text-center text-lg-left inset-1">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-8">
+                    <div class="row">
+                        <!-- <h3>2018</h3> -->
+                        {% for post in site.posts %}
+                        {% if post.type == 'paper' %}
+                        <div class="col-12 section-border">
+                            <article class="thumbnail well slow-hover">
+                                <!--<div class="image-slow-wrapper"><img src="images/Publication01.png" alt=""></div>-->
+                                <div class="caption">
+                                    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                                    <h5>{{ post.author }}</h5>
+                                    <h5>{{ post.venue }}</h5>
+                                    <div class="blog-info">
+                                        <div class="pull-md-left">
+                                            <time class="meta fa-calendar" datetime="2018">{{ post.year }} {{ post.month }}</time>
+                                            <div class="tags d-inline-block">
+                                                {% if post.paper == 'None' %}
+                                                {% else %}
+                                                <a class="post-tag round-xl small text-primary" href="{{ post.paper }}">Paper</a>
+                                                {% endif %}
+                                                {% if post.code == 'None' %}
+                                                {% else %}
+                                                <a class="post-tag round-xl small text-primary" href="{{ post.code }}">Code</a>
+                                                {% endif %}
+                                                {% if post.data == 'None' %}
+                                                {% else %}
+                                                <a class="post-tag round-xl small text-primary" href="{{ post.data }}">Data</a>
+                                                {% endif %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="col-lg-3 col-lg-offset-1 inset-md sidebar inset-1">
+                    <h5>Latest Papers</h5>
+                    <ul class="list-unstyled-2">
+                        {% for post in site.posts limit:5 %}
+                        {% if post.type == 'paper' %}
+                        <li><a class="text-primary" href="{{ post.url }}">{{ post.title }}</a></li>
+                        <br>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                    <!-- <h5>Sponsor Widgets</h5>
+                    <div class="img-box"><a href="#"><img src="images/sidebar-8.jpg" alt=""></a><a href="#"><img
+                                src="images/sidebar-8.jpg" alt=""></a><a href="#"><img src="images/sidebar-8.jpg"
+                                alt=""></a><a href="#"><img src="images/sidebar-8.jpg" alt=""></a></div> -->
+                </div>
+            </div>
+        </div>
+        <!--End section-->
+    </section>
+
+    <!--Start section-->
+    <section class="well text-center text-lg-left">
+        <div class="container"></div>
+    </section>
+    <!--End section-->
+</main>
