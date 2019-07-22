@@ -10,13 +10,13 @@ layout: default
             <p class="big"></p>
         </div>
         <div class="swiper-wrapper">
-            <div class="swiper-slide" data-slide-bg="images/header-1.jpg">
+            <div class="swiper-slide" data-slide-bg="{{ site.url }}/images/header-1.jpg">
                 <div class="swiper-slide-caption"></div>
             </div>
-            <div class="swiper-slide" data-slide-bg="images/header-3.jpg">
+            <div class="swiper-slide" data-slide-bg="{{ site.url }}/images/header-3.jpg">
                 <div class="swiper-slide-caption"></div>
             </div>
-            <div class="swiper-slide" data-slide-bg="images/header-4.jpg">
+            <div class="swiper-slide" data-slide-bg="{{ site.url }}/images/header-4.jpg">
                 <div class="swiper-slide-caption"></div>
             </div>
         </div>
@@ -39,7 +39,7 @@ layout: default
                         {% for post in site.posts %}
                         {% if post.type == 'paper' %}
                         <div class="col-12 section-border">
-                            <article class="thumbnail well slow-hover">
+                            <article class="thumbnail well slow-hover" style="padding-top: 20px; padding-bottom: 20px">
                                 <!--<div class="image-slow-wrapper"><img src="images/Publication01.png" alt=""></div>-->
                                 <div class="caption">
                                     <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
@@ -49,9 +49,13 @@ layout: default
                                         <div class="pull-md-left">
                                             <time class="meta fa-calendar" datetime="2018">{{ post.year }} {{ post.month }}</time>
                                             <div class="tags d-inline-block">
-                                                {% if post.paper == 'None' %}
+                                                {% if post.paperLink == 'None' %}
                                                 {% else %}
-                                                <a class="post-tag round-xl small text-primary" href="{{ post.paper }}">Paper</a>
+                                                <a class="post-tag round-xl small text-primary" href="{{ post.paperLink }}">Paper</a>
+                                                {% endif %}
+                                                {% if post.projectPage == 'None' %}
+                                                {% else %}
+                                                <a class="post-tag round-xl small text-primary" href="{{ post.projectPage }}">Project Page</a>
                                                 {% endif %}
                                                 {% if post.code == 'None' %}
                                                 {% else %}
@@ -60,6 +64,10 @@ layout: default
                                                 {% if post.data == 'None' %}
                                                 {% else %}
                                                 <a class="post-tag round-xl small text-primary" href="{{ post.data }}">Data</a>
+                                                {% endif %}
+                                                {% if post.supplemental == 'None' %}
+                                                {% else %}
+                                                <a class="post-tag round-xl small text-primary" href="{{ post.supplemental }}">Supplemental</a>
                                                 {% endif %}
                                             </div>
                                         </div>
