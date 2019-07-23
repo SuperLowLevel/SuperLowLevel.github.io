@@ -6,7 +6,7 @@ date:   2019-06-24 11:59:59 +0800  # paper pub data, only change year and month 
 author: Xintao Wang, Kelvin C.K. Chan, Ke Yu, Chao Dong, Chen Change Loy  # authors information
 venue:  Computer Vision and Pattern Recognition (CVPR), 2019  # Where it be, ICCV and CVPR remove IEEE Conference on, 
 year:   2019  # paper year, number
-month:  April  # paper month, full name
+month:  June  # paper month, full name
 projectPage: https://xinntao.github.io/projects/EDVR  # If has project page, link here, otherwise None
 supplemental : None
 data: None  # If has data, post data link here, otherwise None

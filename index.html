@@ -90,53 +90,25 @@ labNameDescript: One of the most legendary AI lab, <br>Our mission is addressing
     <!--Start section-->
     <section class="well well-sm well-inset-2 text-center text-lg-left">
         <div class="container">
-            <h1 class="font-weight-bold text-center">Latest From The Blog</h1>
+            <h1 class="font-weight-bold text-center">Latest Publications</h1>
             <div class="row row-30">
+                {% for post in site.posts limit:3 %}
+                {% if post.type == 'paper' %}
                 <div class="col-lg-4">
                     <article class="thumbnail thumbnail-4"><img src="images/index_img2.jpg" alt="">
                         <div class="caption">
-                            <h4><a href="blog_post.html">A Team Approach to Large-scale Design Projects</a></h4>
-                            <p class="text-dark-variant-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Cupiditate, asperiores quod est tenetur in.</p>
+                            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                            <p class="text-dark-variant-2">{{ post.author }}</p>
                             <div class="blog-info">
                                 <div class="pull-md-left">
-                                    <time class="meta fa-calendar" datetime="2019">Feb 10, 2019</time><a
-                                        class="badge fa-comments font-secondary" href="#">13</a>
-                                </div><a class="button-link" href="blog_post.html">Read More</a>
+                                    <time class="meta fa-calendar" datetime="2019">{{ post.year }} {{ post.month }}</time>
+                                </div><a class="button-link" href="{{ post.url }}">Read More</a>
                             </div>
                         </div>
                     </article>
                 </div>
-                <div class="col-lg-4">
-                    <article class="thumbnail thumbnail-4"><img src="images/index_img3.jpg" alt="">
-                        <div class="caption">
-                            <h4><a href="blog_post.html">18 Web Design Trends of 2019 You Should Know About</a></h4>
-                            <p class="text-dark-variant-2">Nunc mi ipsum faucibus vitae. Vestibulum mattis ullamcorper
-                                velit sed ullamcorper morbi tincidunt. </p>
-                            <div class="blog-info">
-                                <div class="pull-md-left">
-                                    <time class="meta fa-calendar" datetime="2019">Feb 10, 2019</time><a
-                                        class="badge fa-comments font-secondary" href="#">13</a>
-                                </div><a class="button-link" href="blog_post.html">Read More</a>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-lg-4">
-                    <article class="thumbnail thumbnail-4"><img src="images/index_img4.jpg" alt="">
-                        <div class="caption">
-                            <h4><a href="blog_post.html">Why Your Client Needs a Responsive Website</a></h4>
-                            <p class="text-dark-variant-2">Quam pellentesque nec nam aliquam sem et tortor consequat.
-                                Gravida dictum fusce ut placerat. </p>
-                            <div class="blog-info">
-                                <div class="pull-md-left">
-                                    <time class="meta fa-calendar" datetime="2019">Feb 10, 2019</time><a
-                                        class="badge fa-comments font-secondary" href="#">13</a>
-                                </div><a class="button-link" href="blog_post.html">Read More</a>
-                            </div>
-                        </div>
-                    </article>
-                </div>
+                {% endif %}
+                {% endfor %}
             </div>
         </div>
     </section>
