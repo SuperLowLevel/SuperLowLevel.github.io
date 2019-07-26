@@ -1,10 +1,11 @@
 ---
 title:  'EDVR: Video Restoration With Enhanced Deformable Convolutional Networks'  #  Paper title, covered by ''
+teser: edvr.png
 type:   paper
 layout: post  #  Do not change this
 date:   2019-06-24 11:59:59 +0800  # paper pub data, only change year and month according to this format
 author: Xintao Wang, Kelvin C.K. Chan, Ke Yu, Chao Dong, Chen Change Loy  # authors information
-venue:  Computer Vision and Pattern Recognition (CVPR), 2019  # Where it be, ICCV and CVPR remove IEEE Conference on, 
+venue:  Computer Vision and Pattern Recognition, NTIRE Workshop (CVPRW), 2019  # Where it be, ICCV and CVPR remove IEEE Conference on, 
 year:   2019  # paper year, number
 month:  June  # paper month, full name
 projectPage: https://xinntao.github.io/projects/EDVR  # If has project page, link here, otherwise None

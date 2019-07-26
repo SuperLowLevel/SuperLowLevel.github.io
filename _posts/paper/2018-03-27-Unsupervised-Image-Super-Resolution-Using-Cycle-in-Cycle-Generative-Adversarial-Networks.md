@@ -4,7 +4,7 @@ type:   paper
 layout: post  #  Do not change this
 date:   2018-03-27 11:59:59 +0800  # paper pub data, only change year and month according to this format
 author: Yuan Yuan, Siyuan Liu, Jiawei Zhang, Yongbing Zhang, Chao Dong, Liang Lin  # authors information
-venue:  Computer Vision and Pattern Recognition (CVPR), 2018  # Where it be, ICCV and CVPR remove IEEE Conference on, 
+venue:  Computer Vision and Pattern Recognition, NTIRE Workshop (CVPRW), 2018  # Where it be, ICCV and CVPR remove IEEE Conference on, 
 year:   2018  # paper year, number
 month:  March  # paper month, full name
 projectPage: None  # If has project page, link here, otherwise None

@@ -1,6 +1,7 @@
 ---
 title:  'Deep Network Interpolation for Continuous Imagery Effect Transition'  #  Paper title, covered by ''
 type:   paper
+teser: dni.png
 layout: post  #  Do not change this
 date:   2019-06-19 11:59:59 +0800  # paper pub data, only change year and month according to this format
 author: Xintao Wang, Ke Yu, Chao Dong, Xiaoou Tang, Chen Change Loy  # authors information

@@ -1,6 +1,7 @@
 ---
 title:  'Modulating Image Restoration With Continual Levels via Adaptive Feature Modification Layers'  #  Paper title, covered by ''
 type:   paper
+teser: modulating.png
 layout: post  #  Do not change this
 date:   2019-06-22 11:59:59 +0800  # paper pub data, only change year and month according to this format
 author: Jingwen He, Chao Dong, Yu Qiao  # authors information

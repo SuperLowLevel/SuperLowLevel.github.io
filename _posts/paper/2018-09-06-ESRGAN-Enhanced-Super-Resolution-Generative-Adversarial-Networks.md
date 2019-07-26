@@ -4,7 +4,7 @@ type:   paper
 layout: post  #  Do not change this
 date:   2018-09-06 11:59:59 +0800  # paper pub data, only change year and month according to this format
 author: Xintao Wang, Ke Yu, Shixiang Wu, Jinjin Gu, Yihao Liu, Chao Dong, Yu Qiao, Chen Change Loy  # authors information
-venue:  The European Conference on Computer Vision (ECCV), 2018  # Where it be, ICCV and CVPR remove IEEE Conference on, 
+venue:  The European Conference on Computer Vision Workshop (ECCVW), 2018  # Where it be, ICCV and CVPR remove IEEE Conference on, 
 year:   2018  # paper year, number
 month:  September  # paper month, full name
 projectPage: None  # If has project page, link here, otherwise None
