@@ -29,7 +29,7 @@ layout: default
     <ol class="breadcrumb section-border">
         <li><a href="{{ BASE_PATH }}/index.html">Home</a></li>
         <li><a href="{{ BASE_PATH }}/people.html">Our Team</a></li>
-        <li class="active">Team member profile</li>
+        <li class="active">{{ page.name }}</li>
     </ol>
 
     <!--Start section-->
@@ -46,17 +46,32 @@ layout: default
                     <p class="small text-light-clr" style="margin-bottom: 10px">
                         {{ page.showtitle }}
                         {% if page.institution %}
-                        <br>{{ page.institution }}
+                        <br>
+                        {{ page.institution }}
                         {% endif %}
+                        <br>
+                        {{ page.email }}
                     </p>
                     <div class="tags d-inline-block">
                             <span class="badge fa-tags"></span>
-                            <a class="post-tag round-xl small text-primary" href="{{ page.code }}">Code</a>
-                            <a class="post-tag round-xl small text-primary" href="{{ page.data }}">Data</a>
-                            <a class="post-tag round-xl small text-primary" href="{{ page.supplemental }}">Supplemental</a>
+                            {% if page.homepage != 'None' %}
+                            <a class="post-tag round-xl small text-primary" href="{{ page.homepage }}">Website</a>
+                            {% endif %}
+                            {% if page.google != 'None' %}
+                            <a class="post-tag round-xl small text-primary" href="{{ page.google }}">Google Scholar</a>
+                            {% endif %}
+                            {% if page.github != 'None' %}
+                            <a class="post-tag round-xl small text-primary" href="{{ page.github }}">Github</a>
+                            {% endif %}
+                            {% if page.linkedin != 'None' %}
+                            <a class="post-tag round-xl small text-primary" href="{{ page.linkedin }}">Linkedin</a>
+                            {% endif %}
                         </div>
                     <p>
                         {{ content }}
+                    </p>
+                    <p>
+                        Research Interests: {{ page.direction }}
                     </p>
                 </div>
             </article>

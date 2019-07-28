@@ -11,9 +11,9 @@ profileName: guanweipeng.png  # 186 * 186
 profile: None  # 570 * 725
 direction : Image Restoration based on Deep Learning
 layout: peoplepost  #  Do not change this
-homepage: 
+homepage: https://kwanwaipang.github.io
 email: gwpscut@163.com
-google : None
+google : https://scholar.google.com/citations?hl=zh-CN&user=fUU5Cv0AAAAJ
 github : https://github.com/KwanWaiPang
 linkedin: None
 institution: 
