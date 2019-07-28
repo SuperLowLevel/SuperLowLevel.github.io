@@ -1,10 +1,10 @@
 ---
-title: XPixel Group
+title: X-Pixel Group
 layout: home
 
-labNameBig: XPixel Group
-labNameSmall: SIAT, CASss
-labNameDescript: One of the most legendary AI lab, <br>Our mission is addressing low level vision problemssss
+labNameBig: X-Pixel Group
+labNameSmall: CUHK, NTU, SIAT, Sensetime
+labNameDescript: One of the most legendary AI team, <br>Our vision is to make the world look clearer
 ---
 
 <main class="page-content">
@@ -17,17 +17,48 @@ labNameDescript: One of the most legendary AI lab, <br>Our mission is addressing
                     <!-- Bootstrap collapse-->
                     <!-- <div class="card-group-custom card-group-corporate" id="accordion1" role="tablist"
                         aria-multiselectable="false"> -->
-                        <!-- Bootstrap card-->
-                        <article class="card card-custom card-corporate">
-                            <div class="card-header" role="tab">
-                                <div class="card-title">
-                                    <a role="button" data-toggle="collapse" class="collapsed"
-                                        aria-controls="accordion1Collapse1" aria-expanded="false">What are the advantages
-                                        of purchasing a website template?
-                                        <div class="card-arrow"></div></a>
-                                </div>
+                    <!-- Bootstrap card-->
+                    <article class="card card-custom card-corporate">
+                        <div class="card-header" role="tab">
+                            <div class="card-title">
+                                <a role="button" data-toggle="collapse" class="collapsed"
+                                    aria-controls="accordion1Collapse1" aria-expanded="false">
+                                    [July 2019] One paper is selected as oral presentation in ICCV 2019! Check our paper for more details
+                                    <div class="card-arrow"></div>
+                                </a>
+                                <a role="button" data-toggle="collapse" class="collapsed"
+                                    aria-controls="accordion1Collapse1" aria-expanded="false">
+                                    [July 2019] Our group's establishment has done in a group meeting at MMlab, CUHK! Check group activities for more details
+                                    <div class="card-arrow"></div>
+                                </a>
+                                <a role="button" data-toggle="collapse" class="collapsed"
+                                    aria-controls="accordion1Collapse1" aria-expanded="false">
+                                    [June 2019] Welcome Xiangyu Chen to join our group!
+                                    <div class="card-arrow"></div>
+                                </a>
+                                <a role="button" data-toggle="collapse" class="collapsed"
+                                    aria-controls="accordion1Collapse1" aria-expanded="false">
+                                    [Apr. 2019] Our HelloSR team won the champions in all four tracks in the NTIRE19 video restoration and enhancement challenges! Congrats to Xintao Wang and the team! Check our project for more details.
+                                    <div class="card-arrow"></div>
+                                </a>
+                                <a role="button" data-toggle="collapse" class="collapsed"
+                                    aria-controls="accordion1Collapse1" aria-expanded="false">
+                                    [Mar. 2019] One paper is selected as oral presentation in CVPR 2019! Check our paper for more details
+                                    <div class="card-arrow"></div>
+                                </a>
+                                <a role="button" data-toggle="collapse" class="collapsed"
+                                    aria-controls="accordion1Collapse1" aria-expanded="false">
+                                    [Mar. 2019] Our five papers accepted in CVPR 2019!
+                                    <div class="card-arrow"></div>
+                                </a>
+                                <a role="button" data-toggle="collapse" class="collapsed"
+                                    aria-controls="accordion1Collapse1" aria-expanded="false">
+                                    [Mar. 2019] Welcome Yuanjun Chai, and Liangbin Xie to join our group!
+                                    <div class="card-arrow"></div>
+                                </a>
                             </div>
-                        </article>
+                        </div>
+                    </article>
                     <!-- </div> -->
                 </div>
             </div>
@@ -43,7 +74,7 @@ labNameDescript: One of the most legendary AI lab, <br>Our mission is addressing
                 {% for post in site.posts limit:3 %}
                 {% if post.type == 'paper' %}
                 <div class="col-lg-4">
-                    <article class="thumbnail thumbnail-4"><img src="images/index_img2.jpg" alt="">
+                    <article class="thumbnail thumbnail-4"><img src="{{ BASE_PATH }}/images/paper_teser/{{ post.teser }}" alt="">
                         <div class="caption">
                             <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
                             <p class="text-dark-variant-2">{{ post.author }}</p>

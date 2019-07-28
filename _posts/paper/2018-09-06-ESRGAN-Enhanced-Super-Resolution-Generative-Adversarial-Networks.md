@@ -1,6 +1,7 @@
 ---
 title:  'ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks'  #  Paper title, covered by ''
 type:   paper
+teser: esrgan.png
 layout: post  #  Do not change this
 date:   2018-09-06 11:59:59 +0800  # paper pub data, only change year and month according to this format
 author: Xintao Wang, Ke Yu, Shixiang Wu, Jinjin Gu, Yihao Liu, Chao Dong, Yu Qiao, Chen Change Loy  # authors information

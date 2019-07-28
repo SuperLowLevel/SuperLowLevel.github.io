@@ -1,6 +1,7 @@
 ---
 title:  'Unsupervised Image Super-Resolution Using Cycle-in-Cycle Generative Adversarial Networks'  #  Paper title, covered by ''
 type:   paper
+teser: cycincyc.png
 layout: post  #  Do not change this
 date:   2018-03-27 11:59:59 +0800  # paper pub data, only change year and month according to this format
 author: Yuan Yuan, Siyuan Liu, Jiawei Zhang, Yongbing Zhang, Chao Dong, Liang Lin  # authors information
