@@ -36,58 +36,28 @@ layout: default
     <section class="text-center text-lg-left well well-sm">
         <div class="container">
             <article class="team-member row row-30 flex-md-row-reverse justify-content-center">
-                <div class="col-9 col-lg-6"><img class="img-rounded" src="images/team-member_img1.png" alt=""></div>
+                {% if page.profile != 'None' %}
+                <div class="col-9 col-lg-6"><img class="img-rounded" src="{{ BASE_PATH }}/images/people/{{ page.profile }}" alt=""></div>
+                {% else %}
+                <div class="col-9 col-lg-6"><img class="img-rounded" src="{{ BASE_PATH }}/images/people/{{ page.profileName }}" alt=""></div>
+                {% endif %}
                 <div class="col-10 col-lg-6">
                     <h1>{{ page.name }}</h1>
-                    <p class="small text-light-clr text-uppercase">
-                        designer
+                    <p class="small text-light-clr" style="margin-bottom: 10px">
+                        {{ page.showtitle }}
+                        {% if page.institution %}
+                        <br>{{ page.institution }}
+                        {% endif %}
                     </p>
+                    <div class="tags d-inline-block">
+                            <span class="badge fa-tags"></span>
+                            <a class="post-tag round-xl small text-primary" href="{{ page.code }}">Code</a>
+                            <a class="post-tag round-xl small text-primary" href="{{ page.data }}">Data</a>
+                            <a class="post-tag round-xl small text-primary" href="{{ page.supplemental }}">Supplemental</a>
+                        </div>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        <br><br>
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                        id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                        architecto beatae vitae dicta sunt explicabo.
-
+                        {{ content }}
                     </p>
-                    <div class="inset-2">
-                        <!--Linear progress bar-->
-                        <div class="progress-linear">
-                            <div class="progress-linear-header">
-                                <p class="progress-linear-title">photoshop</p>
-                            </div>
-                            <div class="progress-linear-body">
-                                <div class="progress-linear-bar"></div><span class="progress-linear-counter">75</span>
-                            </div>
-                        </div>
-                        <!--Linear progress bar-->
-                        <div class="progress-linear">
-                            <div class="progress-linear-header">
-                                <p class="progress-linear-title">HTML 5 / css</p>
-                            </div>
-                            <div class="progress-linear-body">
-                                <div class="progress-linear-bar"></div><span class="progress-linear-counter">85</span>
-                            </div>
-                        </div>
-                        <!--Linear progress bar-->
-                        <div class="progress-linear">
-                            <div class="progress-linear-header">
-                                <p class="progress-linear-title">JavaScript</p>
-                            </div>
-                            <div class="progress-linear-body">
-                                <div class="progress-linear-bar"></div><span class="progress-linear-counter">80</span>
-                            </div>
-                        </div>
-                    </div>
-                    <ul class="list-inline list-inline-3">
-                        <li><a class="fa-facebook-square" href="#"></a></li>
-                        <li><a class="fa-twitter-square" href="#"></a></li>
-                        <li><a class="fa-google-plus-square" href="#"></a></li>
-                    </ul>
                 </div>
             </article>
         </div>
