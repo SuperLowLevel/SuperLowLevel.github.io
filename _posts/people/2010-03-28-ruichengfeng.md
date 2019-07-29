@@ -1,14 +1,14 @@
 ---
 name: Ruicheng Feng
 type: people
-people_type : Student
+people_type : X-Pixel at SIAT
 showtitle: Research Assistance
 title: Ruicheng Feng - X-Pixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
 profileName: fengruicheng.png  # 186 * 186
-profile: None  # 570 * 725
+profile: fengruichengBig.jpg  # 570 * 725
 direction : Image processing, Generative Models, Deep Learning
 layout: peoplepost  #  Do not change this
 homepage: None
@@ -16,9 +16,9 @@ email: jnjaby@gmail.com
 google : https://scholar.google.com/citations?hl=zh-CN&user=nDrw-wwAAAAJ
 github : https://github.com/jnjaby
 linkedin: https://www.linkedin.com/in/锐成-冯-508431118/
-institution: 
-institutionShort: 
+institution: Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
+institutionShort: SIAT, CAS
 ---
 
-Bio
+Ruicheng Feng is currently a research assistant in Shenzhen Institute of Advanced Technology, Chinese Academy of Science, advised by Prof. Yu Qiao and Prof. Chao Dong. He received his B.Eng. degree from Xi’an Jiao Tong University in 2018. Prior to joining SIAT, he was a research intern at Sensetime Ltd. Group, working with Prof. Chao Dong. His current research interest focuses on image processing, such as image super-resolution and enhancement.
 
