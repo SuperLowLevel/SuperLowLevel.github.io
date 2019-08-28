@@ -2,14 +2,14 @@
 name: Weipeng Guan
 type: people
 people_type : X-Pixel at SIAT
-showtitle: Research Assistance
+showtitle: Research Assistant
 title: Weipeng Guan - X-Pixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
 profileName: guanweipeng.png  # 186 * 186
 profile: guanweipengBig.jpg  # 570 * 725
-direction : Image/video restoration and deep learning.
+direction : Image/Video Restoration, Deep Learning
 layout: peoplepost  #  Do not change this
 homepage: https://kwanwaipang.github.io
 email: gwpscut@163.com

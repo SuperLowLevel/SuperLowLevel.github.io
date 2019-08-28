@@ -5,7 +5,7 @@ teser: modulating.png
 layout: post  #  Do not change this
 date:   2019-06-22 11:59:59 +0800  # paper pub data, only change year and month according to this format
 author: Jingwen He, Chao Dong, Yu Qiao  # authors information
-venue:  Computer Vision and Pattern Recognition (CVPR), 2019  # Where it be, ICCV and CVPR remove IEEE Conference on, 
+venue:  Computer Vision and Pattern Recognition, oral (CVPR oral), 2019  # Where it be, ICCV and CVPR remove IEEE Conference on, 
 year:   2019  # paper year, number
 month:  June  # paper month, full name
 projectPage: None  # If has project page, link here, otherwise None

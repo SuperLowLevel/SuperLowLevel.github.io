@@ -9,7 +9,7 @@ title: Xintao Wang - X-Pixel
 #  Alumni, Cooperation Professor]
 profileName: wangxintao.png  # 186 * 186
 profile: wangxintaoBig.JPG  # 570 * 725
-direction : computer vision and deep learning, particularly focusing on image/video restoration tasks, such as super-resolution.
+direction : Image/Video Restoration, especially Super-Resolution.
 layout: peoplepost  #  Do not change this
 homepage: https://xinntao.github.io
 email: xintao.alpha@gmail.com
@@ -21,4 +21,3 @@ institutionShort: CUHK
 ---
 
 Xintao is currently a Ph.D. student in Multimedia Laboratory, The Chinese University of Hong Kong, supervised by Prof. Xiaoou Tang and Prof. Chen Change Loy. He also works closely with Prof. Chao Dong. Previously, He received the B. Eng degree from Zhejiang University in 2016.
-

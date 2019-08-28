@@ -2,14 +2,14 @@
 name: Ruicheng Feng
 type: people
 people_type : X-Pixel at SIAT
-showtitle: Research Assistance
+showtitle: Research Assistant
 title: Ruicheng Feng - X-Pixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
 profileName: fengruicheng.png  # 186 * 186
 profile: fengruichengBig.jpg  # 570 * 725
-direction : Image processing, Generative Models, Deep Learning
+direction : Image Processing, Generative Models and Deep Learning
 layout: peoplepost  #  Do not change this
 homepage: None
 email: jnjaby@gmail.com

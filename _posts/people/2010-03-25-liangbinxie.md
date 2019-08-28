@@ -2,14 +2,14 @@
 name: Liangbin Xie
 type: people
 people_type : X-Pixel at SIAT
-showtitle: Master
+showtitle: Master Student
 title: Liangbin Xie - X-Pixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
 profileName: xieliangbin.png  # 186 * 186
 profile: xieliangbinBig.jpg  # 570 * 725
-direction : Video super-resolution.
+direction : Video Super-Resolution
 layout: peoplepost  #  Do not change this
 homepage: None
 email: lb.xie@siat.ac.cn

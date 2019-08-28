@@ -9,10 +9,10 @@ title: Shixiang Wu - X-Pixel
 #  Alumni, Cooperation Professor]
 profileName: wushixiang.png  # 186 * 186
 profile: wushixiangBig.jpg  # 570 * 725
-direction : Image restoration especially super-resolution, denoising, deblurring, and etc.
+direction : Image Restoration, especially Super-Resolution
 layout: peoplepost  #  Do not change this
 homepage: None 
-email: sx,wu@siat.ac.cn
+email: sx.wu@siat.ac.cn
 google : None
 github : None
 linkedin: None

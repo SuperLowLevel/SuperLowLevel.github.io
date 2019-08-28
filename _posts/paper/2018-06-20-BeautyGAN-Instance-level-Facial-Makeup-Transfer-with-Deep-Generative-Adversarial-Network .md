@@ -8,10 +8,10 @@ author: Tingting Li, Ruihe Qian, Chao Dong, Si Liu, Qiong Yan, Wenwu Zhu, Liang 
 venue:  The 26th ACM international conference on Multimedia (ACM MM), 2018  # Where it be, ICCV and CVPR remove IEEE Conference on, 
 year:   2018  # paper year, number
 month:  June  # paper month, full name
-projectPage:  None  # If has project page, link here, otherwise None
+projectPage:  http://liusi-group.com/projects/BeautyGAN  # If has project page, link here, otherwise None
 supplemental : None
-data: None  # If has data, post data link here, otherwise None
-code: http://liusi-group.com/projects/BeautyGAN  # If has data, post code link here, otherwise None
+data: https://drive.google.com/file/d/18UlvYDL6UGZ2rs0yaDsSzoUlw8KI5ABY/view?usp=drive_open  # If has data, post data link here, otherwise None
+code: https://github.com/baldFemale/beautyGAN-tf-Implement  # If has data, post code link here, otherwise None
 paperLink: http://delivery.acm.org/10.1145/3250000/3240618/p645-li.pdf?ip=210.75.253.250&id=3240618&acc=ACTIVE%20SERVICE&key=33E289E220520BFB%2E6FFDCCEC948C43C2%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1562659192_63aae75de8b7648a6f6717dfffad5b78  # post paper pdf link here
 ---
 

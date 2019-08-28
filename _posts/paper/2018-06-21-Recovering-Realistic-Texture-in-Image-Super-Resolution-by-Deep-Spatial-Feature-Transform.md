@@ -8,10 +8,10 @@ author: Xintao Wang, Ke Yu, Chao Dong, Chen Change Loy  # authors information
 venue:  Computer Vision and Pattern Recognition (CVPR), 2018  # Where it be, ICCV and CVPR remove IEEE Conference on, 
 year:   2018  # paper year, number
 month:  June  # paper month, full name
-projectPage: None  # If has project page, link here, otherwise None
-supplemental : None
-data: None  # If has data, post data link here, otherwise None
-code: None  # If has data, post code link here, otherwise None
+projectPage: http://mmlab.ie.cuhk.edu.hk/projects/SFTGAN/  # If has project page, link here, otherwise None
+supplemental : http://mmlab.ie.cuhk.edu.hk/projects/SFTGAN/suport/cvpr18_sftgan_supp.pdf
+data: https://drive.google.com/drive/folders/1iZfzAxAwOpeutz27HC56_y5RNqnsPPKr?usp=sharing  # If has data, post data link here, otherwise None
+code: https://github.com/xinntao/SFTGAN  # If has data, post code link here, otherwise None
 paperLink: http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Recovering_Realistic_Texture_CVPR_2018_paper.pdf  # post paper pdf link here
 ---
 

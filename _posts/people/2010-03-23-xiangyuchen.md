@@ -2,14 +2,14 @@
 name: Xiangyu Chen
 type: people
 people_type : X-Pixel at SIAT
-showtitle: Research Assistance
+showtitle: Research Assistant
 title: Xiangyu Chen - X-Pixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
 profileName: chenxiangyu.jpg  # 186 * 186
 profile: chenxiangyuBig.png  # 570 * 725
-direction : deep learning, low-level vision.
+direction : Deep Learning, Low-level Vision
 layout: peoplepost  #  Do not change this
 homepage: None
 email: chxy95@mail.nwpu.edu.cn

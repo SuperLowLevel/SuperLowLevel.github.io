@@ -2,14 +2,14 @@
 name: Jingwen He
 type: people
 people_type : X-Pixel at SIAT
-showtitle: Research Assistance
+showtitle: Research Assistant
 title: Jingwen He - X-Pixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
 profileName: hejingwen.png  # 186 * 186
 profile: hejingwenBig.jpeg  # 570 * 725
-direction : Deep learning and computer vision.
+direction : Deep learning, Computer Vision
 layout: peoplepost  #  Do not change this
 homepage: None
 email: jw.he@siat.ac.cn

@@ -2,14 +2,14 @@
 name: Wenlong Zhang
 type: people
 people_type : X-Pixel at SIAT
-showtitle: Research Assistance
+showtitle: Research Assistant
 title: Wenlong Zhang - X-Pixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
 profileName: zhangwenlong.png  # 186 * 186
 profile: zhangwenlongBig.jpg  # 570 * 725
-direction : Computer vision, machine learning and super resolution.
+direction : Computer Vision, Machine Learning and Super Resolution.
 layout: peoplepost  #  Do not change this
 homepage: None 
 email: zhangwenlong0724@gmail.com

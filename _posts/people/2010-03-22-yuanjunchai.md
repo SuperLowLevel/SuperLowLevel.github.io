@@ -2,18 +2,18 @@
 name: Yuanjun Chai
 type: people
 people_type : X-Pixel at SIAT
-showtitle: Research Assistance
+showtitle: Research Assistant
 title: Yuanjun Chai - X-Pixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
 profileName: chaiyuanjun.png  # 186 * 186
 profile: chaiyuanjunBig.jpg  # 570 * 725
-direction : image restoration, video restoration and machine learning.
+direction : Image/Video Restoration, Machine Learning
 layout: peoplepost  #  Do not change this
-homepage: xpixel.group
+homepage: https://yjchai.ink
 email: allen092911@gmail.com
-google : https://yjchai.ink
+google : xpixel.group
 github : https://github.com/yuanjunchai
 linkedin: https://www.linkedin.com/in/yuanjun-chai-3aa4a516b/
 institution: Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
