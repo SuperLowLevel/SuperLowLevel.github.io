@@ -1,6 +1,6 @@
 ---
 title:  'RankSRGAN: Generative Adversarial Networks with Ranker for Image Super-Resolution'  #  Paper title, covered by ''
-teser: RankSRGAN.png
+teser: ranksrgan.png
 type:   paper
 layout: post  #  Do not change this
 date:   2019-10-29 11:59:59 +0800  # paper pub data, only change year and month according to this format
