@@ -11,7 +11,7 @@ profileName: zhangwenlong.png  # 186 * 186
 profile: zhangwenlongBig.jpg  # 570 * 725
 direction : Computer Vision, Machine Learning and Super Resolution.
 layout: peoplepost  #  Do not change this
-homepage: None 
+homepage: https://wenlongzhang0724.github.io/ 
 email: zhangwenlong0724@gmail.com
 google : None
 github : https://github.com/WenlongZhang0724
