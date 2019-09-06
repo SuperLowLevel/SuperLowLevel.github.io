@@ -3,9 +3,9 @@ title:  'RankSRGAN: Generative Adversarial Networks with Ranker for Image Super-
 teser: ranksrgan.png
 type:   paper
 layout: post  #  Do not change this
-date:   2019-10-29 11:59:59 +0800  # paper pub data, only change year and month according to this format
+date:   2019-06-25 11:59:59 +0800  # paper pub data, only change year and month according to this format
 author: Wenlong Zhang, Yihao Liu, Chao Dong, Yu Qiao  # authors information
-venue:  International Conference on Computer Vision, oral (ICCV oral), 2019  # Where it be, ICCV and CVPR remove IEEE Conference on, 
+venue:  International Conference on Computer Vision, oral (ICCV oral), 2019  # Where it be, ICCV and CVPR remove IEEE Conference on,
 year:   2019  # paper year, number
 month:  October  # paper month, full name
 projectPage: https://wenlongzhang0724.github.io/Projects/RankSRGAN  # If has project page, link here, otherwise None

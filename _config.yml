@@ -33,14 +33,16 @@ plugins:
 
 # Navigation
 nav:
-  - name:           "home"
+  - name:           "Home"
     href:           "/index"
-  - name:           "research"
+  - name:           "Research"
     href:           "/about"
-  - name:           "publications"
+  - name:           "Publications"
     href:           "/publication"
-  - name:           "people"
+  - name:           "People"
     href:           "/people"
+  - name:           "Contact Us"
+    href:           "/contact_us"
   # - name:           "blog"
   #   href:           "/blog"
   # - name:           "resources"

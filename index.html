@@ -21,41 +21,92 @@ labNameDescript: One of the most legendary AI team, <br>Our vision is to make th
                     <article class="card card-custom card-corporate">
                         <div class="card-header" role="tab">
                             <div class="card-title">
-                                <a role="button" data-toggle="collapse" class="collapsed"
-                                    aria-controls="accordion1Collapse1" aria-expanded="false">
+                                {% for post in site.posts %}
+                                {% if post.name == 'Xiangtao Kong' %}
+                                <a role="button"  class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
+                                    [September 2019] Welcome Xiangtao Kong to join our group!
+                                    <div class="card-arrow"></div>
+                                </a>
+                                {% endif %}
+                                {% endfor %}
+
+                                {% for post in site.posts %}
+                                {% if post.title == 'RankSRGAN: Generative Adversarial Networks with Ranker for Image Super-Resolution' %}
+                                <a role="button"  class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
                                     [July 2019] One paper is selected as oral presentation in ICCV 2019! Check our paper for more details.
                                     <div class="card-arrow"></div>
                                 </a>
-                                <a role="button" data-toggle="collapse" class="collapsed"
+                                {% endif %}
+                                {% endfor %}
+
+
+                                <a role="button"  class="collapsed"
                                     aria-controls="accordion1Collapse1" aria-expanded="false">
                                     [July 2019] Our group's establishment has done in a group meeting at MMlab, CUHK! Check group activities for more details.
                                     <div class="card-arrow"></div>
                                 </a>
-                                <a role="button" data-toggle="collapse" class="collapsed"
-                                    aria-controls="accordion1Collapse1" aria-expanded="false">
+
+                                {% for post in site.posts %}
+                                {% if post.name == 'Xiangyu Chen' %}
+                                <a role="button"  class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
                                     [June 2019] Welcome Xiangyu Chen to join our group!
                                     <div class="card-arrow"></div>
                                 </a>
-                                <a role="button" data-toggle="collapse" class="collapsed"
-                                    aria-controls="accordion1Collapse1" aria-expanded="false">
+                                {% endif %}
+                                {% endfor %}
+
+
+                                {% for post in site.posts %}
+                                {% if post.title == 'EDVR: Video Restoration With Enhanced Deformable Convolutional Networks' %}
+                                <a role="button"  class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
                                     [April 2019] Our HelloSR team won the champions in all four tracks in the NTIRE19 video restoration and enhancement challenges! Congrats to Xintao Wang and the team! Check our project for more details.
                                     <div class="card-arrow"></div>
                                 </a>
-                                <a role="button" data-toggle="collapse" class="collapsed"
-                                    aria-controls="accordion1Collapse1" aria-expanded="false">
-                                    [March 2019] One paper is selected as oral presentation in CVPR 2019! Check our paper for more details.
+                                {% endif %}
+                                {% endfor %}
+
+
+                                {% for post in site.posts %}
+                                {% if post.title == 'Modulating Image Restoration With Continual Levels via Adaptive Feature Modification Layers' %}
+                                <a role="button"  class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
+                                    [July 2019] One paper is selected as oral presentation in ICCV 2019! Check our paper for more details.
                                     <div class="card-arrow"></div>
                                 </a>
-                                <a role="button" data-toggle="collapse" class="collapsed"
+                                {% endif %}
+                                {% endfor %}
+
+
+                                <a role="button" d class="collapsed"
                                     aria-controls="accordion1Collapse1" aria-expanded="false">
                                     [March 2019] Our five papers accepted in CVPR 2019!
                                     <div class="card-arrow"></div>
                                 </a>
-                                <a role="button" data-toggle="collapse" class="collapsed"
-                                    aria-controls="accordion1Collapse1" aria-expanded="false">
-                                    [March 2019] Welcome Yuanjun Chai, and Liangbin Xie to join our group!
+
+                                {% for post in site.posts %}
+                                {% if post.name == 'Liangbin Xie' %}
+                                <a role="button"  class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
+                                    [June 2019] Welcome Liangbin Xie to join our group!
                                     <div class="card-arrow"></div>
                                 </a>
+                                {% endif %}
+                                {% endfor %}
+
+                                {% for post in site.posts %}
+                                {% if post.name == 'Yuanjun Chai' %}
+                                <a role="button"  class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
+                                    [June 2019] Welcome Yuanjun Chai to join our group!
+                                    <div class="card-arrow"></div>
+                                </a>
+                                {% endif %}
+                                {% endfor %}
+
                             </div>
                         </div>
                     </article>
@@ -118,7 +169,7 @@ labNameDescript: One of the most legendary AI team, <br>Our vision is to make th
                 <!--Owl Carousel-->
                 <div class="owl-carousel" data-autoplay="true" data-items="1" data-md-items="2" data-sm-items="1"
                     data-lg-items="3" data-nav="true" data-margin="30" data-loop="true">
-                    <blockquote class="quote-2"><img class="img-rounded" src="images/SIATlogo.png" alt="">
+                    <blockquote class="quote-2"><img class="img-rounded" href="http://english.siat.cas.cn/" src="images/SIATlogo.png" alt="">
                         <h6>
                             <cite>SIAT</cite>
                         </h6>
@@ -134,7 +185,7 @@ labNameDescript: One of the most legendary AI team, <br>Our vision is to make th
                             <q>The Chinese Academy of Sciences is the linchpin of China’s drive to explore and harness high technology and the natural sciences for the benefit of China and the world. Comprising a comprehensive research and development network, a merit-based learned society and a system of higher education, CAS brings together scientists and engineers from China and around the world to address both theoretical and applied problems using world-class scientific and management approaches.  </q>
                         </p>
                     </blockquote>
-                    <blockquote class="quote-2"><img class="img-rounded" src="images/CUHKlogo.png" alt="">
+                    <blockquote class="quote-2"><img class="img-rounded"  src="images/CUHKlogo.png" alt="" href="http://mmlab.ie.cuhk.edu.hk/">
                         <h6>
                             <cite>CUHK</cite>
                         </h6>
@@ -142,15 +193,15 @@ labNameDescript: One of the most legendary AI team, <br>Our vision is to make th
                             <q>The CUHK Multimedia Lab (MMLab) is one of the pioneering institutes on deep learning. In GPU Technology Conference (GTC) 2016, a world-wide technology summit, MMlab is recognized as one of the top ten AI pioneers, and listed together with top research groups in the world (e.g. MIT, Stanford, Berkeley, and Univ. of Toronto). Today, it remains one of the most active research labs in computer vision and deep learning, publishing over 40 papers on top conferences (CVPR/ICCV/ECCV/NIPS) every year.</q>
                         </p>
                     </blockquote>
-                    <blockquote class="quote-2"><img class="img-rounded" src="images/Sensetimelogo.png" alt="">
+                    <blockquote class="quote-2" ><img class="img-rounded" href="https://www.sensetime.com/" src="images/Sensetimelogo.png" alt="">
                         <h6>
-                            <cite>SenseTime Inc.</cite>
+                            <cite href="https://www.sensetime.com/">SenseTime Inc.</cite>
                         </h6>
                         <p class="heading-6 font-italic font-base text-base">
                             <q>SenseTime is a global company focused on developing innovative AI technologies that positively contribute to economies, society and humanity. With roots in the academic world, SenseTime invest in fundamental research to further understanding and advance the state of art in AI technology. SenseTime is a global team of talented individuals with over half dedicated to research and development activities. This has made it a leading global AI algorithm provider and one of the most prolific contributors of related papers in the research community.</q>
                         </p>
                     </blockquote>
-                    <blockquote class="quote-2"><img class="img-rounded" src="images/NTUlogo.png" alt="">
+                    <blockquote class="quote-2"><img class="img-rounded" src="images/NTUlogo.png" href="http://scse.ntu.edu.sg/Pages/Home.aspx" alt="">
                         <h6>
                             <cite>NTU</cite>
                         </h6>
@@ -164,3 +215,6 @@ labNameDescript: One of the most legendary AI team, <br>Our vision is to make th
     </section>
     <!--End section-->
 </main>
+
+
+
