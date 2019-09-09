@@ -23,3 +23,76 @@ layout: default
         </div>
     </div>
 </section>
+
+<main class="page-content">
+    <section class="section-border text-center text-lg-left">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li><a href="{{ BASE_PATH }}/index.html">Home</a></li>
+                <li><a href="{{ BASE_PATH }}/publication.html">Publications</a></li>
+            </ol>
+        </div>
+    </section>
+    <section class="text-center text-lg-left margin-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-border">
+                    <article class="well" style="padding-top: 10px">
+                        <h1>{{ page.title }}</h1>
+                        <h4 style="padding-top: 20px">{{ page.author }}</h4>
+                        <div class="blog-info">
+                            <div class="pull-md-left">
+                                <time class="meta fa-calendar" datetime="2019">{{ page.year }} {{ page.month }}</time>
+                                <div class="tags d-inline-block">
+                                    <span class="badge fa-tags"></span>
+                                    {% if page.paperLink == 'None' %}
+                                    {% else %}
+                                    <a class="post-tag round-xl small text-primary"
+                                        href="{{ page.paperLink }}">Paper</a>
+                                    {% endif %}
+                                    {% if page.projectPage == 'None' %}
+                                    {% else %}
+                                    <a class="post-tag round-xl small text-primary"
+                                        href="{{ page.projectPage }}">Project Page</a>
+                                    {% endif %}
+                                    {% if page.code == 'None' %}
+                                    {% else %}
+                                    <a class="post-tag round-xl small text-primary" href="{{ page.code }}">Code</a>
+                                    {% endif %}
+                                    {% if page.data == 'None' %}
+                                    {% else %}
+                                    <a class="post-tag round-xl small text-primary" href="{{ page.data }}">Data</a>
+                                    {% endif %}
+                                    {% if page.supplemental == 'None' %}
+                                    {% else %}
+                                    <a class="post-tag round-xl small text-primary"
+                                        href="{{ page.supplemental }}">Supplemental</a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <img class="margin-5" src="images/blog-19.jpg" alt=""> -->
+
+                        <img class="pull-md-left img-inset-1" src="{{ BASE_PATH }}/images/paper_teser/{{ page.teser }}" style="width: 50%" alt="">
+                        <p class="lead margin-2 text-justify">
+                            {{ content }}
+                        </p>
+                    </article>
+                </div>
+                <div class="col-12 text-center text-lg-left post-links margin-5" style="margin-bottom: 55px">
+                    <div
+                        class="d-flex align-items-center justify-content-center justify-content-md-between flex-wrap group">
+                        {% if page.previous %}
+                            <a class="button-link pull-md-left fa-angle-left" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+                        {% endif %}
+                        {% if page.next %}
+                        <a class="button-link pull-md-right fa-angle-right" href="{{ page.next.url }}">{{ page.next.title }}</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</main>
