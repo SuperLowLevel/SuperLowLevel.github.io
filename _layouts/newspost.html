@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+<section>
+    <!--Swiper-->
+    <div class="swiper-container swiper-slider" data-autoplay="5000" data-slide-effect="fade" data-loop="false"
+         style="height: 250px;">
+        <div class="jumbotron text-center">
+            <!-- <h1>Activities</h1> -->
+            <!-- <p class="big"></p> -->
+        </div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" data-slide-bg="{{ BASE_PATH }}/images/header-1.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+            <div class="swiper-slide" data-slide-bg="{{ BASE_PATH }}/images/header-3.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+            <div class="swiper-slide" data-slide-bg="{{ BASE_PATH }}/images/header-4.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<main class="page-content">
+    <section class="section-border text-center text-lg-left">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li><a href="{{ BASE_PATH }}/index.html">Home</a></li>
+                <li><a href="{{ BASE_PATH }}/activities.html">News</a></li>
+            </ol>
+        </div>
+    </section>
+    <section class="text-center text-lg-left margin-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-border">
+                    <article class="well" style="padding-top: 10px">
+                        <h1>{{ page.title }}</h1>
+                        <div class="blog-info">
+                            <div class="pull-md-left">
+                                <time class="meta fa-calendar" datetime="2019">{{ page.year }} {{ page.month }}</time>
+                                <a class="badge fa-user text-uppercase font-secondary" >x-pixel</a>
+                                <div class="tags d-inline-block"><span class="badge fa-tags"> </span><a class="post-tag round-xl small" href="#">{{page.tag}}</a></div>
+                            </div>
+                        </div>
+                        <!-- <img class="margin-5" src="images/blog-19.jpg" alt=""> -->
+
+                        <!--<img class="pull-md-left img-inset-1" src="{{ BASE_PATH }}/images/news/{{ page.teser }}" style="width: 50%" alt="">-->
+                        <p class="lead margin-2 text-justify">
+                            {{ content }}
+                        </p>
+                    </article>
+                </div>
+                <div class="col-12 text-center text-lg-left post-links margin-5" style="margin-bottom: 55px">
+                    <div
+                            class="d-flex align-items-center justify-content-center justify-content-md-between flex-wrap group">
+                        {% if page.previous and page.previous.type=='News'%}
+                        <a class="button-link pull-md-left fa-angle-left" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+                        {% endif %}
+                        {% if page.next and page.next.type=='News' %}
+                        <a class="button-link pull-md-right fa-angle-right" href="{{ page.next.url }}">{{ page.next.title }}</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

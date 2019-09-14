@@ -82,10 +82,10 @@ layout: default
                 <div class="col-12 text-center text-lg-left post-links margin-5" style="margin-bottom: 55px">
                     <div
                         class="d-flex align-items-center justify-content-center justify-content-md-between flex-wrap group">
-                        {% if page.previous %}
+                        {% if page.previous and page.previous.type=='paper' %}
                             <a class="button-link pull-md-left fa-angle-left" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
                         {% endif %}
-                        {% if page.next %}
+                        {% if page.next and page.next.type=='paper' %}
                         <a class="button-link pull-md-right fa-angle-right" href="{{ page.next.url }}">{{ page.next.title }}</a>
                         {% endif %}
                     </div>

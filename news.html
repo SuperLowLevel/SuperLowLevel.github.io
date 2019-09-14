@@ -1,0 +1,56 @@
+---
+title: XPixel - Publications
+layout: news
+---
+
+    <main class="page-content">
+        <section class="section-border text-center text-lg-left">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">News</a></li>
+                </ol>
+            </div>
+        </section>
+
+        <!--Start section-->
+        <section class="text-center text-lg-left margin-1">
+            <div class="container">
+                <div class="row">
+                    {% for post in site.posts %}
+                    {% if post.type == 'news' %}
+                    <div class="col-lg-6">
+                        <article class="thumbnail thumbnail-6 section-border well slow-hover">
+                            <div class="image-slow-wrapper"><img src="{{ BASE_PATH }}/images/news/{{ post.teser }}" alt=""></div>
+                            <div class="caption">
+                                <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                                <p class="text-dark-variant-2">{{post.introduction}}</p>
+                                <div class="blog-info">
+                                    <div class="pull-md-left">
+                                        <time class="meta fa-calendar" datetime="2018">{{ post.year }}
+                                            {{ post.month }}</time>
+                                    </div><a class="button-link" href="{{ post.url }}">Read More</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--
+    ========================================================
+                                                    FOOTER
+    ========================================================
+    -->
+</div>
+<!-- Global Mailform Output-->
+<div class="snackbars" id="form-output-global"></div>
+<!--Core Scripts-->
+<script src="js/core.min.js"></script>
+<!--Additional Functionality Scripts-->
+<script src="js/script.js"></script>
+</body>
+</html>
