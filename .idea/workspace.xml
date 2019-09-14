@@ -71,34 +71,34 @@
           <entry key="CNAME" value="1" />
           <entry key="Gemfile" value="2" />
           <entry key="css" value="2" />
-          <entry key="html" value="114" />
+          <entry key="html" value="117" />
           <entry key="jpg" value="1" />
           <entry key="lock" value="3" />
-          <entry key="md" value="36" />
+          <entry key="md" value="38" />
           <entry key="yml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="114" />
+          <entry key="HTML" value="117" />
           <entry key="Image" value="1" />
-          <entry key="Markdown" value="21" />
+          <entry key="Markdown" value="23" />
           <entry key="PLAIN_TEXT" value="21" />
           <entry key="YAML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1117" />
-          <entry key="md" value="1007" />
+          <entry key="html" value="1135" />
+          <entry key="md" value="1030" />
           <entry key="yml" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1117" />
-          <entry key="Markdown" value="958" />
+          <entry key="HTML" value="1135" />
+          <entry key="Markdown" value="981" />
           <entry key="PLAIN_TEXT" value="49" />
           <entry key="YAML" value="52" />
         </counts>
@@ -108,25 +108,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/news/2019-07-20-Establishment-of-the-X-Pixel-Group.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="376">
-                <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/activitiespost.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="38" column="68" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
+            <state relative-caret-position="206">
+              <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#article#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#article#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -137,10 +124,64 @@
         <entry file="file://$PROJECT_DIR$/_posts/activities/2019-08-09-birthday-chai.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="323">
-                <caret line="17" column="88" selection-start-line="17" selection-start-column="88" selection-end-line="17" selection-end-column="88" />
+              <first_editor relative-caret-position="418">
+                <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/news/2019-07-20-Establishment-of-the-X-Pixel-Group.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="395">
+                <caret line="37" selection-start-line="37" selection-end-line="37" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/news/2019-07-02-Our-HelloSR-team-won-the-champions-in-all-four-tracks-in-the-NTIRE19.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="241">
+                <caret line="48" column="161" selection-start-line="48" selection-start-column="161" selection-end-line="48" selection-end-column="161" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/people.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/people.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="163" column="196" selection-start-line="163" selection-start-column="196" selection-end-line="163" selection-end-column="196" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/newspost.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="45" column="155" selection-start-line="45" selection-start-column="155" selection-end-line="45" selection-end-column="155" />
+              <folding>
+                <element signature="n#style#0;n#article#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,9 +200,11 @@
       <find>teser</find>
       <find>center</find>
       <find>127.0.0.1:4000</find>
+      <find>Dr.</find>
     </findStrings>
     <replaceStrings>
       <replace>xpixel.group</replace>
+      <replace>Prof.</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -178,7 +221,6 @@
         <option value="$PROJECT_DIR$/_posts/paper/2019-06-24-EDVR-Video-Restoration-With-Enhanced-Deformable-Convolutional-Networks - 副本.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2019-10-29-RankSRGAN-Generative-Adversarial-Networks-with-Ranker-for-Image-Super-Resolution.md" />
         <option value="$PROJECT_DIR$/_posts/people/2010-03-27-xiangtaokong.md" />
-        <option value="$PROJECT_DIR$/people.html" />
         <option value="$PROJECT_DIR$/_layouts/about.html" />
         <option value="$PROJECT_DIR$/_layouts/activity.html" />
         <option value="$PROJECT_DIR$/activity.html" />
@@ -200,10 +242,11 @@
         <option value="$PROJECT_DIR$/_posts/news/2019-07-20-Meeting-at-the-Chinese-University-of-Hong-Kong.md" />
         <option value="$PROJECT_DIR$/publication.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/_posts/news/2019-07-02-Our-HelloSR-team-won-the-champions-in-all-four-tracks-in-the-NTIRE19.md" />
-        <option value="$PROJECT_DIR$/_posts/news/2019-07-20-Establishment-of-the-X-Pixel-Group.md" />
         <option value="$PROJECT_DIR$/_posts/activities/2019-08-09-birthday-chai.md" />
         <option value="$PROJECT_DIR$/_layouts/activitiespost.html" />
+        <option value="$PROJECT_DIR$/_posts/news/2019-07-20-Establishment-of-the-X-Pixel-Group.md" />
+        <option value="$PROJECT_DIR$/_posts/news/2019-07-02-Our-HelloSR-team-won-the-champions-in-all-four-tracks-in-the-NTIRE19.md" />
+        <option value="$PROJECT_DIR$/people.html" />
       </list>
     </option>
   </component>
@@ -261,17 +304,6 @@
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
               <item name="news" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SuperLowLevel.github.io-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SuperLowLevel.github.io-master" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SuperLowLevel.github.io-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SuperLowLevel.github.io-master" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="activities" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -327,12 +359,12 @@
       <workItem from="1568217098145" duration="3017000" />
       <workItem from="1568260992945" duration="3942000" />
       <workItem from="1568379582150" duration="3805000" />
-      <workItem from="1568426460943" duration="12474000" />
+      <workItem from="1568426460943" duration="13950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48835000" />
+    <option name="totallyTimeSpent" value="50311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -492,13 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/people.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/research.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -558,13 +583,6 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/people.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1577">
-          <caret line="83" column="54" selection-start-line="83" selection-start-column="54" selection-end-line="83" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -648,26 +666,6 @@
     <entry file="file://$PROJECT_DIR$/images/news/ch2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/newspost.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="45" column="155" selection-start-line="45" selection-start-column="155" selection-end-line="45" selection-end-column="155" />
-          <folding>
-            <element signature="n#style#0;n#article#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/news/2019-07-02-Our-HelloSR-team-won-the-champions-in-all-four-tracks-in-the-NTIRE19.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1045">
-            <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/paper/2014-03-27-Learning-a-Deep-Convolutional-Network-for-Image-Super-Resolution .md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -697,35 +695,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/news/2019-07-20-Establishment-of-the-X-Pixel-Group.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="376">
-            <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/_layouts/newspost.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="45" column="155" selection-start-line="45" selection-start-column="155" selection-end-line="45" selection-end-column="155" />
+          <folding>
+            <element signature="n#style#0;n#article#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/activitiespost.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#article#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/activities/2019-08-09-birthday-chai.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="17" column="88" selection-start-line="17" selection-start-column="88" selection-end-line="17" selection-end-column="88" />
+          <first_editor relative-caret-position="418">
+            <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/activitiespost.html">
+    <entry file="file://$PROJECT_DIR$/_posts/news/2019-07-20-Establishment-of-the-X-Pixel-Group.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="395">
+            <caret line="37" selection-start-line="37" selection-end-line="37" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/news/2019-07-02-Our-HelloSR-team-won-the-champions-in-all-four-tracks-in-the-NTIRE19.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="241">
+            <caret line="48" column="161" selection-start-line="48" selection-start-column="161" selection-end-line="48" selection-end-column="161" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/people.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="38" column="68" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
-          <folding>
-            <element signature="n#style#0;n#article#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#article#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="372">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/people.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="163" column="196" selection-start-line="163" selection-start-column="196" selection-end-line="163" selection-end-column="196" />
         </state>
       </provider>
     </entry>

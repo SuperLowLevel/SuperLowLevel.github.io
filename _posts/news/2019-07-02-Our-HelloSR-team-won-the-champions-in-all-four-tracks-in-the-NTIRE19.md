@@ -46,7 +46,7 @@ It is worth mentioning that this is the first time since the event was held to v
 <center>
 <p style="font-size:20px;width:100%;text-align:left" >
 
-In January 2019, Shenzhen Advanced Institute and SenseTime further cooperated to establish the "Joint Laboratory of Future Vision Technology". According to Dr. Yu Qiao, head of the Joint Laboratory and director of Digital Institute, the laboratory will focus on the depth analysis and understanding of complex visual information, as well as other AI frontier technology research and new product development. We will cooperate extensively and thoroughly in the construction of technology platforms and personnel training to jointly promote the demonstration and application of artificial intelligence technology in various industries and the coordinated development of industrialization.
+In January 2019, Shenzhen Advanced Institute and SenseTime further cooperated to establish the "Joint Laboratory of Future Vision Technology". According to Prof. Yu Qiao, head of the Joint Laboratory and director of Digital Institute, the laboratory will focus on the depth analysis and understanding of complex visual information, as well as other AI frontier technology research and new product development. We will cooperate extensively and thoroughly in the construction of technology platforms and personnel training to jointly promote the demonstration and application of artificial intelligence technology in various industries and the coordinated development of industrialization.
 
 </p>
 </center>

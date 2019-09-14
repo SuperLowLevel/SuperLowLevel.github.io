@@ -30,7 +30,7 @@ layout: people
                 {% for post in site.posts %}
                 {% if post.people_type == 'Organizer' %}
                 <div class="col-sm-6 col-lg-4">
-                    <div class="thumbnail thumbnail-3"><img class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt="">
+                    <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img  class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
                         <div class="caption margin-1">
                             <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
                             <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
@@ -75,7 +75,7 @@ layout: people
                 {% for post in site.posts %}
                 {% if post.people_type == 'X-Pixel at NTU' %}
                 <div class="col-sm-6 col-lg-3">
-                    <div class="thumbnail thumbnail-3"><img class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt="">
+                    <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img  class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
                         <div class="caption margin-1">
                             <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
                             <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
@@ -118,8 +118,8 @@ layout: people
                 {% for post in site.posts %}
                 {% if post.people_type == 'X-Pixel at CUHK' %}
                 <div class="col-sm-6 col-lg-3">
-                    <div class="thumbnail thumbnail-3"><img class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt="">
-                        <div class="caption margin-1">
+                    <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img  class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
+                    <div class="caption margin-1">
                             <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
                             <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
                             <p><b>{{ post.showtitle }}</b><br>{{ post.institutionShort }}</p>
@@ -161,7 +161,7 @@ layout: people
                 {% for post in site.posts %}
                 {% if post.people_type == 'X-Pixel at SIAT' %}
                 <div class="col-sm-6 col-lg-3">
-                    <div class="thumbnail thumbnail-3"><img class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt="">
+                    <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img  class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
                         <div class="caption margin-1">
                             <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
                             <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
@@ -204,7 +204,7 @@ layout: people
                 {% for post in site.posts %}
                 {% if post.people_type == 'X-Pixel at SenseTime' %}
                 <div class="col-sm-6 col-lg-3">
-                    <div class="thumbnail thumbnail-3"><img class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt="">
+                    <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img  class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
                         <div class="caption margin-1">
                             <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
                             <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
