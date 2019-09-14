@@ -4,7 +4,7 @@ teser: chai_birthday.jpg
 type:  activities
 tag : birthday
 introduction: Birthday party for Yuanjun Chai
-layout: newspost  #  Do not change this
+layout: activitiespost  #  Do not change this
 date:   2019-08-09 11:59:59 +0800  # paper pub data, only change year and month according to this format
 year:   2019  # paper year, number
 month:  August  # paper month, full name
@@ -15,12 +15,12 @@ code: None  # If has data, post code link here, otherwise None
 paperLink: https://link.springer.com/chapter/10.1007/978-3-319-10593-2_13  # post paper pdf link here
 ---
 
-<center><img src="http://xpixel.group/images/activities/chai_birthday.jpg" width = "800" height = "auto"  /></center>
+<center><img src="http://xpixel.group/images/activities/chai_birthday.jpg" width = "800" height = "auto"/></center>
 
 &nbsp;
 &nbsp;
 <center>
-<p style="font-size:20px;width:68%;text-align:left" > 
+<p style="font-size:20px;width:100%;text-align:left" >
 
 Today is Yuanjun Chai's birthday. We held a birthday party for him.
 </p>

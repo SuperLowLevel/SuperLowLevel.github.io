@@ -20,7 +20,7 @@ paperLink: https://link.springer.com/chapter/10.1007/978-3-319-10593-2_13  # pos
 &nbsp;
 &nbsp;
 <center>
-<p style="font-size:20px;width:68%;text-align:left" > 
+<p style="font-size:20px;width:100%;text-align:left" >
 
 We held a meeting at the Multimedia Laboratory of the Chinese University of Hong Kong, at which we decided to establish the X-Pixel Group.
 
@@ -34,7 +34,7 @@ We held a meeting at the Multimedia Laboratory of the Chinese University of Hong
 
 &nbsp;
 <center>
-<p style="font-size:20px;width:68%;height:auto;text-align:left" > 
+<p style="font-size:20px;width:100%;text-align:left" >
 
 After the meeting, we had dinner together to celebrate establishment of the X-Pixel Group.
 </p>
