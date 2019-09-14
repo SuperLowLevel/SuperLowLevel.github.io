@@ -15,7 +15,7 @@ code: None  # If has data, post code link here, otherwise None
 paperLink: https://link.springer.com/chapter/10.1007/978-3-319-10593-2_13  # post paper pdf link here
 ---
 
-<center><img src="http://xpixel.group/images/news/meeting.jpg" width = "800" height = "600"  /></center>
+<center><img src="http://xpixel.group/images/news/meeting.jpg" width = "auto" height = "600"  /></center>
 
 &nbsp;
 &nbsp;
@@ -30,7 +30,7 @@ We held a meeting at the Multimedia Laboratory of the Chinese University of Hong
 &nbsp;
 
 
-<center><img src="http://xpixel.group/images/news/meeting_feast.jpg" width = "800" height = "600"  /></center>
+<center><img src="http://xpixel.group/images/news/meeting_feast.jpg" width = "auto" height = "600"  /></center>
 
 &nbsp;
 <center>

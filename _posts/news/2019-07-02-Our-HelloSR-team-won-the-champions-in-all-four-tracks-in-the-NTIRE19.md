@@ -15,7 +15,7 @@ code: None  # If has data, post code link here, otherwise None
 paperLink: https://link.springer.com/chapter/10.1007/978-3-319-10593-2_13  # post paper pdf link here
 ---
 
-<center><img src="http://xpixel.group/images/news/ch2.jpg" width = "800" height = "600"  /></center>
+<center><img src="http://xpixel.group/images/news/ch2.jpg" width = "auto" height = "600"  /></center>
 
 &nbsp;
 &nbsp;
@@ -40,7 +40,7 @@ It is worth mentioning that this is the first time since the event was held to v
 &nbsp;
 
 
-<center><img src="http://xpixel.group/images/news/ch1.jpg" width = "800" height = "600"  /></center>
+<center><img src="http://xpixel.group/images/news/ch1.jpg" width = "auto" height = "600"  /></center>
 
 &nbsp;
 <center>

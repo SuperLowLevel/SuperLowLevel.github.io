@@ -142,7 +142,7 @@ labNameDescript: One of the most legendary AI team, <br>Our vision is to make th
                 {% if post.type == 'paper' and count<3%}
                 {% assign count = count | plus:1 %}
                 <div class="col-lg-4">
-                    <article class="thumbnail thumbnail-4"><img src="{{ BASE_PATH }}/images/paper_teser/{{ post.teser }}" width=400px height=200px alt="">
+                    <article class="thumbnail thumbnail-4"><img src="{{ BASE_PATH }}/images/paper_teser/{{ post.teser }}" width=400px height=200px  alt="">
                         <div class="caption">
                             <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
                             <p class="text-dark-variant-2">{{ post.author }}</p>
