@@ -68,8 +68,10 @@ layout: publication
                 <div class="col-lg-3 col-lg-offset-1 inset-md sidebar inset-1">
                     <h5>Latest Papers</h5>
                     <ul class="list-unstyled-2">
-                        {% for post in site.posts limit:5 %}
-                        {% if post.type == 'paper' %}
+                        {% assign count=0%}
+                        {% for post in site.posts %}
+                        {% if post.type == 'paper' and count<5%}
+                        {% assign count = count | plus:1 %}
                         <li>
                             <div class="img-box">
                                 <a href="{{ post.url }}"><img src="{{ BASE_PATH }}/images/paper_teser/{{ post.teser }}" style="width: 100%" alt=""></a>

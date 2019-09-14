@@ -41,12 +41,15 @@ labNameDescript: One of the most legendary AI team, <br>Our vision is to make th
                                 {% endif %}
                                 {% endfor %}
 
-
+                                {% for post in site.posts %}
+                                {% if post.title == 'Establishment of the X-Pixel Group' %}
                                 <a role="button"  class="collapsed"
-                                    aria-controls="accordion1Collapse1" aria-expanded="false">
-                                    [July 2019] Our group's establishment has done in a group meeting at MMlab, CUHK! Check group activities for more details.
+                                    aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
+                                    [July 2019] Our group's establishment has done in a group meeting at MMlab, CUHK! Check group activities for <font class="text-primary">more details</font>.
                                     <div class="card-arrow"></div>
                                 </a>
+                                {% endif %}
+                                {% endfor %}
 
                                 {% for post in site.posts %}
                                 {% if post.name == 'Xiangyu Chen' %}
@@ -134,8 +137,10 @@ labNameDescript: One of the most legendary AI team, <br>Our vision is to make th
         <div class="container">
             <h1 class="font-weight-bold text-center">Latest Publications</h1>
             <div class="row row-30">
-                {% for post in site.posts limit:3 %}
-                {% if post.type == 'paper' %}
+                {% assign count=0%}
+                {% for post in site.posts %}
+                {% if post.type == 'paper' and count<3%}
+                {% assign count = count | plus:1 %}
                 <div class="col-lg-4">
                     <article class="thumbnail thumbnail-4"><img src="{{ BASE_PATH }}/images/paper_teser/{{ post.teser }}" width=400px height=200px alt="">
                         <div class="caption">
