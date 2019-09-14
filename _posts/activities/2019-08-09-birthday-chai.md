@@ -15,12 +15,12 @@ code: None  # If has data, post code link here, otherwise None
 paperLink: https://link.springer.com/chapter/10.1007/978-3-319-10593-2_13  # post paper pdf link here
 ---
 
-<center><img src="http://xpixel.group/images/activities/chai_birthday.jpg" width = "auto" height = "600"  /></center>
+<center><img src="http://xpixel.group/images/activities/chai_birthday.jpg" width = "800" height = "auto"  /></center>
 
 &nbsp;
 &nbsp;
 <center>
-<p style="font-size:20px;width:800px;text-align:left" > 
+<p style="font-size:20px;width:68%;text-align:left" > 
 
 Today is Yuanjun Chai's birthday. We held a birthday party for him.
 </p>

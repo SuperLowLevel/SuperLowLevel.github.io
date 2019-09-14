@@ -15,7 +15,7 @@ code: None  # If has data, post code link here, otherwise None
 paperLink: https://link.springer.com/chapter/10.1007/978-3-319-10593-2_13  # post paper pdf link here
 ---
 
-<center><img src="http://xpixel.group/images/news/ch2.jpg" width = "auto" height = "600"  /></center>
+<center><img src="http://xpixel.group/images/news/ch2.jpg" width = "800" height = "auto"  /></center>
 
 &nbsp;
 &nbsp;
@@ -31,7 +31,7 @@ Our HelloSR team won the champions in all four tracks in the Workshop NTIRE19.
 
 
 <center>
-<p style="font-size:20px;width:800px;text-align:left" > 
+<p style="font-size:20px;width:68%;text-align:left" > 
 
 It is worth mentioning that this is the first time since the event was held to video restoration as a competition task, while the previous three competitions only focused on image restoration, which means that the task has reached a new level of difficulty. "This is a revolutionary competition in the field of computer vision, I believe that the industry will soon set off a video restoration algorithm trend." Dr. Chao Dong said in a interview.
 
@@ -40,11 +40,11 @@ It is worth mentioning that this is the first time since the event was held to v
 &nbsp;
 
 
-<center><img src="http://xpixel.group/images/news/ch1.jpg" width = "auto" height = "600"  /></center>
+<center><img src="http://xpixel.group/images/news/ch1.jpg" width = "800" height = "auto"  /></center>
 
 &nbsp;
 <center>
-<p style="font-size:20px;width:800px;text-align:left" > 
+<p style="font-size:20px;width:68%;text-align:left" > 
 
 In January 2019, Shenzhen Advanced Institute and SenseTime further cooperated to establish the "Joint Laboratory of Future Vision Technology". According to Dr. Yu Qiao, head of the Joint Laboratory and director of Digital Institute, the laboratory will focus on the depth analysis and understanding of complex visual information, as well as other AI frontier technology research and new product development. We will cooperate extensively and thoroughly in the construction of technology platforms and personnel training to jointly promote the demonstration and application of artificial intelligence technology in various industries and the coordinated development of industrialization.
 
@@ -53,7 +53,7 @@ In January 2019, Shenzhen Advanced Institute and SenseTime further cooperated to
 &nbsp;
 
 <center>
-<p style="font-size:20px;width:800px;text-align:left" > 
+<p style="font-size:20px;width:68%;text-align:left" > 
 
 <a href="http://xpixel.group/2019/06/24/EDVR-Video-Restoration-With-Enhanced-Deformable-Convolutional-Networks.html"><font class="text-primary">Click here to check our publication.</font></a>
 
