@@ -16,9 +16,9 @@ email: chxy95@mail.nwpu.edu.cn
 google : None
 github : https://github.com/chxy95
 linkedin: None
-institution: Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
+institution: Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences (CAS)
 institutionShort: SIAT, CAS
 ---
 
-Xiangyu Chen is currently a master student in Northwestern Polytechnical University. He received his B.Eng. degree from Honors College in Northwestern Polytechnical University in 2017. His current research interest focus on deep learning and low-level vision. He works closely with Prof. Chao Dong and Prof. Yu Qiao.
+Xiangyu Chen is currently a master student in Northwestern Polytechnical University. He received his B.Eng. degree from Honors College in Northwestern Polytechnical University in 2017. He works closely with Prof. Chao Dong and Prof. Yu Qiao.
 

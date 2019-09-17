@@ -16,8 +16,8 @@ email: chan0899@ntu.edu.sg
 google : https://scholar.google.com/citations?hl=en&user=QYTu_KQAAAAJ
 github : https://github.com/ckkelvinchan
 linkedin: https://www.linkedin.com/in/kelvin-c-k-chan-31a38b123/
-institution: Nanyang Technological University
+institution: Nanyang Technological University (NTU)
 institutionShort: NTU
 ---
 
-Kelvin Chan is currently a first-year Ph.D. student in Nanyang Technological University. He is supervised by Prof. Chen Change Loy and working closely with Prof. Chao Dong. He received his M.Phil. degree in Mathematics from The Chinese University of Hong Kong in 2018. His current research interest focuses on image and video restoration.
+Kelvin Chan is currently a first-year Ph.D. student in NTU. He is supervised by Prof. Chen Change Loy and working closely with Prof. Chao Dong. He received his M.Phil. degree in Mathematics from The Chinese University of Hong Kong in 2018.

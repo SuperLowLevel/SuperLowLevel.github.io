@@ -16,9 +16,9 @@ email: sx.wu@siat.ac.cn
 google : None
 github : None
 linkedin: None
-institution: Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
+institution: Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences (CAS)
 institutionShort: SIAT, CAS
 ---
 
-Shixiang Wu is currently a PhD student in Shenzhen Institute of Advanced Technology, Chinese Academy of Science. She is supervised by Prof. Yu Qiao and Chao Dong. She received her Master. degree from The Soochow University in 2016. Her current research interest focuses on image restoration.
+Shixiang Wu is currently a PhD student in SIAT,CAS. She is supervised by Prof. Yu Qiao and Chao Dong. She received her Master. degree from The Soochow University in 2016.
 

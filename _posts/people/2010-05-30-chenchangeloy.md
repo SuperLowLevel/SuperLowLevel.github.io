@@ -6,7 +6,7 @@ showtitle: Associate Professor
 title: Chen Change Loy - X-Pixel
 profileName: chenchangeloy.png  # 186 * 186
 profile: chenchangeloyBig.jpg  # 570 * 725
-direction : Computer Vision and Deep Learning, with focus on face analysis, image processing, deep learning, and visual surveillance
+direction : Computer Vision and Deep Learning with focus on Face Analysis, Image Processing, and Visual Surveillance
 layout: peoplepost  #  Do not change this
 homepage: http://personal.ie.cuhk.edu.hk/~ccloy/
 email: ccloy@ntu.edu.sg

@@ -1,9 +1,9 @@
 ---
-title:  'Our HelloSR team won the champions in all four tracks in the NTIRE19'  #  Paper title, covered by ''
+title:  'Our HelloSR team emerges as champions in all four tracks in the NTIRE19'  #  Paper title, covered by ''
 teser: ch2.jpg
 type:  news
 tag : Award
-introduction: Congrats to Xintao Wang and the team
+introduction: Congratulations to Xintao Wang and the team
 layout: newspost  #  Do not change this
 date:   2019-07-02 11:59:59 +0800  # paper pub data, only change year and month according to this format
 year:   2019  # paper year, number

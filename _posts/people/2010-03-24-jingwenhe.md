@@ -16,8 +16,8 @@ email: jw.he@siat.ac.cn
 google : None
 github : https://github.com/hejingwenhejingwen
 linkedin: https://www.linkedin.com/in/jwhe/
-institution: Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
+institution: Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences (CAS)
 institutionShort: SIAT, CAS
 ---
 
-Jingwen He received the B.Eng. degree in computer science and technology from Sichuan University, China, in 2016, and the M.Phil. degree in electronic and information engineering from the University of Sydney, Australia, in 2019. She is currently a research intern with the Institute of Advanced Computing and Digital Engineering, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, China.
+Jingwen He received the B.Eng. degree in computer science and technology from Sichuan University, China, in 2016, and the M.Phil. degree in electronic and information engineering from the University of Sydney, Australia, in 2019. She is currently a research assistant with SIAT, CAS, China.

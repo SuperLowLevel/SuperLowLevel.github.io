@@ -16,7 +16,7 @@ email: lb.xie@siat.ac.cn
 google : None
 github : https://github.com/LiangbinXie
 linkedin: None
-institution: Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
+institution: Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences (CAS)
 institutionShort: SIAT, CAS
 ---
 

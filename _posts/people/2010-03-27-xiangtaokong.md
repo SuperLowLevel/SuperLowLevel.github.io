@@ -16,11 +16,11 @@ email: kxtv587@gmail.com
 google : None
 github : https://github.com/KXTV587
 linkedin: None
-institution: Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
+institution: Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences (CAS)
 institutionShort: SIAT, CAS
 ---
 
-Xiangtao Kong is currently a prospective M.S. student in Shenzhen Institute of Advanced Technology, Chinese Academy of Science. He is supervised by Prof. Chao Dong. He will receive his B.Eng. degree from Shandong University, Weihai, China.
+Xiangtao Kong is currently a prospective M.S. student in SIAT, CAS. He is supervised by Prof. Chao Dong. He is expected to obtain his B.Eng. degree from Shandong University, Weihai, China by 2020.
 
 
 

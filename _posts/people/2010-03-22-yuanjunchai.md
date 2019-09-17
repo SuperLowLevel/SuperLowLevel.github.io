@@ -16,11 +16,10 @@ email: allen092911@gmail.com
 google : xpixel.group
 github : https://github.com/yuanjunchai
 linkedin: https://www.linkedin.com/in/yuanjun-chai-3aa4a516b/
-institution: Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
+institution: Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences (CAS)
 institutionShort: SIAT, CAS
 ---
 
-Yuanjun Chai is currently an research assistant in Shenzhen Institute of Advanced Technology (SIAT), Chinese Academy of Science (CAS), supervised by Prof. Chao Dong and Prof. Yu Qiao. Before that, he received his B.S degree from Xidian University in 2019, supervised by Prof. Fei Qi and Prof. Xinbo Gao. He got “outstanding undergraduate thesis award” in 2019 with the topic of Computer Vision. Also, he obtained 2015-2018 University Scholarship, and was selected to join Cambridge Summer Academic Programme (Artiﬁcial Intelligence) with university full scholarship. 
-
+Yuanjun Chai is currently a research assistant in Multimedia Laboratory at SIAT-CAS & CUHK, supervised by Prof. Chao Dong and Prof. Yu Qiao. He received his B.S. degree(Summa Cum Laude) from Xidian University in 2019, supervised by Prof. Fei Qi and Prof. Xinbo Gao. His undergraduate project on Computer Vision won the “Outstanding Undergraduate Thesis Award”. He also obtained the University Scholarship from 2015-2018. In 2018, he was selected to join the Cambridge Summer Academic Programme (Artificial Intelligence) at St. Catharine’s College with a full scholarship funded by university and department.
  
 
