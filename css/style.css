@@ -11627,6 +11627,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	font-size: 35px;
 	line-height: 40px;
 	font-weight: 400;
+	padding-left: 120px;
 	font-family: Pacifico, sans-serif;
 	color: #343842;
 }
@@ -12055,7 +12056,7 @@ a.fa-shopping-cart:hover {
 
 .rd-navbar-static .rd-navbar-nav, .rd-navbar-fullwidth .rd-navbar-nav {
 	margin-top: 4px;
-	margin-right: 8.5%;
+	margin-right: 0%;
 }
 
 .rd-navbar-static:after, .rd-navbar-fullwidth:after {
@@ -12123,7 +12124,7 @@ a.fa-shopping-cart:hover {
 
 .rd-navbar-static .rd-navbar-inner, .rd-navbar-fullwidth .rd-navbar-inner {
 	position: relative;
-	max-width: 1200px;
+	max-width: 1500px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-left: auto;

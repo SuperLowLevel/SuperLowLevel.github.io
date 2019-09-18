@@ -37,25 +37,13 @@
                 </div>
                 <!--END RD Navbar Panel-->
 
-                <div class="rd-navbar-nav-wrap">
+                <div class="rd-navbar-nav-wrap" style=" padding-right: 50px">
                     <!--<a class="fa-shopping-cart" href="shop-cart.html"></a>short icon could be in there-->
                     <!--RD Navbar Search-->
-                    <div class="rd-navbar-search">
-                        <form class="rd-search rd-navbar-search-form" action="search-results.html"
-                            data-search-live="rd-search-results-live" method="GET">
-                            <label class="rd-navbar-search-form-input">
-                                <input type="text" name="s" placeholder="Search.." autocomplete="off">
-                            </label>
-                            <button class="rd-navbar-search-form-submit" type="submit"></button>
-                            <div class="rd-search-results-live" id="rd-search-results-live"></div>
-                        </form>
-                        <button class="rd-navbar-search-toggle"
-                            data-rd-navbar-toggle=".rd-navbar-search, .rd-navbar-live-search-results"></button>
-                    </div>
                     <!--END RD Navbar Search-->
 
                     <!--RD Navbar Nav-->
-                    <ul class="rd-navbar-nav">
+                    <ul class="rd-navbar-nav" >
                         {% for nav in site.nav %}
                             <li><a href="{{ nav.href }}">{{ nav.name }}</a></li>
                         {% endfor %}
