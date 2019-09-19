@@ -2,6 +2,7 @@
 title:  'EDVR: Video Restoration With Enhanced Deformable Convolutional Networks'  #  Paper title, covered by ''
 teser: edvr.png
 type:   paper
+pro_type: Video Super-Resolution
 layout: post  #  Do not change this
 date:   2019-06-24 11:59:59 +0800  # paper pub data, only change year and month according to this format
 author: Xintao Wang, Kelvin C.K. Chan, Ke Yu, Chao Dong, Chen Change Loy  # authors information

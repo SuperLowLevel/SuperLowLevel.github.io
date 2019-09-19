@@ -1,6 +1,7 @@
 ---
 title:  'BeautyGAN: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network'  #  Paper title, covered by ''
 type:   paper
+pro_type: Style Transfer
 teser: beautygan.png
 layout: post  #  Do not change this
 date:   2018-6-20 11:59:59 +0800  # paper pub data, only change year and month according to this format
@@ -8,7 +9,7 @@ author: Tingting Li, Ruihe Qian, Chao Dong, Si Liu, Qiong Yan, Wenwu Zhu, Liang 
 venue:  The 26th ACM international conference on Multimedia (ACM MM), 2018  # Where it be, ICCV and CVPR remove IEEE Conference on, 
 year:   2018  # paper year, number
 month:  June  # paper month, full name
-projectPage:  http://liusi-group.com/projects/BeautyGAN  # If has project page, link here, otherwise None
+projectPage:  http://liusi-group.com/pdf/BeautyGAN-camera-ready_2.pdf  # If has project page, link here, otherwise None
 supplemental : None
 data: https://drive.google.com/file/d/18UlvYDL6UGZ2rs0yaDsSzoUlw8KI5ABY/view?usp=drive_open  # If has data, post data link here, otherwise None
 code: https://github.com/baldFemale/beautyGAN-tf-Implement  # If has data, post code link here, otherwise None

@@ -1,11 +1,35 @@
 ---
 title: X-Pixel Group
-layout: home
 
 labNameBig: X-Pixel Group
 labNameSmall: CUHK, NTU, SIAT, SenseTime
 labNameDescript: Our vision is to make the world look clearer
+layout: default
 ---
+
+<section>
+    <!--Swiper-->
+    <div class="swiper-container swiper-slider" data-autoplay="5000" data-slide-effect="fade" data-loop="false">
+        <div class="jumbotron text-center">
+            <h1>{{ page.labNameBig }}</h1>
+            <hr>
+            <h3>{{ page.labNameSmall }}</h3>
+            <p class="big"><em>{{ page.labNameDescript }}</em> </p>
+            <!--<div class='button-group-variant'> <a class='button button-default round-xl button-sm' href='https://www.templatemonster.com/website-templates/58434.html'>Buy Now</a> <a class='button button-default round-xl button-sm' href='#'>View Features</a></div>-->
+        </div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" data-slide-bg="images/header-1.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+            <div class="swiper-slide" data-slide-bg="images/header-3.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+            <div class="swiper-slide" data-slide-bg="images/header-4.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <main class="page-content">
     <!--Start section-->
@@ -53,20 +77,20 @@ labNameDescript: Our vision is to make the world look clearer
                                 {% endfor %}
 
                                 {% for post in site.posts %}
-                                {% if post.title == 'EDVR: Video Restoration With Enhanced Deformable Convolutional Networks' %}
+                                {% if post.title == 'Our HelloSR team emerges as champions in all four tracks in the NTIRE19' %}
                                 <a role="button"  class="collapsed"
                                    aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
-                                    [April 2019] Our HelloSR team emerges as champions in all four tracks in the NTIRE19 video restoration and enhancement challenges! Congrats to Xintao Wang and the team! Check our project for <font class="text-primary">more details</font>.
+                                    [April 2019] Our HelloSR team emerges as champions in all four tracks in the NTIRE19 video restoration and enhancement challenges! Congrats to Xintao Wang and the team! Check our news for <font class="text-primary">more details</font>.
                                     <div class="card-arrow"></div>
                                 </a>
                                 {% endif %}
                                 {% endfor %}
 
                                 {% for post in site.posts %}
-                                {% if post.title == 'Modulating Image Restoration With Continual Levels via Adaptive Feature Modification Layers' %}
+                                {% if post.title == 'Our paper is selected for oral presentation in CVPR 2019' %}
                                 <a role="button"  class="collapsed"
                                    aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
-                                    [March 2019] Our paper is selected for oral presentation in CVPR 2019! Check out our paper for <font class="text-primary">more details</font>.
+                                    [March 2019] Our paper is selected for oral presentation in CVPR 2019! Check out our news for <font class="text-primary">more details</font>.
                                     <div class="card-arrow"></div>
                                 </a>
                                 {% endif %}

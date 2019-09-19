@@ -1,5 +1,5 @@
 ---
-title: XPixel - Publications
+title: XPixel - Image Dehazing
 layout: default
 ---
 
@@ -8,7 +8,7 @@ layout: default
     <div class="swiper-container swiper-slider" data-autoplay="5000" data-slide-effect="fade" data-loop="false"
          style="height: 400px;">
         <div class="jumbotron text-center">
-            <h1 style="margin-top: 70px">Publication
+            <h1 style="margin-top: 70px">Image Dehazing
             </h1>
             <p class="big"></p>
         </div>
@@ -29,7 +29,8 @@ layout: default
 <main class="page-content">
     <ol class="breadcrumb section-border">
         <li><a href="index.html">Home</a></li>
-        <li class="active"><a href="#">Publications</a></li>
+        <li class="active"><a href="projects.html">Projects</a></li>
+        <li class="active"><a href="#">Image Dehazing</a></li>
     </ol>
 
     <!--Start section-->
@@ -40,7 +41,7 @@ layout: default
                     <div class="row">
                         <!-- <h3>2018</h3> -->
                         {% for post in site.posts %}
-                        {% if post.type == 'paper' %}
+                        {% if post.pro_type == 'Image Dehazing' %}
                         <div class="col-12 section-border">
                             <article class="thumbnail well slow-hover" style="padding-top: 20px; padding-bottom: 20px">
                                 <!--<div class="image-slow-wrapper"><img src="images/Publication01.png" alt=""></div>-->
@@ -93,7 +94,7 @@ layout: default
                     <ul class="list-unstyled-2">
                         {% assign count=0%}
                         {% for post in site.posts %}
-                        {% if post.type == 'paper' and count<5%}
+                        {% if post.pro_type == 'Image Dehazing' and count<5%}
                         {% assign count = count | plus:1 %}
                         <li>
                             <div class="img-box">
