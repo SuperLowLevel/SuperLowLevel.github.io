@@ -1,5 +1,5 @@
 ---
-title:  'Happy Birthday to Yuanjun Chai '  #  Paper title, covered by ''
+title:  'Happy birthday to Yuanjun Chai '  #  Paper title, covered by ''
 teser: chai_birthday.jpg
 type:  activities
 tag : birthday

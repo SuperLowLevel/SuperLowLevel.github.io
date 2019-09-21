@@ -41,8 +41,6 @@ nav:
     href:           "/publication"
   - name:           "Projects"
     href:           "/projects"
-  - name:           "News"
-    href:           "/news"
   - name:           "Activities"
     href:           "/activities"
   - name:           "Open Source"
