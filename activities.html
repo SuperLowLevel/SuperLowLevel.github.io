@@ -43,7 +43,7 @@ layout: default
                     {% if post.type == 'activities' %}
                     <div class="col-lg-6">
                         <article class="thumbnail thumbnail-6 section-border well slow-hover">
-                            <div class="image-slow-wrapper"><img src="{{ BASE_PATH }}/images/activities/{{ post.teser }}" alt=""></div>
+                            <div class="image-slow-wrapper"><a href="{{ post.url }}"><img src="{{ BASE_PATH }}/images/activities/{{ post.teser }}" alt=""></a></div>
                             <div class="caption">
                                 <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
                                 <p class="text-dark-variant-2">{{post.introduction}}</p>
