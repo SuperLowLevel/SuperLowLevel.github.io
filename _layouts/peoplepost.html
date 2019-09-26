@@ -44,13 +44,21 @@ layout: default
                 <div class="col-10 col-lg-6">
                     <h1>{{ page.name }}</h1>
                     <p class="small text-light-clr" style="margin-bottom: 10px">
+                        {% if page.showtitle != 'None' %}
+                        <br>
                         {{ page.showtitle }}
-                        {% if page.institution %}
+                        {% endif %}
+
+                        {% if page.institution != 'None' %}
                         <br>
                         {{ page.institution }}
                         {% endif %}
+
+                        {% if page.email != 'None' %}
                         <br>
                         {{ page.email }}
+                        {% endif %}
+
                     </p>
                     <div class="tags d-inline-block">
                             <span class="badge fa-tags"></span>
@@ -71,7 +79,10 @@ layout: default
                         {{ content }}
                     </p>
                     <p>
+                        {% if page.direction != 'None' %}
                         Research Interests: {{ page.direction }}
+                        {% endif %}
+
                     </p>
                 </div>
             </article>

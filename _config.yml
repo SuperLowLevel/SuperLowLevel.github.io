@@ -45,7 +45,6 @@ nav:
     href:           "/activities"
   - name:           "Open Source"
     href:           "https://github.com/open-mmlab/mmsr"
-
   - name:           "Contact Us"
     href:           "/contact_us"
   # - name:           "resources"
