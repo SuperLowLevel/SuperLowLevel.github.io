@@ -51,7 +51,7 @@
     <session id="1517836255">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -59,20 +59,20 @@
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.19" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.25" value="3" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -83,7 +83,7 @@
           <entry key="html" value="185" />
           <entry key="jpg" value="1" />
           <entry key="lock" value="3" />
-          <entry key="md" value="125" />
+          <entry key="md" value="153" />
           <entry key="yml" value="17" />
         </counts>
       </usages-collector>
@@ -92,7 +92,7 @@
           <entry key="CSS" value="7" />
           <entry key="HTML" value="185" />
           <entry key="Image" value="1" />
-          <entry key="Markdown" value="110" />
+          <entry key="Markdown" value="138" />
           <entry key="PLAIN_TEXT" value="21" />
           <entry key="YAML" value="17" />
         </counts>
@@ -101,7 +101,7 @@
         <counts>
           <entry key="css" value="42" />
           <entry key="html" value="1784" />
-          <entry key="md" value="1810" />
+          <entry key="md" value="1990" />
           <entry key="yml" value="90" />
         </counts>
       </usages-collector>
@@ -109,7 +109,7 @@
         <counts>
           <entry key="CSS" value="42" />
           <entry key="HTML" value="1784" />
-          <entry key="Markdown" value="1761" />
+          <entry key="Markdown" value="1941" />
           <entry key="PLAIN_TEXT" value="49" />
           <entry key="YAML" value="90" />
         </counts>
@@ -118,12 +118,120 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-04-01-DAVANet-Stereo-Deblurring-with-View-Aggregation.md">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-04-Structure-Preserving-Stereoscopic-View-Synthesis-with-Multi-Scale-Adversarial-Correlation-Matching.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="190">
+                <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-06-01-Zoom-and-learn-Generalizing-deep-stereo-matching-to-novel-domains.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="38">
-                <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+                <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-10-01-Deep-End-to-End-Alignment-and-Refinement-for-Time-of-Flight-RGB-D-Module.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="285">
+                <caret line="15" column="47" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="47" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-10-03-Dual-Student-Breaking-the-Limits-of-Teacher-in-Semi-supervised-Learning.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="228">
+                <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-10-02-Spatio-Temporal-Filter-Adaptive-Network-for-Video-Deblurring.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="228">
+                <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-06-Deep-graph-Laplacian-regularization-for-robust-denoising-of-real-images.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="190">
+                <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-05-Spatially-Variant-Linear-Representation-Models-for-Joint-Filtering.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="190">
+                <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-06-06-Learning-Dual-Convolutional-Neural-Networks-for-Low-Level-Vision.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="76">
+                <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/spaper/2017-06-01-Accurate-Single-Stage-Detector-Using-Recurrent-Rolling-Convolution.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="38">
+                <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-02-Deep-Surface-Normal-Estimation-with-Hierarchical-RGB-D-Fusion.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="190">
+                <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -157,6 +265,7 @@
       <find>news</find>
       <find>button</find>
       <find>type:   paper</find>
+      <find>April</find>
     </findStrings>
     <replaceStrings>
       <replace>xpixel.group</replace>
@@ -165,6 +274,7 @@
       <replace>thumbnail thumbnail-4 section-border well slow-hover</replace>
       <replace>activities</replace>
       <replace>type:   spaper</replace>
+      <replace>June</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -173,28 +283,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_layouts/news.html" />
-        <option value="$PROJECT_DIR$/_layouts/home.html" />
-        <option value="$PROJECT_DIR$/_posts/paper/2014-03-27-Learning-a-Deep-Convolutional-Network-for-Image-Super-Resolution .md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2016-02-27-Image-Super-Resolution-Using-Deep-Convolutional-Networks .md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2016-09-27-Accelerating-the-Super-Resolution-Convolutional-Neural-Network.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2018-03-27-Unsupervised-Image-Super-Resolution-Using-Cycle-in-Cycle-Generative-Adversarial-Networks.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2018-06-20-Crafting-a-Toolchain-for-Image-Restoration-by-Deep-Reinforcement-Learning.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2018-06-21-Recovering-Realistic-Texture-in-Image-Super-Resolution-by-Deep-Spatial-Feature-Transform.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2018-09-06-ESRGAN-Enhanced-Super-Resolution-Generative-Adversarial-Networks.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2019-06-20-Blind-Super-Resolution-With-Iterative-Kernel-Correction.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2019-06-22-Suppressing-Model-Overfitting-for-Image-Super-Resolution-Networks.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2019-06-23-Modulating-Image-Restoration-With-Continual-Levels-via-Adaptive-Feature-Modification-Layers.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2019-06-24-EDVR-Video-Restoration-With-Enhanced-Deformable-Convolutional-Networks.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2019-10-29-RankSRGAN-Generative-Adversarial-Networks-with-Ranker-for-Image-Super-Resolution.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2019-06-19-Deep-Network-Interpolation-for-Continuous-Imagery-Effect-Transition.md" />
-        <option value="$PROJECT_DIR$/image_de.html" />
-        <option value="$PROJECT_DIR$/image_re.html" />
-        <option value="$PROJECT_DIR$/image_sr.html" />
-        <option value="$PROJECT_DIR$/style_trasfer.html" />
-        <option value="$PROJECT_DIR$/video_sr.html" />
-        <option value="$PROJECT_DIR$/news.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_posts/news/2019-03-03-CVPR-2019-oral.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2018-06-20-BeautyGAN-Instance-level-Facial-Makeup-Transfer-with-Deep-Generative-Adversarial-Network .md" />
         <option value="$PROJECT_DIR$/_posts/activities/2019-03-01-Five-papers-from-our-team-were-accepted-in-CVPR 2019.md" />
@@ -224,6 +312,28 @@
         <option value="$PROJECT_DIR$/_posts/spaper/2019-06-24-EDVR-Video-Restoration-With-Enhanced-Deformable-Convolutional-Networks.md" />
         <option value="$PROJECT_DIR$/_posts/spaper/2019-10-29-RankSRGAN-Generative-Adversarial-Networks-with-Ranker-for-Image-Super-Resolution.md" />
         <option value="$PROJECT_DIR$/_posts/spaper/2019-04-01-DAVANet-Stereo-Deblurring-with-View-Aggregation.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2019-04-02-Deep-Surface-Normal-Estimation-with-Hierarchical-RGB-D-Fusion.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2019-04-03-Towards-Real-Scene-Super-Resolution-with-Raw-Images.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2019-04-03-Structure-Preserving-Stereoscopic-View-Synthesis-with-Multi-Scale-Adversarial-Correlation-Matching.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2019-04-04-Structure-Preserving-Stereoscopic-View-Synthesis-with-Multi-Scale-Adversarial-Correlation-Matching.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2019-04-05-Spatially-Variant-Linear-Representation-Models-for-Joint-Filtering.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2019-04-06-Deep-graph-Laplacian-regularization-for-robust-denoising-of-real-images.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2019-06-01-DAVANet-Stereo-Deblurring-with-View-Aggregation.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2019-06-02-Deep-Surface-Normal-Estimation-with-Hierarchical-RGB-D-Fusion.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2019-06-03-Towards-Real-Scene-Super-Resolution-with-Raw-Images.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2019-06-04-Structure-Preserving-Stereoscopic-View-Synthesis-with-Multi-Scale-Adversarial-Correlation-Matching.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2019-06-05-Spatially-Variant-Linear-Representation-Models-for-Joint-Filtering.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2019-06-06-Deep-graph-Laplacian-regularization-for-robust-denoising-of-real-images.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2018-06-02-Single-View-Stereo-Matching.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2018-06-03-Dynamic-Scene-Deblurring-Using-Spatially-Variant-Recurrent-Neural-Networks.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2018-06-04-3D-Human-Pose-Estimation-in-the-Wild-by-Adversarial-Learning.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2018-06-05-LSTM-Pose-Machines.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2018-06-06-Learning-Dual-Convolutional-Neural-Networks-for-Low-Level-Vision.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2017-06-01-Accurate-Single-Stage-Detector-Using-Recurrent-Rolling-Convolution.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2018-06-01-Zoom-and-learn-Generalizing-deep-stereo-matching-to-novel-domains.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2019-10-01-Deep-End-to-End-Alignment-and-Refinement-for-Time-of-Flight-RGB-D-Module.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2019-10-02-Spatio-Temporal-Filter-Adaptive-Network-for-Video-Deblurring.md" />
+        <option value="$PROJECT_DIR$/_posts/spaper/2019-10-03-Dual-Student-Breaking-the-Limits-of-Teacher-in-Semi-supervised-Learning.md" />
       </list>
     </option>
   </component>
@@ -234,9 +344,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1037" />
+    <option name="x" value="950" />
+    <option name="width" value="978" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -246,7 +356,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,6 +388,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,11 +402,11 @@
       <recent name="D:\SuperLowLevel.github.io-master\_posts\activities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SuperLowLevel.github.io-master\_posts\spaper" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts\people" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts\news" />
       <recent name="D:\SuperLowLevel.github.io-master" />
-      <recent name="D:\SuperLowLevel.github.io-master\_layouts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -347,18 +457,20 @@
       <workItem from="1569052644491" duration="329000" />
       <workItem from="1569507196998" duration="2025000" />
       <workItem from="1569943303491" duration="214000" />
-      <workItem from="1570021306645" duration="4141000" />
+      <workItem from="1570021306645" duration="4274000" />
+      <workItem from="1570202339127" duration="2945000" />
+      <workItem from="1570246255911" duration="6912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96510000" />
+    <option name="totallyTimeSpent" value="106500000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="750" height="796" extended-state="0" />
+    <frame x="730" y="0" width="751" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21258742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2122905" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -384,147 +496,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2016-02-27-Image-Super-Resolution-Using-Deep-Convolutional-Networks .md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2016-09-27-Accelerating-the-Super-Resolution-Convolutional-Neural-Network.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2018-03-27-Unsupervised-Image-Super-Resolution-Using-Cycle-in-Cycle-Generative-Adversarial-Networks.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2018-06-20-Crafting-a-Toolchain-for-Image-Restoration-by-Deep-Reinforcement-Learning.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2019-06-20-Blind-Super-Resolution-With-Iterative-Kernel-Correction.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="342">
-            <caret line="18" column="4" selection-start-line="18" selection-end-line="18" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2019-06-22-Suppressing-Model-Overfitting-for-Image-Super-Resolution-Networks.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2019-06-24-EDVR-Video-Restoration-With-Enhanced-Deformable-Convolutional-Networks.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2018-09-06-ESRGAN-Enhanced-Super-Resolution-Generative-Adversarial-Networks.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2019-06-19-Deep-Network-Interpolation-for-Continuous-Imagery-Effect-Transition.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2019-06-23-Modulating-Image-Restoration-With-Continual-Levels-via-Adaptive-Feature-Modification-Layers.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2019-10-29-RankSRGAN-Generative-Adversarial-Networks-with-Ranker-for-Image-Super-Resolution.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2018-06-21-Recovering-Realistic-Texture-in-Image-Super-Resolution-by-Deep-Spatial-Feature-Transform.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_de.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_re.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_sr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style_trasfer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -690,9 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="94" column="12" selection-start-line="94" selection-start-column="12" selection-end-line="95" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#main#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,107 +671,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2016-02-27-Image-Super-Resolution-Using-Deep-Convolutional-Networks .md">
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2016-02-27-Image-Super-Resolution-Using-Deep-Convolutional-Networks .md" />
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2016-09-27-Accelerating-the-Super-Resolution-Convolutional-Neural-Network.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-03-27-Unsupervised-Image-Super-Resolution-Using-Cycle-in-Cycle-Generative-Adversarial-Networks.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-06-20-BeautyGAN-Instance-level-Facial-Makeup-Transfer-with-Deep-Generative-Adversarial-Network .md" />
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-06-20-Crafting-a-Toolchain-for-Image-Restoration-by-Deep-Reinforcement-Learning.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-06-21-Recovering-Realistic-Texture-in-Image-Super-Resolution-by-Deep-Spatial-Feature-Transform.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-09-06-ESRGAN-Enhanced-Super-Resolution-Generative-Adversarial-Networks.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-19-Deep-Network-Interpolation-for-Continuous-Imagery-Effect-Transition.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-20-Blind-Super-Resolution-With-Iterative-Kernel-Correction.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-22-Suppressing-Model-Overfitting-for-Image-Super-Resolution-Networks.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2014-03-27-Learning-a-Deep-Convolutional-Network-for-Image-Super-Resolution .md" />
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-24-EDVR-Video-Restoration-With-Enhanced-Deformable-Convolutional-Networks.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-23-Modulating-Image-Restoration-With-Continual-Levels-via-Adaptive-Feature-Modification-Layers.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-01-DAVANet-Stereo-Deblurring-with-View-Aggregation.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2016-09-27-Accelerating-the-Super-Resolution-Convolutional-Neural-Network.md">
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-03-Towards-Real-Scene-Super-Resolution-with-Raw-Images.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="12" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-03-27-Unsupervised-Image-Super-Resolution-Using-Cycle-in-Cycle-Generative-Adversarial-Networks.md">
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-06-04-3D-Human-Pose-Estimation-in-the-Wild-by-Adversarial-Learning.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <first_editor relative-caret-position="304">
+            <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-06-20-BeautyGAN-Instance-level-Facial-Makeup-Transfer-with-Deep-Generative-Adversarial-Network .md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-06-20-Crafting-a-Toolchain-for-Image-Restoration-by-Deep-Reinforcement-Learning.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-06-21-Recovering-Realistic-Texture-in-Image-Super-Resolution-by-Deep-Spatial-Feature-Transform.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-09-06-ESRGAN-Enhanced-Super-Resolution-Generative-Adversarial-Networks.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-19-Deep-Network-Interpolation-for-Continuous-Imagery-Effect-Transition.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-20-Blind-Super-Resolution-With-Iterative-Kernel-Correction.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="14" selection-start-line="2" selection-end-line="2" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-22-Suppressing-Model-Overfitting-for-Image-Super-Resolution-Networks.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2014-03-27-Learning-a-Deep-Convolutional-Network-for-Image-Super-Resolution .md">
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-06-03-Dynamic-Scene-Deblurring-Using-Spatially-Variant-Recurrent-Neural-Networks.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="57">
@@ -813,31 +724,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-24-EDVR-Video-Restoration-With-Enhanced-Deformable-Convolutional-Networks.md">
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-06-02-Single-View-Stereo-Matching.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <first_editor relative-caret-position="228">
+            <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-23-Modulating-Image-Restoration-With-Continual-Levels-via-Adaptive-Feature-Modification-Layers.md">
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-06-05-LSTM-Pose-Machines.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="8" column="71" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="71" />
+          <first_editor relative-caret-position="361">
+            <caret line="19" selection-start-line="19" selection-end-line="19" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-04-01-DAVANet-Stereo-Deblurring-with-View-Aggregation.md">
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-06-06-Learning-Dual-Convolutional-Neural-Networks-for-Low-Level-Vision.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="76">
+            <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2017-06-01-Accurate-Single-Stage-Detector-Using-Recurrent-Rolling-Convolution.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-06-01-Zoom-and-learn-Generalizing-deep-stereo-matching-to-novel-domains.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="38">
-            <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-06-Deep-graph-Laplacian-regularization-for-robust-denoising-of-real-images.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-05-Spatially-Variant-Linear-Representation-Models-for-Joint-Filtering.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-04-Structure-Preserving-Stereoscopic-View-Synthesis-with-Multi-Scale-Adversarial-Correlation-Matching.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-02-Deep-Surface-Normal-Estimation-with-Hierarchical-RGB-D-Fusion.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-10-02-Spatio-Temporal-Filter-Adaptive-Network-for-Video-Deblurring.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="228">
+            <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-10-01-Deep-End-to-End-Alignment-and-Refinement-for-Time-of-Flight-RGB-D-Module.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="15" column="47" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="47" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-10-03-Dual-Student-Breaking-the-Limits-of-Teacher-in-Semi-supervised-Learning.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="228">
+            <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
           </first_editor>
           <second_editor />
         </state>
