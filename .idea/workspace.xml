@@ -51,14 +51,14 @@
     <session id="1517836255">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="31" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="2" />
-          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.19" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="2" />
@@ -73,7 +73,7 @@
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,27 +81,27 @@
           <entry key="CNAME" value="1" />
           <entry key="Gemfile" value="2" />
           <entry key="css" value="7" />
-          <entry key="html" value="186" />
+          <entry key="html" value="191" />
           <entry key="jpg" value="1" />
           <entry key="lock" value="3" />
           <entry key="md" value="176" />
-          <entry key="yml" value="18" />
+          <entry key="yml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="7" />
-          <entry key="HTML" value="186" />
+          <entry key="HTML" value="191" />
           <entry key="Image" value="1" />
           <entry key="Markdown" value="161" />
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="YAML" value="18" />
+          <entry key="YAML" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="42" />
-          <entry key="html" value="1902" />
+          <entry key="html" value="2073" />
           <entry key="md" value="2262" />
           <entry key="yml" value="106" />
         </counts>
@@ -109,7 +109,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="42" />
-          <entry key="HTML" value="1902" />
+          <entry key="HTML" value="2073" />
           <entry key="Markdown" value="2213" />
           <entry key="PLAIN_TEXT" value="49" />
           <entry key="YAML" value="106" />
@@ -118,7 +118,53 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/publication_lab.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/publication_sensetime.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/publication.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="35" selection-start-line="35" selection-end-line="50" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -163,10 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/spaper/2018-06-20-BeautyGAN-Instance-level-Facial-Makeup-Transfer-with-Deep-Generative-Adversarial-Network .md" />
-        <option value="$PROJECT_DIR$/_posts/spaper/2018-06-20-Crafting-a-Toolchain-for-Image-Restoration-by-Deep-Reinforcement-Learning.md" />
-        <option value="$PROJECT_DIR$/_posts/spaper/2018-06-21-Recovering-Realistic-Texture-in-Image-Super-Resolution-by-Deep-Spatial-Feature-Transform.md" />
-        <option value="$PROJECT_DIR$/_posts/spaper/2018-09-06-ESRGAN-Enhanced-Super-Resolution-Generative-Adversarial-Networks.md" />
         <option value="$PROJECT_DIR$/_posts/spaper/2019-06-19-Deep-Network-Interpolation-for-Continuous-Imagery-Effect-Transition.md" />
         <option value="$PROJECT_DIR$/_posts/spaper/2019-06-20-Blind-Super-Resolution-With-Iterative-Kernel-Correction.md" />
         <option value="$PROJECT_DIR$/_posts/spaper/2019-06-22-Suppressing-Model-Overfitting-for-Image-Super-Resolution-Networks.md" />
@@ -214,6 +256,10 @@
         <option value="$PROJECT_DIR$/_posts/spaper/2016-01-01-Look-Listen-and-Learn-A-Multimodal-LSTM-for-Speaker-Identification.md" />
         <option value="$PROJECT_DIR$/_posts/spaper/2015-12-01-Shepard-Convolutional-Neural-Networks.md" />
         <option value="$PROJECT_DIR$/_posts/spaper/2015-07-01-Deep-Edge-Aware-Filters.md" />
+        <option value="$PROJECT_DIR$/publication_lab.html" />
+        <option value="$PROJECT_DIR$/publication.html" />
+        <option value="$PROJECT_DIR$/publication_sensetime.html" />
+        <option value="$PROJECT_DIR$/_includes/nav.html" />
       </list>
     </option>
   </component>
@@ -223,10 +269,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="951" />
-    <option name="width" value="977" />
-    <option name="height" value="1037" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="24" />
+    <option name="y" value="2" />
+    <option name="width" value="1847" />
+    <option name="height" value="984" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -236,6 +283,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,17 +306,10 @@
               <item name="SuperLowLevel.github.io-master" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SuperLowLevel.github.io-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SuperLowLevel.github.io-master" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="spaper" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,15 +319,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SuperLowLevel.github.io-master\_posts\activities" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SuperLowLevel.github.io-master\_posts\spaper" />
       <recent name="D:\SuperLowLevel.github.io-master" />
+      <recent name="D:\SuperLowLevel.github.io-master\_posts\spaper" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts\people" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts\news" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\SuperLowLevel.github.io-master\_posts\activities" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -343,16 +384,18 @@
       <workItem from="1570372016829" duration="1762000" />
       <workItem from="1570375455892" duration="2241000" />
       <workItem from="1570503527326" duration="8022000" />
+      <workItem from="1570527083025" duration="1498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123654000" />
+    <option name="totallyTimeSpent" value="125152000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="731" y="0" width="750" height="796" extended-state="0" />
+    <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20979021" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1961459" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -378,30 +421,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/people/2010-01-18-AI-Imaging-Team.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="209">
-            <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/peoplepost.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="81" column="57" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/people/2010-03-27-xiangtaokong.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -416,13 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="94" column="12" selection-start-line="94" selection-start-column="12" selection-end-line="95" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/publication.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1022">
-          <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -616,13 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-04-01-Learning-Deformable-Kernels-for-Image-and-Video-Denoising.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -750,6 +755,41 @@
             <caret line="18" column="928" selection-start-line="18" selection-start-column="928" selection-end-line="18" selection-end-column="928" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="35" selection-start-line="35" selection-end-line="50" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publication.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publication_lab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publication_sensetime.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
         </state>
       </provider>
     </entry>
