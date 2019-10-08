@@ -44,9 +44,22 @@
 
                     <!--RD Navbar Nav-->
                     <ul class="rd-navbar-nav" >
-                        {% for nav in site.nav %}
-                            <li><a href="{{ nav.href }}">{{ nav.name }}</a></li>
-                        {% endfor %}
+
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/people.html">People</a></li>
+                        <li><a href="/publication.html">Publications</a>
+                            <ul class="rd-navbar-dropdown">
+                                <li><a href="/publication_lab.html">In Lab</a></li>
+                                <li><a href="/publication_sensetime.html">In SenseTime</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/projects.html">Projects</a></li>
+                        <li><a href="/products.html">Products</a></li>
+                        <li><a href="/activities.html">Activities</a></li>
+                        <li><a href="https://github.com/open-mmlab/mmsr">Open Source</a></li>
+                        <li><a href="/contact_us.html">Contact Us</a></li>
+
+
                         <!-- class="active" -->
                         <!-- <li><a href="#">Blog</a></li> -->
                         <!-- <li><a href="#">Contact us</a></li> -->
