@@ -5,7 +5,7 @@ type:   spaper
 pro_type: None
 layout: post  #  Do not change this
 date:   2019-06-25 11:59:59 +0800  # paper pub data, only change year and month according to this format
-author: Xu, Xiangyu, Yongrui Ma, Wenxiu Sun  # authors information
+author: Xiangyu Xu, Yongrui Ma, Wenxiu Sun  # authors information
 venue:  Computer Vision and Pattern Recognition (CVPR), 2019
 year:   2019  # paper year, number
 month:  June  # paper month, full name

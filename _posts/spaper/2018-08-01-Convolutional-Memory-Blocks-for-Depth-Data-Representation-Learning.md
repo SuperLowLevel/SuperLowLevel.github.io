@@ -5,7 +5,7 @@ type:   spaper
 pro_type: None
 layout: post  #  Do not change this
 date:   2018-08-25 11:59:59 +0800  # paper pub data, only change year and month according to this format
-author: Wang, Keze, Liang Lin, Chuangjie Ren, Wei Zhang, Wenxiu Sun  # authors information
+author: Keze Wang, Liang Lin, Chuangjie Ren, Wei Zhang, Wenxiu Sun  # authors information
 venue:  International Joint Conference on Artificial Intelligence (IJCAI), 2018  # Where it be, ICCV and CVPR remove IEEE Conference on,
 year:   2018  # paper year, number
 month:  August  # paper month, full name

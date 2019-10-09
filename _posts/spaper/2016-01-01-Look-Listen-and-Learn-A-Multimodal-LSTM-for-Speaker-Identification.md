@@ -5,7 +5,7 @@ type:   spaper
 pro_type: None
 layout: post  #  Do not change this
 date:   2016-10-25 11:59:59 +0800  # paper pub data, only change year and month according to this format
-author: Jimmy Ren, Yongtao Hu, Yu-Wing Tai, Chuan Wang, Li Xu, Wenxiu Sun, Qiong Yan  # authors information
+author: Jimmy Ren, Yongtao Hu, Yu Wing Tai, Chuan Wang, Li Xu, Wenxiu Sun, Qiong Yan  # authors information
 venue:  AAAI Conference on Artificial Intelligence, (AAAI oral), 2016  # Where it be, ICCV and CVPR remove IEEE Conference on,
 year:   2016  # paper year, number
 month:  January  # paper month, full name

@@ -5,7 +5,7 @@ type:   spaper
 pro_type: None
 layout: post  #  Do not change this
 date:   2018-06-25 11:59:59 +0800  # paper pub data, only change year and month according to this format
-author: Xiao, Ruichao, Wenxiu Sun, Jiahao Pang, Qiong Yan, Jimmy Ren  # authors information
+author: Ruichao Xiao, Wenxiu Sun, Jiahao Pang, Qiong Yan, Jimmy Ren  # authors information
 venue:  International Conference on 3D Vision (3DV), 2018  # Where it be, ICCV and CVPR remove IEEE Conference on,
 year:   2018  # paper year, number
 month:  September  # paper month, full name

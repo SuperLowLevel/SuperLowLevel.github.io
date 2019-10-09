@@ -5,7 +5,7 @@ type:   spaper
 pro_type: None
 layout: post  #  Do not change this
 date:   2018-06-25 11:59:59 +0800  # paper pub data, only change year and month according to this format
-author: Xia, Weihao, Chengxi Yang, Yujiu Yang, Wenxiu Sun  # authors information
+author: Weihao Xia, Chengxi Yang, Yujiu Yang, Wenxiu Sun  # authors information
 venue:  International Conference on AI and Mobile Services, 2018
 year:   2018  # paper year, number
 month:  June  # paper month, full name

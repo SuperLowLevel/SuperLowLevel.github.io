@@ -5,7 +5,7 @@ type:   spaper
 pro_type: None
 layout: post  #  Do not change this
 date:   2018-07-25 11:59:59 +0800  # paper pub data, only change year and month according to this format
-author: Luo, Ningqi, Chengxi Yang, Wenxiu Sun, Binheng Song  # authors information
+author: Ningqi Luo, Chengxi Yang, Wenxiu Sun, Binheng Song  # authors information
 venue:  Pacific Rim International Conference on Artificial Intelligence (PRICAI), 2018  # Where it be, ICCV and CVPR remove IEEE Conference on,
 year:   2018  # paper year, number
 month:  July  # paper month, full name
