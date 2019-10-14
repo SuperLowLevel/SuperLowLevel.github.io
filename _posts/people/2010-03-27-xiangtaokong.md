@@ -12,7 +12,7 @@ profile: kongxiangtao.png  # 570 * 725
 direction : Image/Video Super-Resolution, Machine Learning
 layout: peoplepost  #  Do not change this
 homepage: None
-email: kxtv587@gmail.com
+email: xt.kong@siat.ac.cn
 google : None
 github : https://github.com/KXTV587
 linkedin: None
