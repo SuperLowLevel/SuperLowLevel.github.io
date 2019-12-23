@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/_posts/activities/2019-12-14-hiking.md" line="5" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b23671f5-456c-470b-af22-86ca96e08dfc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -51,67 +54,72 @@
     <session id="1517836255">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="34" />
+          <entry key="project.closed" value="43" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="3" />
-          <entry key="project.open.time.19" value="4" />
+          <entry key="project.open.time.19" value="5" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="2" />
-          <entry key="project.open.time.21" value="2" />
-          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.21" value="3" />
+          <entry key="project.open.time.22" value="3" />
+          <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.25" value="3" />
+          <entry key="project.open.time.25" value="4" />
           <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="35" />
+          <entry key="project.opened" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="CNAME" value="1" />
+          <entry key="CNAME" value="2" />
           <entry key="Gemfile" value="2" />
-          <entry key="css" value="7" />
-          <entry key="html" value="194" />
+          <entry key="css" value="8" />
+          <entry key="html" value="199" />
           <entry key="jpg" value="1" />
           <entry key="lock" value="3" />
-          <entry key="md" value="246" />
-          <entry key="yml" value="19" />
+          <entry key="md" value="258" />
+          <entry key="png" value="2" />
+          <entry key="yml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="7" />
-          <entry key="HTML" value="194" />
-          <entry key="Image" value="1" />
-          <entry key="Markdown" value="231" />
-          <entry key="PLAIN_TEXT" value="21" />
-          <entry key="YAML" value="19" />
+          <entry key="CSS" value="8" />
+          <entry key="HTML" value="199" />
+          <entry key="Image" value="3" />
+          <entry key="Markdown" value="243" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="YAML" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="42" />
-          <entry key="html" value="2076" />
-          <entry key="md" value="2291" />
+          <entry key="html" value="2080" />
+          <entry key="md" value="2565" />
           <entry key="yml" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="42" />
-          <entry key="HTML" value="2076" />
-          <entry key="Markdown" value="2242" />
+          <entry key="HTML" value="2080" />
+          <entry key="Markdown" value="2516" />
           <entry key="PLAIN_TEXT" value="49" />
           <entry key="YAML" value="106" />
         </counts>
@@ -121,20 +129,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/publication_sensetime.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
-              <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/paper/2019-06-23-Modulating-Image-Restoration-With-Continual-Levels-via-Adaptive-Feature-Modification-Layers.md">
+        <entry file="file://$PROJECT_DIR$/_posts/activities/2019-12-14-hiking.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="76">
-                <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <first_editor relative-caret-position="437">
+                <caret line="47" column="213" selection-start-line="47" selection-start-column="213" selection-end-line="47" selection-end-column="213" />
               </first_editor>
               <second_editor />
             </state>
@@ -142,9 +141,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projects.html">
+        <entry file="file://$PROJECT_DIR$/_posts/activities/2019-08-19-xie-Farewell-dinner.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="399">
+                <caret line="24" column="187" selection-start-line="24" selection-start-column="187" selection-end-line="24" selection-end-column="187" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-570" />
+            <state relative-caret-position="209">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -176,6 +189,7 @@
       <find>button</find>
       <find>type:   paper</find>
       <find>April</find>
+      <find>labNameBig</find>
     </findStrings>
     <replaceStrings>
       <replace>xpixel.group</replace>
@@ -193,11 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/spaper/2019-06-20-Blind-Super-Resolution-With-Iterative-Kernel-Correction.md" />
-        <option value="$PROJECT_DIR$/_posts/spaper/2019-06-22-Suppressing-Model-Overfitting-for-Image-Super-Resolution-Networks.md" />
-        <option value="$PROJECT_DIR$/_posts/spaper/2019-06-23-Modulating-Image-Restoration-With-Continual-Levels-via-Adaptive-Feature-Modification-Layers.md" />
-        <option value="$PROJECT_DIR$/_posts/spaper/2019-06-24-EDVR-Video-Restoration-With-Enhanced-Deformable-Convolutional-Networks.md" />
-        <option value="$PROJECT_DIR$/_posts/spaper/2019-10-29-RankSRGAN-Generative-Adversarial-Networks-with-Ranker-for-Image-Super-Resolution.md" />
         <option value="$PROJECT_DIR$/_posts/spaper/2019-04-01-DAVANet-Stereo-Deblurring-with-View-Aggregation.md" />
         <option value="$PROJECT_DIR$/_posts/spaper/2019-04-02-Deep-Surface-Normal-Estimation-with-Hierarchical-RGB-D-Fusion.md" />
         <option value="$PROJECT_DIR$/_posts/spaper/2019-04-03-Towards-Real-Scene-Super-Resolution-with-Raw-Images.md" />
@@ -244,6 +253,11 @@
         <option value="$PROJECT_DIR$/_posts/spaper/2018-09-03-DSR-Direct-Self-rectification-for-Uncalibrated-Dual-lens-Cameras.md" />
         <option value="$PROJECT_DIR$/_posts/spaper/2019-06-02-Deep-Surface-Normal-Estimation-with-Hierarchical-RGB-D-Fusion.md" />
         <option value="$PROJECT_DIR$/_posts/spaper/2019-06-03-Towards-Real-Scene-Super-Resolution-with-Raw-Images.md" />
+        <option value="$PROJECT_DIR$/_posts/paper/2019-06-23-Modulating-Image-Restoration-With-Continual-Levels-via-Adaptive-Feature-Modification-Layers.md" />
+        <option value="$PROJECT_DIR$/_posts/people/2010-03-27-xiangtaokong.md" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_posts/activities/2019-12-14-hiking.md" />
+        <option value="$PROJECT_DIR$/_posts/activities/2019-08-19-xie-Farewell-dinner.md" />
       </list>
     </option>
   </component>
@@ -254,9 +268,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="20" />
-    <option name="width" value="1851" />
-    <option name="height" value="987" />
+    <option name="x" value="9" />
+    <option name="width" value="1862" />
+    <option name="height" value="999" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -282,18 +296,18 @@
             <path>
               <item name="SuperLowLevel.github.io-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="SuperLowLevel.github.io-master" type="462c0819:PsiDirectoryNode" />
-              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SuperLowLevel.github.io-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SuperLowLevel.github.io-master" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SuperLowLevel.github.io-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="SuperLowLevel.github.io-master" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="paper" type="462c0819:PsiDirectoryNode" />
+              <item name="people" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuperLowLevel.github.io-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperLowLevel.github.io-master" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -303,20 +317,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Toward A Practical Perceptual Video Quality Metric - Netflix TechBlog - Medium_files" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\SuperLowLevel.github.io-master\_posts\activities" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SuperLowLevel.github.io-master\_posts\activities" />
       <recent name="D:\SuperLowLevel.github.io-master" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts\spaper" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts\people" />
-      <recent name="D:\SuperLowLevel.github.io-master\_posts\news" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SuperLowLevel.github.io-master\_posts\activities" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -376,18 +390,27 @@
       <workItem from="1570527083025" duration="1498000" />
       <workItem from="1570541693379" duration="654000" />
       <workItem from="1570630757227" duration="1121000" />
-      <workItem from="1570968717334" duration="278000" />
+      <workItem from="1570968717334" duration="912000" />
+      <workItem from="1571028641755" duration="1366000" />
+      <workItem from="1571057822021" duration="599000" />
+      <workItem from="1571059500244" duration="40000" />
+      <workItem from="1571638678962" duration="830000" />
+      <workItem from="1572918556632" duration="79000" />
+      <workItem from="1576385146505" duration="3216000" />
+      <workItem from="1576389111344" duration="587000" />
+      <workItem from="1577093497615" duration="1584000" />
+      <workItem from="1577097995398" duration="274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127205000" />
+    <option name="totallyTimeSpent" value="136414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1961459" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.124569856" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -399,7 +422,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32886904" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -413,53 +436,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2016-09-27-Accelerating-the-Super-Resolution-Convolutional-Neural-Network.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-03-27-Unsupervised-Image-Super-Resolution-Using-Cycle-in-Cycle-Generative-Adversarial-Networks.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-06-20-BeautyGAN-Instance-level-Facial-Makeup-Transfer-with-Deep-Generative-Adversarial-Network .md" />
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-06-20-Crafting-a-Toolchain-for-Image-Restoration-by-Deep-Reinforcement-Learning.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-06-21-Recovering-Realistic-Texture-in-Image-Super-Resolution-by-Deep-Spatial-Feature-Transform.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2018-09-06-ESRGAN-Enhanced-Super-Resolution-Generative-Adversarial-Networks.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-19-Deep-Network-Interpolation-for-Continuous-Imagery-Effect-Transition.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-20-Blind-Super-Resolution-With-Iterative-Kernel-Correction.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-22-Suppressing-Model-Overfitting-for-Image-Super-Resolution-Networks.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2014-03-27-Learning-a-Deep-Convolutional-Network-for-Image-Super-Resolution .md" />
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-24-EDVR-Video-Restoration-With-Enhanced-Deformable-Convolutional-Networks.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-23-Modulating-Image-Restoration-With-Continual-Levels-via-Adaptive-Feature-Modification-Layers.md" />
-    <entry file="file://$PROJECT_DIR$/products.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/publication_lab.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" selection-start-line="35" selection-end-line="50" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/publication.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -778,15 +754,147 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="76">
-            <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570" />
+        <state relative-caret-position="1083">
+          <caret line="57" column="140" selection-start-line="57" selection-start-column="130" selection-end-line="57" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/people/2010-03-27-xiangtaokong.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="304">
+            <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNAME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/activities/2019-03-03-CVPR-2019-oral.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/activities/2019-03-01-Five-papers-from-our-team-were-accepted-in-CVPR 2019.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/activities/2019-07-02-Our-HelloSR-team-won-the-champions-in-all-four-tracks-in-the-NTIRE19.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/activities/2019-07-20-Establishment-of-the-X-Pixel-Group.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/activities/2019-08-09-birthday-chai.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/people/dongchao.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="11532" selection-start-line="11532" selection-end-line="11533" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/activities/2019-12-14-hiking.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="437">
+            <caret line="47" column="213" selection-start-line="47" selection-start-column="213" selection-end-line="47" selection-end-column="213" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/people/2010-03-24-jingwenhe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/activities/2019-08-19-xie-Farewell-dinner.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="399">
+            <caret line="24" column="187" selection-start-line="24" selection-start-column="187" selection-end-line="24" selection-end-column="187" />
+          </first_editor>
+          <second_editor />
+        </state>
       </provider>
     </entry>
   </component>

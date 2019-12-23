@@ -23,7 +23,6 @@ paperLink: https://link.springer.com/chapter/10.1007/978-3-319-10593-2_13  # pos
 <p style="font-size:20px;width:100%;text-align:left" >
 
 Today we had a farewell dinner for Liangbin Xie who will spend one year for his first-year of M.S. in University of Chinese Academy of Sciences, Beijing. Wish him all the best in Beijing.
-
 </p>
 </center>
 &nbsp;
