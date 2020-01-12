@@ -40,9 +40,10 @@ Our paper is selected for oral presentation in ICCV 2019! This is the scene of t
 <a href="http://xpixel.group/2019/10/29/RankSRGAN-Generative-Adversarial-Networks-with-Ranker-for-Image-Super-Resolution.html"><font class="text-primary">Click here to check out RankSRGAN: Generative Adversarial Networks with Ranker for Image Super-Resolution.</font></a>
 </p>
 </center>
+&nbsp;
 
 
-<center><img src="http://xpixel.group/images/activities/poster_zhang.jpg" width = "800" height = "auto"  /></center>
+<center><img src="http://xpixel.group/images/activities/poster_feng.jpg" width = "800" height = "auto"  /></center>
 
 
 <center>
