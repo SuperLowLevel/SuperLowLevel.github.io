@@ -48,6 +48,17 @@ layout: default
 
 
                                 {% for post in site.posts %}
+                                {% if post.title == 'Our team attended ICCV 2019 in Seoul, Korea' %}
+                                <a role="button"  class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
+                                    [November 2019] Our team attended ICCV 2019! Check out here for <font class="text-primary">more details</font>.
+                                    <div class="card-arrow"></div>
+                                </a>
+                                {% endif %}
+                                {% endfor %}
+
+
+                                {% for post in site.posts %}
                                 {% if post.name == 'Xiangtao Kong' %}
                                 <a role="button"  class="collapsed"
                                    aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}" >

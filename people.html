@@ -231,19 +231,38 @@ layout: default
                         <div class="caption margin-1">
                             <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
                             <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
-                            <p><b>
-                                {% if post.showtitle != 'None' %}
-                                {{ post.showtitle }}
-                                {% endif %}
-                            </b>
+                            <p>
                                 {% if post.institutionShort != 'None' %}
                                 <br>
                                 {{ post.institutionShort }}
                                 {% endif %}
                             </p>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <!--End section-->
+
+    <!--Start section 4 Columns with text-->
+    <section class="text-center well well-sm">
+        <div class="container">
+            <h5 class="font-weight-bold text-lg-left">Alumni</h5>
+            <hr>
+            <div class="row row-50">
+                {% for post in site.posts %}
+                {% if post.people_type == 'Alumni' %}
+                <div class="col-sm-6 col-lg-3">
+                    <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img height="188px" class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
+                        <div class="caption margin-1">
+                            <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
+                            <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
                             <p class="text-light-clr" style="margin-top: 0px">
                                 {% if post.direction != 'None' %}
-                                 Direction: {{ post.direction }}
+                                Direction: {{ post.direction }}
                                 {% endif %}
                                 {% if post.email != 'None' %}
                                 <br>

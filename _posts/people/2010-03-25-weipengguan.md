@@ -1,8 +1,8 @@
 ---
 name: Weipeng Guan
 type: people
-people_type : X-Pixel at SIAT
-showtitle: Research Assistant
+people_type : Alumni
+showtitle: None
 title: Weipeng Guan - X-Pixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
