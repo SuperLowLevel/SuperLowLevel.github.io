@@ -1,7 +1,7 @@
 ---
 name: Ruicheng Feng
 type: people
-people_type : X-Pixel at NTU
+people_type : X-Pixel at SIAT
 showtitle: Research Assistant
 title: Ruicheng Feng - X-Pixel
 # [PhD Student, Master Student, Visiting Student,
