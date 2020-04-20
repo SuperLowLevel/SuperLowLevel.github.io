@@ -9,15 +9,15 @@ title: Hengyuan Zhao - X-Pixel
 #  Alumni, Cooperation Professor]
 profileName: zhaohengyuan.png  # 186 * 186
 profile: zhaohengyuanBig.jpg  # 570 * 725
-direction : Image/Video Super-Resolution
+direction : Image/Video Restoration, Generative Models
 layout: peoplepost  #  Do not change this
 homepage: None
 email: hy.zhao1@siat.ac.cn
-google : None
-github : None
+google : https://scholar.google.com/citations?user=QLSk-6IAAAAJ&hl=zh-CN
+github : https://github.com/zhaohengyuan1
 linkedin: None
 institution: Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences (CAS)
 institutionShort: SIAT, CAS
 ---
-Hengyuan Zhao currently work as a research intern in Multimedia Laboratory at SIAT-CAS & CUHK. He is supervised by Prof. Yu Qiao and Prof. Chao Dong. 
+Hengyuan Zhao currently work as a research intern in Multimedia Laboratory at SIAT-CAS & CUHK. He is supervised by Prof. Yu Qiao and Prof. Chao Dong. His current work involves image/video super resolution and genrative model, etc.
 
