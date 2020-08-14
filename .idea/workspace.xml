@@ -88,10 +88,10 @@
           <entry key="CNAME" value="2" />
           <entry key="Gemfile" value="2" />
           <entry key="css" value="8" />
-          <entry key="html" value="203" />
+          <entry key="html" value="204" />
           <entry key="jpg" value="1" />
           <entry key="lock" value="3" />
-          <entry key="md" value="294" />
+          <entry key="md" value="295" />
           <entry key="png" value="2" />
           <entry key="yml" value="20" />
         </counts>
@@ -99,9 +99,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="8" />
-          <entry key="HTML" value="203" />
+          <entry key="HTML" value="204" />
           <entry key="Image" value="3" />
-          <entry key="Markdown" value="279" />
+          <entry key="Markdown" value="280" />
           <entry key="PLAIN_TEXT" value="22" />
           <entry key="YAML" value="20" />
         </counts>
@@ -109,16 +109,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="42" />
-          <entry key="html" value="2123" />
-          <entry key="md" value="2984" />
+          <entry key="html" value="2168" />
+          <entry key="md" value="3018" />
           <entry key="yml" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="42" />
-          <entry key="HTML" value="2123" />
-          <entry key="Markdown" value="2935" />
+          <entry key="HTML" value="2168" />
+          <entry key="Markdown" value="2969" />
           <entry key="PLAIN_TEXT" value="49" />
           <entry key="YAML" value="106" />
         </counts>
@@ -127,16 +127,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/paper/2018-06-21-Recovering-Realistic-Texture-in-Image-Super-Resolution-by-Deep-Spatial-Feature-Transform.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/paper/2018-06-20-BeautyGAN-Instance-level-Facial-Makeup-Transfer-with-Deep-Generative-Adversarial-Network .md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -157,12 +147,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/paper/2020-04-07-Conditional-Sequential-Modulation-for-Efficient-Global-Image-Retouching.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="167">
-                <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="50" />
+              <first_editor relative-caret-position="133">
+                <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="52" column="103" selection-start-line="52" selection-start-column="103" selection-end-line="52" selection-end-column="103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/activities/2020-03-01-Three-papers-from-our-team-were-accepted-in-ECCV 2020.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="528">
+                <caret line="47" column="130" selection-start-line="47" selection-start-column="130" selection-end-line="47" selection-end-column="130" />
               </first_editor>
               <second_editor />
             </state>
@@ -176,16 +187,6 @@
               <first_editor relative-caret-position="38">
                 <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/paper/2018-06-20-Crafting-a-Toolchain-for-Image-Restoration-by-Deep-Reinforcement-Learning.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -279,7 +280,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/spaper/2018-06-02-Single-View-Stereo-Matching.md" />
         <option value="$PROJECT_DIR$/_posts/spaper/2018-06-03-Dynamic-Scene-Deblurring-Using-Spatially-Variant-Recurrent-Neural-Networks.md" />
         <option value="$PROJECT_DIR$/_posts/spaper/2018-06-04-3D-Human-Pose-Estimation-in-the-Wild-by-Adversarial-Learning.md" />
         <option value="$PROJECT_DIR$/_posts/spaper/2018-06-05-LSTM-Pose-Machines.md" />
@@ -319,7 +319,6 @@
         <option value="$PROJECT_DIR$/_posts/activities/2019-08-19-xie-Farewell-dinner.md" />
         <option value="$PROJECT_DIR$/_posts/people/2010-03-25-weipengguan.md" />
         <option value="$PROJECT_DIR$/people.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_posts/activities/2019-11-01-One-paper-from-our-team-was-selected-for-oral_presentation_ICCV 2019.md" />
         <option value="$PROJECT_DIR$/_posts/people/2010-03-26-ruichengfeng.md" />
         <option value="$PROJECT_DIR$/_posts/people/2010-03-21-hengyuanzhao.md" />
@@ -328,8 +327,10 @@
         <option value="$PROJECT_DIR$/_posts/paper/2020-04-04-Image-Processing-Using-Multi-Code-GAN-Prior.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2020-04-04-PIPAL-a-Large-Scale-Image-Quality-Assessment-Dataset-for-Perceptual-Image-Restoration.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2020-04-05-PIPAL-a-Large-Scale-Image-Quality-Assessment-Dataset-for-Perceptual-Image-Restoration.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2020-04-07-Conditional-Sequential-Modulation-for-Efficient-Global-Image-Retouching.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2020-04-06-Multi-Dimension-Modulation-for-Image-Restoration-with-Dynamic-Controllable-Residual-Learning.md" />
+        <option value="$PROJECT_DIR$/_posts/activities/2020-03-01-Three-papers-from-our-team-were-accepted-in-ECCV 2020.md" />
+        <option value="$PROJECT_DIR$/_posts/paper/2020-04-07-Conditional-Sequential-Modulation-for-Efficient-Global-Image-Retouching.md" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -368,6 +369,12 @@
               <item name="SuperLowLevel.github.io-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="SuperLowLevel.github.io-master" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuperLowLevel.github.io-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperLowLevel.github.io-master" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
               <item name="paper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -393,9 +400,9 @@
       <recent name="D:\SuperLowLevel.github.io-master\_posts\activities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SuperLowLevel.github.io-master\_posts\activities" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts\paper" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts\people" />
-      <recent name="D:\SuperLowLevel.github.io-master\_posts\activities" />
       <recent name="D:\SuperLowLevel.github.io-master" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts\spaper" />
     </key>
@@ -473,12 +480,12 @@
       <workItem from="1587226354138" duration="1048000" />
       <workItem from="1587402968714" duration="749000" />
       <workItem from="1596464063917" duration="3215000" />
-      <workItem from="1597392472072" duration="1294000" />
+      <workItem from="1597392472072" duration="2343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148158000" />
+    <option name="totallyTimeSpent" value="149207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -510,16 +517,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-10-04-Generalizing-Monocular-3D-Human-Pose-Estimation-in-the-Wild.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/spaper/2019-06-06-Deep-graph-Laplacian-regularization-for-robust-denoising-of-real-images.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -683,13 +680,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="50" column="70" selection-start-line="50" selection-start-column="70" selection-end-line="50" selection-end-column="70" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/people.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -915,13 +905,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/activities/2020-03-01-Three-papers-from-our-team-were-accepted-in-ECCV 2020.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="528">
+            <caret line="47" column="130" selection-start-line="47" selection-start-column="130" selection-end-line="47" selection-end-column="130" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/paper/2020-04-07-Conditional-Sequential-Modulation-for-Efficient-Global-Image-Retouching.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="167">
-            <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="50" />
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="52" column="103" selection-start-line="52" selection-start-column="103" selection-end-line="52" selection-end-column="103" />
         </state>
       </provider>
     </entry>
