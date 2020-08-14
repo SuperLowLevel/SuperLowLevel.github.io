@@ -20,7 +20,7 @@ institution: Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy 
 institutionShort: SIAT, CAS
 ---
 
-Xiangtao Kong is currently a prospective M.S. student in SIAT, CAS. He is supervised by Prof. Chao Dong. He is expected to obtain his B.Eng. degree from Shandong University, Weihai, China by 2020.
+Xiangtao Kong is currently a prospective M.S. student in SIAT, CAS. He is supervised by Prof. Chao Dong and Prof. Yu Qiao. He is expected to obtain his B.Eng. degree from Shandong University, Weihai, China by 2020.
 
 
 
