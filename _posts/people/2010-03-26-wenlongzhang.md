@@ -1,7 +1,7 @@
 ---
 name: Wenlong Zhang
 type: people
-people_type : X-Pixel at SIAT
+people_type : Alumni
 showtitle: Research Assistant
 title: Wenlong Zhang - X-Pixel
 # [PhD Student, Master Student, Visiting Student,

@@ -14,13 +14,13 @@ layout: peoplepost  #  Do not change this
 homepage: None
 email: xt.kong@siat.ac.cn
 google : None
-github : https://github.com/KXTV587
+github : https://github.com/XiangtaoKong
 linkedin: None
 institution: Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences (CAS)
 institutionShort: SIAT, CAS
 ---
 
-Xiangtao Kong is currently a prospective M.S. student in SIAT, CAS. He is supervised by Prof. Chao Dong and Prof. Yu Qiao. He is expected to obtain his B.Eng. degree from Shandong University, Weihai, China by 2020.
+Xiangtao Kong is currently a M.S. student in SIAT, CAS. He is supervised by Prof. Chao Dong and Prof. Yu Qiao. He obtained his B.Eng. degree from Shandong University, Weihai, China by 2020.
 
 
 

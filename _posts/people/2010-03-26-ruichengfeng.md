@@ -1,8 +1,8 @@
 ---
 name: Ruicheng Feng
 type: people
-people_type : X-Pixel at SIAT
-showtitle: Research Assistant
+people_type : X-Pixel at NTU
+showtitle: PhD Student
 title: Ruicheng Feng - X-Pixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
@@ -17,7 +17,7 @@ google : https://scholar.google.com/citations?hl=zh-CN&user=nDrw-wwAAAAJ
 github : https://github.com/jnjaby
 linkedin: https://www.linkedin.com/in/锐成-冯-508431118/
 institution: Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences (CAS)
-institutionShort: SIAT, CAS
+institutionShort: NTU
 ---
 
 Ruicheng Feng is currently a research assistant in SIAT, CAS, advised by Prof. Yu Qiao and Prof. Chao Dong. He received his B.Eng. degree from Xi’an Jiao Tong University in 2018. Prior to joining SIAT, he was a research intern at Sensetime Ltd. Group, working with Prof. Chao Dong.

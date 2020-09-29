@@ -13,7 +13,7 @@ projectPage: None  # If has project page, link here, otherwise None
 supplemental : None
 data: None  # If has data, post data link here, otherwise None
 code: https://github.com/hejingwenhejingwen/CSRNet  # If has data, post code link here, otherwise None
-paperLink: https:None  # post paper pdf link here
+paperLink: None  # post paper pdf link here
 ---
 
 Photo retouching aims at enhancing the aesthetic visual quality of images that suffer from photographic defects such as over/under

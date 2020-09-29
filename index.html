@@ -47,12 +47,24 @@ layout: default
                             <div class="card-title">
 
                                 {% for post in site.posts %}
+                                {% if post.title == 'Our Xpixel team won the champions in Video Temporal Super Resolution track in the AIM2020' %}
+                                <a role="button" d class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
+                                    [September 2020] Our Xpixel team won a champions and a forth place in ECCV Workshop AIM2020! Check out our news for <font class="text-primary">more details</font>.
+                                    <div class="card-arrow"></div>
+                                </a>
+                                {% endif %}
+                                {% endfor %}
+
+                                {% for post in site.posts %}
                                 {% if post.title == 'Three papers from our team were accepted in ECCV 2020' %}
                                 <a role="button" d class="collapsed"
                                    aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
                                     [August 2020] Three papers from our team were accepted in ECCV 2020! Check out our news for <font class="text-primary">more details</font>.
                                     <div class="card-arrow"></div>
                                 </a>
+                                {% endif %}
+                                {% endfor %}
 
 
                                 {% for post in site.posts %}
