@@ -1,7 +1,7 @@
 ---
 name: Qingling Duan
 type: people
-people_type : X-Pixel at SIAT
+people_type : Alumni
 showtitle: Alumni
 title: Qingling Duan - X-Pixel
 # [PhD Student, Master Student, Visiting Student,
