@@ -13,9 +13,9 @@ direction : Image/Video Super-Resolution, Machine Learning
 layout: peoplepost  #  Do not change this
 homepage: None
 email: xt.kong@siat.ac.cn
-google : None
+google : https://scholar.google.com/citations?user=lueNzSgAAAAJ&hl=en
 github : https://github.com/XiangtaoKong
-linkedin: None
+linkedin: https://www.linkedin.com/in/%E7%A5%A5%E6%B6%9B-%E5%AD%94-2514a1196/
 institution: Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences (CAS)
 institutionShort: SIAT, CAS
 ---
