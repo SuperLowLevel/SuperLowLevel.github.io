@@ -23,7 +23,7 @@ paperLink: https://link.springer.com/chapter/10.1007/978-3-319-10593-2_13  # pos
 <p style="font-size:20px;width:100%;text-align:left" >
 
 Recently, prestigious conference in the field of computer vision, the Computer Vision and Pattern Recognition (CVPR) will be held.
-We held the <a href="https://competitions.codalab.org/competitions/28050"><font class="text-primary">Perceptual Image Quality Assessment Challenge</font></a>, in the NTIRE2021
+We held the <a href="https://competitions.codalab.org/competitions/28050"><font class="text-primary">Perceptual Image Quality Assessment Challenge</font></a>, in the NTIRE2021.
 
 <center>
 <p style="font-size:20px;width:100%;text-align:left" >
