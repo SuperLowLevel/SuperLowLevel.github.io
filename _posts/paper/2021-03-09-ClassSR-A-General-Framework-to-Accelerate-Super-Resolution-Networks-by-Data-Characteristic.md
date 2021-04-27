@@ -1,5 +1,5 @@
 ---
-title:  'ClassSR: A General Framework to Accelerate Super-Resolution Networks by Data Characteristic.'  #  Paper title, covered by '
+title:  'ClassSR: A General Framework to Accelerate Super-Resolution Networks by Data Characteristic'  #  Paper title, covered by '
 type: paper
 pro_type: Image Super-Resolution
 teser: classsr.png

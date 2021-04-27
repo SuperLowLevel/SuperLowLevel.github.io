@@ -1,5 +1,5 @@
 ---
-title:  'Our Xpixel team won the champions in Video Temporal Super Resolution track in the AIM2020'  #  Paper title, covered by ''
+title:  'Our Xpixel team won the champion in Video Temporal Super Resolution track in the AIM2020'  #  Paper title, covered by ''
 teser: AIM20201.jpg
 type:  activities
 tag : Award
@@ -23,7 +23,7 @@ paperLink: https://link.springer.com/chapter/10.1007/978-3-319-10593-2_13  # pos
 <p style="font-size:20px;width:100%;text-align:left" >
 
 Recently, prestigious conference in the field of computer vision, the European Conference on Computer Vision (ECCV), was held.
-Our Xpixel team won the champions in Video Temporal Super-Resolution track and fourth place in Efficient Super-Resolution track in the Workshop AIM2020.
+Our Xpixel team won the champion in Video Temporal Super-Resolution track and fourth place in Efficient Super-Resolution track in the Workshop AIM2020.
 
 </p>
 </center>
