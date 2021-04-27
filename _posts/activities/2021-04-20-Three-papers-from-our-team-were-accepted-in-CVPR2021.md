@@ -15,7 +15,7 @@ code: None  # If has data, post code link here, otherwise None
 paperLink: None  # post paper pdf link here
 ---
 
-<center><img src="http://xpixel.group/images/activities/CVPPR2021.png" width = "800" height = "auto"  /></center>
+<center><img src="http://xpixel.group/images/activities/CVPR2021.png" width = "800" height = "auto"  /></center>
 
 &nbsp;
 &nbsp;
