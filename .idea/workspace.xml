@@ -137,36 +137,48 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="14" />
-          <entry key="md" value="72" />
+          <entry key="md" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="14" />
-          <entry key="Markdown" value="72" />
+          <entry key="Markdown" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="84" />
-          <entry key="md" value="798" />
+          <entry key="html" value="91" />
+          <entry key="md" value="799" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="84" />
-          <entry key="Markdown" value="798" />
+          <entry key="HTML" value="91" />
+          <entry key="Markdown" value="799" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="62" column="128" selection-start-line="62" selection-start-column="128" selection-end-line="62" selection-end-column="128" />
+            <state relative-caret-position="1793">
+              <caret line="147" column="112" selection-start-line="147" selection-start-column="112" selection-end-line="147" selection-end-column="112" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/activities/2021-03-01-Reading&amp;thinking&amp;sharing-activities.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="361">
+                <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -243,6 +255,7 @@
       <find>April</find>
       <find>labNameBig</find>
       <find>Image Super-Reso</find>
+      <find>Check out</find>
     </findStrings>
     <replaceStrings>
       <replace>xpixel.group</replace>
@@ -292,7 +305,6 @@
         <option value="$PROJECT_DIR$/_posts/activities/2021-04-01-Our-Xpixel-team-held-one-competition-and-won-four-champions-two-runner-up-in-the-NTIRE2021.md" />
         <option value="$PROJECT_DIR$/_posts/activities/2021-04-01-Our-Xpixel-team-held-one-competition-and-won-three-champions-two-runner-up-in-the-NTIRE2021.md" />
         <option value="$PROJECT_DIR$/_posts/activities/2021-04-20-Three-papers-from-our-team-were-accepted-in-CVPR2021.md" />
-        <option value="$PROJECT_DIR$/_posts/activities/2021-03-01-Reading&amp;thinking&amp;sharing-activities.md" />
         <option value="$PROJECT_DIR$/projects.html" />
         <option value="$PROJECT_DIR$/_posts/paper/2014-03-27-Learning-a-Deep-Convolutional-Network-for-Image-Super-Resolution .md" />
         <option value="$PROJECT_DIR$/_posts/paper/2016-02-27-Image-Super-Resolution-Using-Deep-Convolutional-Networks .md" />
@@ -311,6 +323,7 @@
         <option value="$PROJECT_DIR$/image_sr.html" />
         <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_posts/activities/2021-03-01-Reading&amp;thinking&amp;sharing-activities.md" />
       </list>
     </option>
   </component>
@@ -355,6 +368,12 @@
               <item name="SuperLowLevel.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="SuperLowLevel.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuperLowLevel.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperLowLevel.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SuperLowLevel.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -466,12 +485,12 @@
       <workItem from="1601355159997" duration="11886000" />
       <workItem from="1619235792835" duration="9821000" />
       <workItem from="1619357408245" duration="5696000" />
-      <workItem from="1619500961067" duration="5445000" />
+      <workItem from="1619500961067" duration="5786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185598000" />
+    <option name="totallyTimeSpent" value="185939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -667,16 +686,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="209">
             <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="112" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/activities/2021-03-01-Reading&amp;thinking&amp;sharing-activities.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
           </first_editor>
           <second_editor />
         </state>
@@ -930,8 +939,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="62" column="128" selection-start-line="62" selection-start-column="128" selection-end-line="62" selection-end-column="128" />
+        <state relative-caret-position="1793">
+          <caret line="147" column="112" selection-start-line="147" selection-start-column="112" selection-end-line="147" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/activities/2021-03-01-Reading&amp;thinking&amp;sharing-activities.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="361">
+            <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

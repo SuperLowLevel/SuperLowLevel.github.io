@@ -23,7 +23,7 @@ paperLink: https://link.springer.com/chapter/10.1007/978-3-319-10593-2_13  # pos
 <p style="font-size:20px;width:100%;text-align:left" >
 
 Not only academic articles, people from X-Pixel often read many kinds of books. Reading & Thinking & Sharing activity is a weekly activity that encourages
-us to read more and sharing the thoughts and insights. All of us read book habitually and take turns to prepare for sharing activities. These are some photos of
+us to read more and sharing thoughts and insights. All of us read books habitually and take turns to prepare for sharing activities. These are some photos of
 the Reading & Thinking & Sharing activity.
 
 <center>
