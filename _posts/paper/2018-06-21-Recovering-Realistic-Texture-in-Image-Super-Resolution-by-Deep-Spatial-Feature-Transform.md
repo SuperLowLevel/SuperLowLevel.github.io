@@ -1,7 +1,7 @@
 ---
 title:  'Recovering Realistic Texture in Image Super-Resolution by Deep Spatial Feature Transform'  #  Paper title, covered by ''
 type:   paper
-pro_type: Image Super-Resoltion
+pro_type: Image Super-Resolution
 teser: sftgan.png
 layout: post  #  Do not change this
 date:   2018-06-21 11:59:59 +0800  # paper pub data, only change year and month according to this format

@@ -2,7 +2,7 @@
 title:  'Learning a Deep Convolutional Network for Image Super-Resolution'  #  Paper title, covered by ''
 teser: srcnn.png
 type:   paper
-pro_type: Image Super-Resoltion
+pro_type: Image Super-Resolution
 layout: post  #  Do not change this
 date:   2014-03-27 11:59:59 +0800  # paper pub data, only change year and month according to this format
 author: Chao Dong, Chen Change Loy, Kaiming He, Xiaoou Tang  # authors information

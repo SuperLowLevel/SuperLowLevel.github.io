@@ -2,7 +2,7 @@
 title:  'PIPAL: a Large-Scale Image Quality Assessment Dataset for Perceptual Image Restoration'  #  Paper title, covered by ''
 teser: iqa.png
 type:   paper
-pro_type: Image Super-Resoltion
+pro_type: Image Super-Resolution
 layout: post  #  Do not change this
 date:   2020-07-25 11:59:59 +0800  # paper pub data, only change year and month according to this format
 author: Jinjin Gu, Haoming Cai, Haoyu Chen, Xiaoxing Ye, Jimmy S. Ren, Chao Dong

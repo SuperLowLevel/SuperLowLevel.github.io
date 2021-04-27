@@ -2,7 +2,7 @@
 title:  'Efficient Image Super-Resolution Using Pixel Attention'  #  Paper title, covered by ''
 teser: PAN.png
 type:   paper
-pro_type: Image Restoration
+pro_type: Image Super-Resolution
 layout: post  #  Do not change this
 date:   2020-07-25 11:59:59 +0800  # paper pub data, only change year and month according to this format
 author: Hengyuan Zhao, Xiangtao Kong, Jingwen He, Yu Qiao, Chao Dong # authors information

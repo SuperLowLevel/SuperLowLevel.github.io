@@ -1,7 +1,7 @@
 ---
 title:  'Interpreting Super-Resolution Networks with Local Attribution Maps'  #  Paper title, covered by ''
 type: paper
-pro_type: Image Super-Resoltion
+pro_type: Image Super-Resolution
 teser: LAM.png
 layout: post  #  Do not change this
 date:   2021-03-23 11:59:59 +0800  # paper pub data, only change year and month according to this format
