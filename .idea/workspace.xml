@@ -127,20 +127,21 @@
     <session id="-1562350262">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="html" value="18" />
+          <entry key="html" value="19" />
           <entry key="md" value="97" />
           <entry key="rnc" value="1" />
         </counts>
@@ -148,7 +149,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="18" />
+          <entry key="HTML" value="19" />
           <entry key="Markdown" value="97" />
           <entry key="RNG Compact" value="1" />
         </counts>
@@ -156,14 +157,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="11" />
-          <entry key="html" value="163" />
+          <entry key="html" value="171" />
           <entry key="md" value="898" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="11" />
-          <entry key="HTML" value="163" />
+          <entry key="HTML" value="171" />
           <entry key="Markdown" value="898" />
         </counts>
       </usages-collector>
@@ -171,14 +172,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/paper/2021-02-01-Understanding-Deformable-Alignment-in-Video-Super-Resolution.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="342">
-                <caret line="18" column="1351" selection-start-line="18" selection-start-column="1351" selection-end-line="18" selection-end-column="1351" />
+              <first_editor relative-caret-position="361">
+                <caret line="19" selection-start-line="19" selection-end-line="19" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="34" column="137" selection-start-line="34" selection-start-column="137" selection-end-line="34" selection-end-column="137" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -285,13 +298,13 @@
         <option value="$PROJECT_DIR$/_posts/activities/2021-04-01-Our-Xpixel-team-held-one-competition-and-won-three-champions-two-runner-up-in-the-NTIRE2021.md" />
         <option value="$PROJECT_DIR$/_posts/people/2010-01-18-haomingcai.md" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/_posts/paper/2021-03-12-NTIRE-2021-Challenge-on-Perceptual-Image-Quality-Assessment.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2021-03-11-HDRUNet-Single-Image-HDR-Reconstruction-with-Denoising-and-Dequantization.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2021-03-10-BasicVSR-The-Search-for-Essential-Components-in-Video-Super-Resolution-and-Beyond.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2021-03-09-ClassSR-A-General-Framework-to-Accelerate-Super-Resolution-Networks-by-Data-Characteristic.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2021-03-07-Interpreting-Super-Resolution-Networks-with-Local-Attribution-Maps.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2021-02-01-Understanding-Deformable-Alignment-in-Video-Super-Resolution.md" />
+        <option value="$PROJECT_DIR$/_includes/nav.html" />
       </list>
     </option>
   </component>
@@ -302,10 +315,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-14" />
-    <option name="y" value="-14" />
-    <option name="width" value="986" />
-    <option name="height" value="1046" />
+    <option name="x" value="-15" />
+    <option name="y" value="-15" />
+    <option name="width" value="987" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -450,12 +463,13 @@
       <workItem from="1619500961067" duration="6385000" />
       <workItem from="1622460611389" duration="4720000" />
       <workItem from="1622532611875" duration="1979000" />
-      <workItem from="1622540234639" duration="937000" />
+      <workItem from="1622540234639" duration="1210000" />
+      <workItem from="1622544254246" duration="1821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194174000" />
+    <option name="totallyTimeSpent" value="196268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -819,13 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="97" selection-start-line="34" selection-start-column="97" selection-end-line="34" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/paper/2020-08-06-Efficient-Image-Super-Resolution-Using-Pixel-Attention.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -833,13 +840,6 @@
             <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220951">
-          <caret line="11629" column="20" selection-start-line="11629" selection-start-column="20" selection-end-line="11629" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -916,10 +916,27 @@
     <entry file="file://$PROJECT_DIR$/_posts/paper/2021-02-01-Understanding-Deformable-Alignment-in-Video-Super-Resolution.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="342">
-            <caret line="18" column="1351" selection-start-line="18" selection-start-column="1351" selection-end-line="18" selection-end-column="1351" />
+          <first_editor relative-caret-position="361">
+            <caret line="19" selection-start-line="19" selection-end-line="19" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220951">
+          <caret line="11629" column="20" selection-start-line="11629" selection-start-column="20" selection-end-line="11629" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="34" column="137" selection-start-line="34" selection-start-column="137" selection-end-line="34" selection-end-column="137" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
