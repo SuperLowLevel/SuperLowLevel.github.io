@@ -127,20 +127,21 @@
     <session id="-1562350262">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
           <entry key="html" value="18" />
-          <entry key="md" value="89" />
+          <entry key="md" value="97" />
           <entry key="rnc" value="1" />
         </counts>
       </usages-collector>
@@ -148,7 +149,7 @@
         <counts>
           <entry key="CSS" value="2" />
           <entry key="HTML" value="18" />
-          <entry key="Markdown" value="89" />
+          <entry key="Markdown" value="97" />
           <entry key="RNG Compact" value="1" />
         </counts>
       </usages-collector>
@@ -156,44 +157,26 @@
         <counts>
           <entry key="css" value="11" />
           <entry key="html" value="163" />
-          <entry key="md" value="875" />
+          <entry key="md" value="898" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="11" />
           <entry key="HTML" value="163" />
-          <entry key="Markdown" value="875" />
+          <entry key="Markdown" value="898" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image_sr.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/nav.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="34" column="97" selection-start-line="34" selection-start-column="97" selection-end-line="34" selection-end-column="97" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/paper/2021-03-12-NTIRE-2021-Challenge-on-Perceptual-Image-Quality-Assessment.md">
+        <entry file="file://$PROJECT_DIR$/_posts/paper/2021-02-01-Understanding-Deformable-Alignment-in-Video-Super-Resolution.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="152">
-                <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+              <first_editor relative-caret-position="342">
+                <caret line="18" column="1351" selection-start-line="18" selection-start-column="1351" selection-end-line="18" selection-end-column="1351" />
               </first_editor>
               <second_editor />
             </state>
@@ -203,17 +186,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="220951">
               <caret line="11629" column="20" selection-start-line="11629" selection-start-column="20" selection-end-line="11629" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="72" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -267,8 +241,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/activities/2019-11-01-One-paper-from-our-team-was-selected-for-oral_presentation_ICCV 2019.md" />
-        <option value="$PROJECT_DIR$/_posts/people/2010-03-21-hengyuanzhao.md" />
         <option value="$PROJECT_DIR$/_posts/people/2010-03-20-zhengwenzhang.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2020-04-04-Image-Processing-Using-Multi-Code-GAN-Prior.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2020-04-04-PIPAL-a-Large-Scale-Image-Quality-Assessment-Dataset-for-Perceptual-Image-Restoration.md" />
@@ -305,19 +277,21 @@
         <option value="$PROJECT_DIR$/_posts/paper/2019-06-22-Suppressing-Model-Overfitting-for-Image-Super-Resolution-Networks.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2020-04-05-PIPAL-a-Large-Scale-Image-Quality-Assessment-Dataset-for-Perceptual-Image-Restoration.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2020-08-06-Efficient-Image-Super-Resolution-Using-Pixel-Attention.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2021-03-07-Interpreting-Super-Resolution-Networks-with-Local-Attribution-Maps.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2021-03-09-ClassSR-A-General-Framework-to-Accelerate-Super-Resolution-Networks-by-Data-Characteristic.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2019-10-29-RankSRGAN-Generative-Adversarial-Networks-with-Ranker-for-Image-Super-Resolution.md" />
         <option value="$PROJECT_DIR$/image_sr.html" />
         <option value="$PROJECT_DIR$/_posts/activities/2021-03-01-Reading&amp;thinking&amp;sharing-activities.md" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/_posts/paper/2021-03-11-HDRUNet-Single-Image-HDR-Reconstruction-with-Denoising-and-Dequantization.md" />
         <option value="$PROJECT_DIR$/_posts/activities/2021-04-01-Our-Xpixel-team-held-one-competition-and-won-three-champions-two-runner-up-in-the-NTIRE2021.md" />
         <option value="$PROJECT_DIR$/_posts/people/2010-01-18-haomingcai.md" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/_posts/paper/2021-03-12-NTIRE-2021-Challenge-on-Perceptual-Image-Quality-Assessment.md" />
+        <option value="$PROJECT_DIR$/_posts/paper/2021-03-11-HDRUNet-Single-Image-HDR-Reconstruction-with-Denoising-and-Dequantization.md" />
+        <option value="$PROJECT_DIR$/_posts/paper/2021-03-10-BasicVSR-The-Search-for-Essential-Components-in-Video-Super-Resolution-and-Beyond.md" />
+        <option value="$PROJECT_DIR$/_posts/paper/2021-03-09-ClassSR-A-General-Framework-to-Accelerate-Super-Resolution-Networks-by-Data-Characteristic.md" />
+        <option value="$PROJECT_DIR$/_posts/paper/2021-03-07-Interpreting-Super-Resolution-Networks-with-Local-Attribution-Maps.md" />
+        <option value="$PROJECT_DIR$/_posts/paper/2021-02-01-Understanding-Deformable-Alignment-in-Video-Super-Resolution.md" />
       </list>
     </option>
   </component>
@@ -328,10 +302,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="985" />
-    <option name="height" value="1045" />
+    <option name="x" value="-14" />
+    <option name="y" value="-14" />
+    <option name="width" value="986" />
+    <option name="height" value="1046" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -341,6 +315,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -373,7 +348,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,15 +357,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SuperLowLevel.github.io-master\_posts\activities" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Envs\SuperLowLevel.github.io\_posts\paper" />
       <recent name="D:\Envs\SuperLowLevel.github.io\_posts\activities" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts\people" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts\activities" />
       <recent name="D:\SuperLowLevel.github.io-master\paper" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\SuperLowLevel.github.io-master\_posts\activities" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -475,12 +449,13 @@
       <workItem from="1619357408245" duration="5696000" />
       <workItem from="1619500961067" duration="6385000" />
       <workItem from="1622460611389" duration="4720000" />
-      <workItem from="1622532611875" duration="1642000" />
+      <workItem from="1622532611875" duration="1979000" />
+      <workItem from="1622540234639" duration="937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192900000" />
+    <option name="totallyTimeSpent" value="194174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -512,13 +487,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/people.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="294" selection-start-line="294" selection-end-line="294" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/activities/2020-08-01-Three-papers-from-our-team-were-accepted-in-ECCV 2020.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -716,61 +684,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2020-04-07-Conditional-Sequential-Modulation-for-Efficient-Global-Image-Retouching.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2020-08-06-Efficient-Image-Super-Resolution-Using-Pixel-Attention.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2020-08-07-Enhanced-Quadratic-Video-Interpolation.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2021-03-07-Interpreting-Super-Resolution-Networks-with-Local-Attribution-Maps.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/paper/2019-10-29-RankSRGAN-Generative-Adversarial-Networks-with-Ranker-for-Image-Super-Resolution.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="76">
             <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2021-03-10-BasicVSR-The-Search-for-Essential-Components-in-Video-Super-Resolution-and-Beyond.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="114">
-            <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           </first_editor>
           <second_editor />
         </state>
@@ -829,16 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2021-03-09-ClassSR-A-General-Framework-to-Accelerate-Super-Resolution-Networks-by-Data-Characteristic.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/paper/2020-04-05-PIPAL-a-Large-Scale-Image-Quality-Assessment-Dataset-for-Perceptual-Image-Restoration.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -870,16 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2021-03-11-HDRUNet-Single-Image-HDR-Reconstruction-with-Denoising-and-Dequantization.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="209">
-            <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -921,17 +819,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="97" selection-start-line="34" selection-start-column="97" selection-end-line="34" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/paper/2020-08-06-Efficient-Image-Super-Resolution-Using-Pixel-Attention.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="76">
+            <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="220951">
           <caret line="11629" column="20" selection-start-line="11629" selection-start-column="20" selection-end-line="11629" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="34" column="97" selection-start-line="34" selection-start-column="97" selection-end-line="34" selection-end-column="97" />
+    <entry file="file://$PROJECT_DIR$/_posts/paper/2020-04-07-Conditional-Sequential-Modulation-for-Efficient-Global-Image-Retouching.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/paper/2020-08-07-Enhanced-Quadratic-Video-Interpolation.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/paper/2021-03-10-BasicVSR-The-Search-for-Essential-Components-in-Video-Super-Resolution-and-Beyond.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/paper/2021-03-11-HDRUNet-Single-Image-HDR-Reconstruction-with-Denoising-and-Dequantization.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -939,7 +887,37 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="152">
-            <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+            <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/paper/2021-03-09-ClassSR-A-General-Framework-to-Accelerate-Super-Resolution-Networks-by-Data-Characteristic.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/paper/2021-03-07-Interpreting-Super-Resolution-Networks-with-Local-Attribution-Maps.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/paper/2021-02-01-Understanding-Deformable-Alignment-in-Video-Super-Resolution.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="342">
+            <caret line="18" column="1351" selection-start-line="18" selection-start-column="1351" selection-end-line="18" selection-end-column="1351" />
           </first_editor>
           <second_editor />
         </state>
