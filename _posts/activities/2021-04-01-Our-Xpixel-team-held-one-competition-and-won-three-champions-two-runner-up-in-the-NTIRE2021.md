@@ -73,6 +73,13 @@ Beside, HDRUNet (Xiangyu Chen) won the runner-up of this track:
 <center>
 <p style="font-size:20px;width:100%;text-align:left" >
 
+All the papers can be found in <a href="http://xpixel.group/publication.html"><font class="text-primary">Publication</font></a>.
+
+</p>
+
+<center>
+<p style="font-size:20px;width:100%;text-align:left" >
+
 Congratulations to the teams.
 
 </p>

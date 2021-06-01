@@ -13,7 +13,7 @@ direction : Image processing, Generative Models and Deep Learning
 layout: peoplepost  #  Do not change this
 homepage: http://www.haomingcai.com
 email: Haomingcai@link.cuhk.edu.cn
-google : https://scholar.google.com/citations?user=mePn76IAAAAJ&hl=en&oi=ao
+google : https://scholar.google.com/citations?user=mePn76IAAAAJ&hl=en
 github : https://github.com/HaomingCai
 linkedin: None
 institution: The Chinese University of Hong Kong, Shenzhen (CUHKSZ)
