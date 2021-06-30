@@ -127,22 +127,22 @@
     <session id="-1562350262">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
           <entry key="html" value="19" />
-          <entry key="md" value="97" />
+          <entry key="md" value="99" />
           <entry key="rnc" value="1" />
         </counts>
       </usages-collector>
@@ -150,22 +150,22 @@
         <counts>
           <entry key="CSS" value="2" />
           <entry key="HTML" value="19" />
-          <entry key="Markdown" value="97" />
+          <entry key="Markdown" value="99" />
           <entry key="RNG Compact" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="11" />
-          <entry key="html" value="171" />
-          <entry key="md" value="898" />
+          <entry key="html" value="173" />
+          <entry key="md" value="907" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="11" />
-          <entry key="HTML" value="171" />
-          <entry key="Markdown" value="898" />
+          <entry key="HTML" value="173" />
+          <entry key="Markdown" value="907" />
         </counts>
       </usages-collector>
     </session>
@@ -184,14 +184,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/nav.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="410">
-              <caret line="34" column="137" selection-start-line="34" selection-start-column="137" selection-end-line="34" selection-end-column="137" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#!!top" expanded="true" />
-              </folding>
+              <caret line="34" column="98" selection-start-line="34" selection-start-column="98" selection-end-line="34" selection-end-column="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/paper/2021-03-12-NTIRE-2021-Challenge-on-Perceptual-Image-Quality-Assessment.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="285">
+                <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/activities/2020-09-01-Our-Xpixel-team-won-the-champions-in-Video-Temporal-Super-Resolution-tracks-in-the-AIM2020.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="95">
+                <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -273,7 +294,6 @@
         <option value="$PROJECT_DIR$/_posts/paper/2020-08-07-Enhanced-Quadratic-Video-Interpolation.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2020-04-07-Conditional-Sequential-Modulation-for-Efficient-Global-Image-Retouching.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2021-03-08-BasicVSR-The-Search-for-Essential-Components-in-Video-Super-Resolution-and-Beyond.md" />
-        <option value="$PROJECT_DIR$/_posts/activities/2020-09-01-Our-Xpixel-team-won-the-champions-in-Video-Temporal-Super-Resolution-tracks-in-the-AIM2020.md" />
         <option value="$PROJECT_DIR$/_posts/activities/2021-04-01-Our-Xpixel-team-held-one-competition-and-won-two-champions-in-the-NTIRE2021.md" />
         <option value="$PROJECT_DIR$/_posts/activities/2021-04-01-Our-Xpixel-team-held-one-competition-and-won-a-champions-and-a-second-place-in-the-NTIRE2021.md" />
         <option value="$PROJECT_DIR$/_posts/activities/2021-04-01-Our-Xpixel-team-held-one-competition-and-won-four-champions-two-runner-up-in-the-NTIRE2021.md" />
@@ -305,6 +325,7 @@
         <option value="$PROJECT_DIR$/_posts/paper/2021-03-07-Interpreting-Super-Resolution-Networks-with-Local-Attribution-Maps.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2021-02-01-Understanding-Deformable-Alignment-in-Video-Super-Resolution.md" />
         <option value="$PROJECT_DIR$/_includes/nav.html" />
+        <option value="$PROJECT_DIR$/_posts/activities/2020-09-01-Our-Xpixel-team-won-the-champions-in-Video-Temporal-Super-Resolution-tracks-in-the-AIM2020.md" />
       </list>
     </option>
   </component>
@@ -315,10 +336,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="y" value="-15" />
-    <option name="width" value="987" />
-    <option name="height" value="1047" />
+    <option name="x" value="-16" />
+    <option name="y" value="-16" />
+    <option name="width" value="989" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -328,7 +349,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -355,12 +375,13 @@
               <item name="SuperLowLevel.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="SuperLowLevel.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="paper" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -464,12 +485,13 @@
       <workItem from="1622460611389" duration="4720000" />
       <workItem from="1622532611875" duration="1979000" />
       <workItem from="1622540234639" duration="1210000" />
-      <workItem from="1622544254246" duration="1821000" />
+      <workItem from="1622544254246" duration="1955000" />
+      <workItem from="1625041598016" duration="765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196268000" />
+    <option name="totallyTimeSpent" value="197167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -561,16 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/activities/2020-09-01-Our-Xpixel-team-won-the-champions-in-Video-Temporal-Super-Resolution-tracks-in-the-AIM2020.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="209">
-            <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="112" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -883,16 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2021-03-12-NTIRE-2021-Challenge-on-Perceptual-Image-Quality-Assessment.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/paper/2021-03-09-ClassSR-A-General-Framework-to-Accelerate-Super-Resolution-Networks-by-Data-Characteristic.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -933,10 +935,27 @@
     <entry file="file://$PROJECT_DIR$/_includes/nav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
-          <caret line="34" column="137" selection-start-line="34" selection-start-column="137" selection-end-line="34" selection-end-column="137" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="34" column="98" selection-start-line="34" selection-start-column="98" selection-end-line="34" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/paper/2021-03-12-NTIRE-2021-Challenge-on-Perceptual-Image-Quality-Assessment.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/activities/2020-09-01-Our-Xpixel-team-won-the-champions-in-Video-Temporal-Super-Resolution-tracks-in-the-AIM2020.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -3,7 +3,7 @@ title:  'Our Xpixel team won the champion in Video Temporal Super Resolution tra
 teser: AIM20201.jpg
 type:  activities
 tag : Award
-introduction: Congratulations to Xintao Wang and the team
+introduction: Congratulations to Yihao Liu and the team
 layout: activitiespost  #  Do not change this
 date:   2020-07-02 11:59:59 +0800  # paper pub data, only change year and month according to this format
 year:   2020  # paper year, number
