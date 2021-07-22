@@ -47,6 +47,16 @@ layout: default
                             <div class="card-title">
 
                                 {% for post in site.posts %}
+                                {% if post.title == 'RankSRGAN: Super Resolution Generative Adversarial Networks with Learning to Rank' %}
+                                <a role="button"  class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
+                                    [July 2021] RankSRGAN is accepted by IEEE T-PAMI! Check out for <font class="text-primary">the journal version</font>.
+                                    <div class="card-arrow"></div>
+                                </a>
+                                {% endif %}
+                                {% endfor %}
+
+                                {% for post in site.posts %}
                                 {% if post.title == 'We held one competition and won three champions & two runners-up in the NTIRE2021' %}
                                 <a role="button" d class="collapsed"
                                    aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
