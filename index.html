@@ -47,6 +47,16 @@ layout: default
                             <div class="card-title">
 
                                 {% for post in site.posts %}
+                                {% if post.title == 'Path-Restore: Learning Network Path Selection for Image Restoration' %}
+                                <a role="button"  class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
+                                    [July 2021] Path-Restore is accepted by IEEE T-PAMI! Check out for <font class="text-primary">the journal version</font>.
+                                    <div class="card-arrow"></div>
+                                </a>
+                                {% endif %}
+                                {% endfor %}
+
+                                {% for post in site.posts %}
                                 {% if post.title == 'RankSRGAN: Super Resolution Generative Adversarial Networks with Learning to Rank' %}
                                 <a role="button"  class="collapsed"
                                    aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
