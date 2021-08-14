@@ -1,7 +1,7 @@
 ---
 name: Jingwen He
 type: people
-people_type : X-Pixel at SIAT
+people_type : Alumni
 showtitle: Research Assistant
 title: Jingwen He - X-Pixel
 # [PhD Student, Master Student, Visiting Student,

@@ -1,7 +1,7 @@
 ---
 name: Xintao Wang
 type: people
-people_type : X-Pixel at CUHK
+people_type : Alumni
 showtitle: PhD Student
 title: Xintao Wang - X-Pixel
 # [PhD Student, Master Student, Visiting Student,
