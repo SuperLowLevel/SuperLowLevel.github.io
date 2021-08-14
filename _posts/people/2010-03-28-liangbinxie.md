@@ -7,7 +7,7 @@ title: Liangbin Xie - X-Pixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
-profileName: xieliangbin.png  # 186 * 186
+profileName: xieliangbin.jpg  # 186 * 186
 profile: xieliangbinBig.jpg  # 570 * 725
 direction : Video Super-Resolution
 layout: peoplepost  #  Do not change this
