@@ -8,7 +8,7 @@ title: Liangbin Xie - X-Pixel
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
 profileName: xieliangbin.jpg  # 186 * 186
-profile: xieliangbinBig.jpg  # 570 * 725
+profile: xieliangbin.jpg  # 570 * 725
 direction : Video Super-Resolution
 layout: peoplepost  #  Do not change this
 homepage: None

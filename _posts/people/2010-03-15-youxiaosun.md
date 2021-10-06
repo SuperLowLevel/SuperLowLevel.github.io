@@ -1,5 +1,5 @@
 ---
-name: Yuoxiao Sun
+name: Youxiao Sun
 type: people
 people_type : X-Pixel at SIAT
 showtitle: Research Assistant

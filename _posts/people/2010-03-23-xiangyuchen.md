@@ -12,7 +12,7 @@ profile: chenxiangyuBig.png  # 570 * 725
 direction : Deep Learning, Low-level Vision
 layout: peoplepost  #  Do not change this
 homepage: None
-email: chxy95@mail.nwpu.edu.cn
+email: chxy95@gmail.com
 google : None
 github : https://github.com/chxy95
 linkedin: None
