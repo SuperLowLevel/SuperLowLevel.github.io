@@ -47,6 +47,16 @@ layout: default
                             <div class="card-title">
 
                                 {% for post in site.posts %}
+                                {% if post.title == 'We have a talk in AIM2021' %}
+                                <a role="button" d class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
+                                    [October 2021] We have a talk about Interpreting Super-Resolution Networks! Check out for <font class="text-primary">more details</font>.
+                                    <div class="card-arrow"></div>
+                                </a>
+                                {% endif %}
+                                {% endfor %}
+
+                                {% for post in site.posts %}
                                 {% if post.title == 'Finding Discriminative Filters for Specific Degradations in Blind Super-Resolution' %}
                                 <a role="button" d class="collapsed"
                                    aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
@@ -90,7 +100,7 @@ layout: default
                                 {% if post.title == 'We held one competition and won three champions & two runners-up in the NTIRE2021' %}
                                 <a role="button" d class="collapsed"
                                    aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
-                                    [April 2021] We held one competition and won three champions & two runners-up in the NTIRE2021! Check out for <font class="text-primary">more details</font>.
+                                    [April 2021] We hold one competition and won three champions & two runners-up in the NTIRE2021! Check out for <font class="text-primary">more details</font>.
                                     <div class="card-arrow"></div>
                                 </a>
                                 {% endif %}
@@ -111,7 +121,7 @@ layout: default
                                 {% if post.title == 'Our Xpixel team won the champion in Video Temporal Super Resolution track in the AIM2020' %}
                                 <a role="button" d class="collapsed"
                                    aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
-                                    [September 2020] Our Xpixel team won a champions and a forth place in ECCV Workshop AIM2020! Check out for <font class="text-primary">more details</font>.
+                                    [September 2020] Our Xpixel team win a champions and a forth place in ECCV Workshop AIM2020! Check out for <font class="text-primary">more details</font>.
                                     <div class="card-arrow"></div>
                                 </a>
                                 {% endif %}
@@ -122,17 +132,6 @@ layout: default
                                 <a role="button" d class="collapsed"
                                    aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
                                     [August 2020] Three papers from our team are accepted in ECCV 2020! Check out for <font class="text-primary">more details</font>.
-                                    <div class="card-arrow"></div>
-                                </a>
-                                {% endif %}
-                                {% endfor %}
-
-
-                                {% for post in site.posts %}
-                                {% if post.title == 'Our team attended ICCV 2019 in Seoul, Korea' %}
-                                <a role="button"  class="collapsed"
-                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
-                                    [November 2019] Our team attended ICCV 2019! Check out for <font class="text-primary">more details</font>.
                                     <div class="card-arrow"></div>
                                 </a>
                                 {% endif %}
