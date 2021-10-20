@@ -42,7 +42,7 @@ Although super resolution (SR) networks have achieved remarkable success in perf
 <center>
 <p style="font-size:20px;width:100%;text-align:left" >
 
-<a href="http://xpixel.group/paper/Interpreting_super_resolution_networks.pdf"><font class="text-primary">Click here to download the slides of this talk.</font></a>
+<a href="http://xpixel.group/paper/Interpreting_super_resolution_networks.pdf"><font class="text-primary">Click here to download the slide of this talk.</font></a>
 <br>
 
 </p>
