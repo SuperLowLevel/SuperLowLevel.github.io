@@ -12,7 +12,7 @@ profile: zhaohengyuanBig.jpg  # 570 * 725
 direction : Image/Video Restoration, Generative Models
 layout: peoplepost  #  Do not change this
 homepage: None
-email: hy.zhao1@siat.ac.cn
+email: hubylidayuan@gmail.com
 google : https://scholar.google.com/citations?user=QLSk-6IAAAAJ&hl=zh-CN
 github : https://github.com/zhaohengyuan1
 linkedin: None

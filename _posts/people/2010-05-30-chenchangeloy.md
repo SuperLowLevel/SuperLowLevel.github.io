@@ -1,7 +1,7 @@
 ---
 name: Chen Change Loy
 type: people
-people_type : Organizer
+people_type : Co-Founders
 showtitle: Associate Professor
 title: Chen Change Loy - X-Pixel
 profileName: chenchangeloy.png  # 186 * 186
