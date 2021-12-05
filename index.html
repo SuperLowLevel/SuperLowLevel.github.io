@@ -47,6 +47,17 @@ layout: default
                             <div class="card-title">
 
                                 {% for post in site.posts %}
+                                {% if post.title == "Yihao Liu Brings Popular Science Courses to Middle School Students" %}
+                                <a role="button" d class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
+                                    [November 2021] Yihao Liu brings popular science courses to middle school students! Check out for <font class="text-primary">more details</font>.
+                                    <div class="card-arrow"></div>
+                                </a>
+                                {% endif %}
+                                {% endfor %}
+
+                                
+                                {% for post in site.posts %}
                                 {% if post.title == 'RankSRGAN: Super Resolution Generative Adversarial Networks with Learning to Rank' %}
                                 <a role="button"  class="collapsed"
                                    aria-controls="accordion1Collapse1" aria-expanded="false" href="index.html">
