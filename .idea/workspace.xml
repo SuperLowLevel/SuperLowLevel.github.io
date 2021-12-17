@@ -177,7 +177,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts/activities" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Xiangtaokong.github.io" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -281,6 +281,9 @@
       <workItem from="1634716064393" duration="2814000" />
       <workItem from="1636354908425" duration="6104000" />
       <workItem from="1638716714488" duration="3418000" />
+      <workItem from="1639540223505" duration="1604000" />
+      <workItem from="1639555618379" duration="181000" />
+      <workItem from="1639639925592" duration="1574000" />
     </task>
     <servers />
   </component>

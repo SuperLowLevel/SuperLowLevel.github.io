@@ -11,7 +11,7 @@ profileName: kongxiangtao.jpg  # 186 * 186
 profile: kongxiangtao.png  # 570 * 725
 direction : Image/Video Super-Resolution, Machine Learning
 layout: peoplepost  #  Do not change this
-homepage: None
+homepage: https://xiangtaokong.github.io/
 email: xt.kong@siat.ac.cn
 google : https://scholar.google.com/citations?user=lueNzSgAAAAJ&hl=en
 github : https://github.com/XiangtaoKong
