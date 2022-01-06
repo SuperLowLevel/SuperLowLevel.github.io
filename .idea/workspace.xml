@@ -177,16 +177,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts/people" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts/activities" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SuperLowLevel.github.io\_posts\activities" />
       <recent name="D:\SuperLowLevel.github.io\_posts\people" />
       <recent name="D:\SuperLowLevel.github.io\_posts\paper" />
-      <recent name="D:\SuperLowLevel.github.io\_posts\activities" />
       <recent name="D:\Envs\SuperLowLevel.github.io\_posts\activities" />
       <recent name="D:\Envs\SuperLowLevel.github.io\paper" />
     </key>
@@ -285,7 +285,8 @@
       <workItem from="1639555618379" duration="181000" />
       <workItem from="1639639925592" duration="2188000" />
       <workItem from="1640077819740" duration="1032000" />
-      <workItem from="1641390152720" duration="9068000" />
+      <workItem from="1641390152720" duration="9770000" />
+      <workItem from="1641483885081" duration="639000" />
     </task>
     <servers />
   </component>
