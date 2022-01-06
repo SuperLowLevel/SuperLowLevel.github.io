@@ -1,8 +1,8 @@
 ---
 title:  'Our Reading & Thinking & Sharing activity'  #  Paper title, covered by ''
-teser: reading_bai.jpg
+teser: reading_bai1.jpg
 type:  activities
-tag : Award
+tag : Activities
 introduction: It's a weekly activity
 layout: activitiespost  #  Do not change this
 date:   2022-01-05 11:59:59 +0800  # paper pub data, only change year and month according to this format
@@ -35,7 +35,7 @@ In this time, Prof. Chao Dong shared with us the past records of Contention of a
 
 <center>
 
-<center><img src="http://xpixel.group/images/activities/reading_bai1.jpg" width = "800" height = "auto"  /></center>
+<center><img src="http://xpixel.group/images/activities/reading_bai2.jpg" width = "800" height = "auto"  /></center>
 
 
 
