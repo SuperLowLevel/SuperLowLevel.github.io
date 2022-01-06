@@ -13,7 +13,7 @@ projectPage: None  # If has project page, link here, otherwise None
 supplemental : None
 data: None  # If has data, post data link here, otherwise None
 code: https://github.com/zhaohengyuan1/PAN  # If has data, post code link here, otherwise None
-paperLink: http://xpixel.group/paper/PAN.pdf  # post paper pdf link here
+paperLink: https://link.springer.com/content/pdf/10.1007/978-3-030-67070-2_3.pdf  # post paper pdf link here
 ---
 This work aims at designing a lightweight convolutional neural network for image super resolution (SR). With simplicity bare in
 mind, we construct a pretty concise and effective network with a newly

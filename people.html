@@ -130,6 +130,48 @@ layout: default
     </section>
     <!--End section-->
 
+    <!--Start section 4 Columns with text-->
+    <section class="text-center well well-sm">
+        <div class="container">
+            <h5 class="font-weight-bold text-lg-left">X-Pixel at Shanghai AI Lab</h5>
+            <hr>
+            <div class="row row-50">
+                {% for post in site.posts %}
+                {% if post.people_type == 'X-Pixel at Shanghai AI Lab' %}
+                <div class="col-sm-6 col-lg-3">
+                    <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img  class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
+                        <div class="caption margin-1">
+                            <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
+                            <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
+                            <p><b>{{ post.showtitle }}</b><br>{{ post.institutionShort }}</p>
+                            <p class="text-light-clr" style="margin-top: 0px">
+                                Direction: {{ post.direction }}
+                                <br>
+                                Email: {{ post.email }}
+                            </p>
+                            <ul class="list-inline list-inline-3" style="margin-top: 10px">
+                                {% if post.homepage != 'None' %}
+                                <li><a class="fa-home" href="{{ post.homepage }}"></a></li>
+                                {% endif %}
+                                {% if post.github != 'None' %}
+                                <li><a class="fa-github" href="{{ post.github }}"></a></li>
+                                {% endif %}
+                                {% if post.linkedin != 'None' %}
+                                <li><a class="fa-linkedin" href="{{ post.linkedin }}"></a></li>
+                                {% endif %}
+                                {% if post.google != 'None' %}
+                                <li><a class="fa-graduation-cap" href="{{ post.google }}"></a></li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <!--End section-->
 
 
     <!--Start section 4 Columns with text-->
@@ -174,6 +216,7 @@ layout: default
         </div>
     </section>
     <!--End section-->
+
 
     <!--Start section 4 Columns with text-->
     <section class="text-center well well-sm">
@@ -269,49 +312,6 @@ layout: default
             <div class="row row-50">
                 {% for post in site.posts %}
                 {% if post.people_type == 'X-Pixel at UM' %}
-                <div class="col-sm-6 col-lg-3">
-                    <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img  class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
-                        <div class="caption margin-1">
-                            <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
-                            <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
-                            <p><b>{{ post.showtitle }}</b></p>
-                            <p class="text-light-clr" style="margin-top: 0px">
-                                Direction: {{ post.direction }}
-                                <br>
-                                Email: {{ post.email }}
-                            </p>
-                            <ul class="list-inline list-inline-3" style="margin-top: 10px">
-                                {% if post.homepage != 'None' %}
-                                <li><a class="fa-home" href="{{ post.homepage }}"></a></li>
-                                {% endif %}
-                                {% if post.github != 'None' %}
-                                <li><a class="fa-github" href="{{ post.github }}"></a></li>
-                                {% endif %}
-                                {% if post.linkedin != 'None' %}
-                                <li><a class="fa-linkedin" href="{{ post.linkedin }}"></a></li>
-                                {% endif %}
-                                {% if post.google != 'None' %}
-                                <li><a class="fa-graduation-cap" href="{{ post.google }}"></a></li>
-                                {% endif %}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-    </section>
-    <!--End section-->
-
-    <!--Start section 4 Columns with text-->
-    <section class="text-center well well-sm">
-        <div class="container">
-            <h5 class="font-weight-bold text-lg-left">X-Pixel at USYD</h5>
-            <hr>
-            <div class="row row-50">
-                {% for post in site.posts %}
-                {% if post.people_type == 'X-Pixel at USYD' %}
                 <div class="col-sm-6 col-lg-3">
                     <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img  class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
                         <div class="caption margin-1">

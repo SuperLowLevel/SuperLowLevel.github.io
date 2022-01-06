@@ -13,7 +13,7 @@ projectPage: None  # If has project page, link here, otherwise None
 supplemental : None
 data: None  # If has data, post data link here, otherwise None
 code: https://github.com/lyh-18/EQVI  # If has data, post code link here, otherwise None
-paperLink: https://arxiv.org/pdf/2009.04642.pdf  # post paper pdf link here
+paperLink: https://link.springer.com/content/pdf/10.1007/978-3-030-66823-5_3.pdf  # post paper pdf link here
 ---
 With the prosperity of digital video industry, video frame
 interpolation has arisen continuous attention in computer vision community and become a new upsurge in industry. Many learning-based methods have been proposed and achieved progressive results. Among them,

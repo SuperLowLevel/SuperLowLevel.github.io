@@ -8,7 +8,7 @@ title: Xiangtao Kong - X-Pixel
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
 profileName: kongxiangtao.jpg  # 186 * 186
-profile: kongxiangtao.png  # 570 * 725
+profile: kongxiangtaoBig.jpg  # 570 * 725
 direction : Image/Video Super-Resolution, Machine Learning
 layout: peoplepost  #  Do not change this
 homepage: https://xiangtaokong.github.io/

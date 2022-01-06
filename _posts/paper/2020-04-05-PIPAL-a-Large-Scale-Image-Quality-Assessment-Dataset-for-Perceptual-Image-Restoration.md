@@ -13,7 +13,7 @@ projectPage: None  # If has project page, link here, otherwise None
 supplemental : None
 data: None  # If has data, post data link here, otherwise None
 code: None  # If has data, post code link here, otherwise None
-paperLink: https://arxiv.org/pdf/2007.12142.pdf  # post paper pdf link here
+paperLink: https://link.springer.com/content/pdf/10.1007/978-3-030-58621-8_37.pdf  # post paper pdf link here
 ---
 
 Image quality assessment (IQA) is the key factor for the fast development of image restoration (IR) algorithms. The most recent IR methods based on Generative Adversarial Networks (GANs) have achieved significant improvement in visual performance, but also presented great challenges for quantitative evaluation. Notably, we observe an increasing inconsistency between perceptual quality and the evaluation results. Then
