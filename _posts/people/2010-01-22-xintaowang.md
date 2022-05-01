@@ -1,8 +1,8 @@
 ---
 name: Xintao Wang
 type: people
-people_type : Alumni
-showtitle: PhD Student
+people_type : Co-Founders
+showtitle: PhD
 title: Xintao Wang - X-Pixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
