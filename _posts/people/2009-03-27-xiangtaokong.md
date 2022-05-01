@@ -1,7 +1,7 @@
 ---
 name: Xiangtao Kong
 type: people
-people_type : X-Pixel at SIAT
+people_type : X-Pixel at Shanghai AI Lab
 showtitle: Master Student
 title: Xiangtao Kong - X-Pixel
 # [PhD Student, Master Student, Visiting Student,
