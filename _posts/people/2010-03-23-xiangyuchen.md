@@ -9,11 +9,11 @@ title: Xiangyu Chen - UM
 #  Alumni, Cooperation Professor]
 profileName: chenxiangyu.png  # 186 * 186
 profile: chenxiangyuBig.png  # 570 * 725
-direction : Image/Video Super-Resolution, Computational Photography
+direction : Image Restoration, High Dynamic Range Imaging
 layout: peoplepost  #  Do not change this
-homepage: None
+homepage: https://chxy95.github.io
 email: chxy95@gmail.com
-google : None
+google : https://scholar.google.com.hk/citations?hl=zh-CN&user=_gkTxJUAAAAJ
 github : https://github.com/chxy95
 linkedin: None
 institution: University of Macau (UM)
