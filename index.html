@@ -47,6 +47,26 @@ layout: default
                             <div class="card-title">
 
                                 {% for post in site.posts %}
+                                {% if post.title == 'We held one competition and won one champion & one third place in the NTIRE2022' %}
+                                <a role="button" d class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
+                                    [April 2022] We held one competition and won one champion & one third place in the NTIRE2022! Check out for <font class="text-primary">more details</font>.
+                                    <div class="card-arrow"></div>
+                                </a>
+                                {% endif %}
+                                {% endfor %}
+
+                                {% for post in site.posts %}
+                                {% if post.title == 'Two papers from our team were accepted in CVPR 2022' %}
+                                <a role="button" d class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
+                                    [March 2022] Two papers from our team are accepted in CVPR 2022! Check out for <font class="text-primary">more details</font>.
+                                    <div class="card-arrow"></div>
+                                </a>
+                                {% endif %}
+                                {% endfor %}
+
+                                {% for post in site.posts %}
                                 {% if post.title == "Yihao Liu Brings Popular Science Courses to Middle School Students" %}
                                 <a role="button" d class="collapsed"
                                    aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">

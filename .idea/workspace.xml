@@ -127,8 +127,9 @@
     <session id="-1562350262">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.24" value="3" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
@@ -139,43 +140,44 @@
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.39" value="2" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="html" value="31" />
-          <entry key="md" value="148" />
+          <entry key="html" value="32" />
+          <entry key="md" value="170" />
           <entry key="rnc" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="31" />
-          <entry key="Markdown" value="148" />
+          <entry key="HTML" value="32" />
+          <entry key="Markdown" value="170" />
           <entry key="RNG Compact" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="11" />
-          <entry key="html" value="368" />
-          <entry key="md" value="1579" />
+          <entry key="html" value="381" />
+          <entry key="md" value="1864" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="11" />
-          <entry key="HTML" value="368" />
-          <entry key="Markdown" value="1579" />
+          <entry key="HTML" value="381" />
+          <entry key="Markdown" value="1864" />
         </counts>
       </usages-collector>
     </session>
@@ -183,33 +185,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/people/2010-05-28-chaodong.md">
+        <entry file="file://$PROJECT_DIR$/_posts/activities/2022-04-01-Our-Xpixel-team-held-one-competition-and-won-one-champion-in-the-NTIRE2022.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/people/2010-01-22-xintaowang.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="418">
-                <caret line="22" column="104" selection-start-line="22" selection-start-column="104" selection-end-line="22" selection-end-column="104" />
+              <first_editor relative-caret-position="19">
+                <caret line="1" column="88" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="88" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="49" column="132" selection-start-line="49" selection-start-column="132" selection-end-line="49" selection-end-column="132" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/people/2010-05-29-yuqiao.md">
+        <entry file="file://$PROJECT_DIR$/_posts/activities/2020-09-01-Our-Xpixel-team-won-the-champions-in-Video-Temporal-Super-Resolution-tracks-in-the-AIM2020.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="57">
-                <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="25" />
+              <first_editor relative-caret-position="304">
+                <caret line="25" column="90" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="90" />
               </first_editor>
               <second_editor />
             </state>
@@ -220,7 +221,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>month</find>
       <find>post.type</find>
       <find>Publications</find>
       <find>paper</find>
@@ -250,6 +250,7 @@
       <find>liuxina</find>
       <find>lizheyuan</find>
       <find>liyuhang</find>
+      <find>2021</find>
     </findStrings>
     <replaceStrings>
       <replace>xpixel.group</replace>
@@ -273,20 +274,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/paper/2018-06-20-Crafting-a-Toolchain-for-Image-Restoration-by-Deep-Reinforcement-Learning.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2018-06-21-Recovering-Realistic-Texture-in-Image-Super-Resolution-by-Deep-Spatial-Feature-Transform.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2018-09-06-ESRGAN-Enhanced-Super-Resolution-Generative-Adversarial-Networks.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2019-06-20-Blind-Super-Resolution-With-Iterative-Kernel-Correction.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2019-06-22-Suppressing-Model-Overfitting-for-Image-Super-Resolution-Networks.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2020-04-05-PIPAL-a-Large-Scale-Image-Quality-Assessment-Dataset-for-Perceptual-Image-Restoration.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2020-08-06-Efficient-Image-Super-Resolution-Using-Pixel-Attention.md" />
-        <option value="$PROJECT_DIR$/_posts/paper/2019-10-29-RankSRGAN-Generative-Adversarial-Networks-with-Ranker-for-Image-Super-Resolution.md" />
-        <option value="$PROJECT_DIR$/image_sr.html" />
-        <option value="$PROJECT_DIR$/_posts/activities/2021-03-01-Reading&amp;thinking&amp;sharing-activities.md" />
-        <option value="$PROJECT_DIR$/_posts/activities/2021-04-01-Our-Xpixel-team-held-one-competition-and-won-three-champions-two-runner-up-in-the-NTIRE2021.md" />
-        <option value="$PROJECT_DIR$/_posts/people/2010-01-18-haomingcai.md" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/_posts/paper/2021-03-12-NTIRE-2021-Challenge-on-Perceptual-Image-Quality-Assessment.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2021-03-11-HDRUNet-Single-Image-HDR-Reconstruction-with-Denoising-and-Dequantization.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2021-03-10-BasicVSR-The-Search-for-Essential-Components-in-Video-Super-Resolution-and-Beyond.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2021-03-09-ClassSR-A-General-Framework-to-Accelerate-Super-Resolution-Networks-by-Data-Characteristic.md" />
@@ -309,12 +296,10 @@
         <option value="$PROJECT_DIR$/_posts/people/2010-03-24-yingqiliu.md" />
         <option value="$PROJECT_DIR$/people.html" />
         <option value="$PROJECT_DIR$/_posts/people/2010-01-20-jinjingu.md" />
-        <option value="$PROJECT_DIR$/_posts/activities/2021-04-20-Three-papers-from-our-team-were-accepted-in-CVPR2021.md" />
         <option value="$PROJECT_DIR$/_posts/activities/2021-07-25-Three-papers-from-our-team-were-accepted-in-CVPR2021.md" />
         <option value="$PROJECT_DIR$/_posts/activities/2021-07-25-visiting.md" />
         <option value="$PROJECT_DIR$/_posts/people/2010-03-28-liangbinxie.md" />
         <option value="$PROJECT_DIR$/_posts/people/2010-03-15-youxiaosun.md" />
-        <option value="$PROJECT_DIR$/_posts/people/2010-03-23-xiangyuchen.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2021-7-3-A-New-Journey-from-SDRTV-to-HDRTV.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2021-05-09-Toward-Interactive-Modulation-for-Photo-Realistic-Image-Restoration.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2021-7-22-Real-ESRGAN-Training-Real-World-Blind-Super-Resolution-with-Pure-Synthetic-Data.md" />
@@ -322,8 +307,24 @@
         <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_posts/activities/2021-10-17-Interpreting-super-resolution-networks-talk.md" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_posts/people/2010-01-22-xintaowang.md" />
+        <option value="$PROJECT_DIR$/_posts/people/2010-03-27-xiangtaokong.md" />
+        <option value="$PROJECT_DIR$/_posts/people/2010-03-23-xiangyuchen.md" />
+        <option value="$PROJECT_DIR$/_posts/people/2010-03-26-wenlongzhang.md" />
+        <option value="$PROJECT_DIR$/_posts/people/2010-03-27-junluo.md" />
+        <option value="$PROJECT_DIR$/_posts/people/2010-03-29-jinfanhu.md" />
+        <option value="$PROJECT_DIR$/_posts/people/2010-03-27-linzhou.md" />
+        <option value="$PROJECT_DIR$/_posts/people/2009-03-27-xiangtaokong.md" />
+        <option value="$PROJECT_DIR$/_posts/paper/2022-03-01-GCFSR.md" />
+        <option value="$PROJECT_DIR$/_posts/paper/2021-12-22-Reflash-Dropout-in-Image-Super-Resolution.md" />
+        <option value="$PROJECT_DIR$/_posts/paper/2022-05-02-VFHQ.md" />
+        <option value="$PROJECT_DIR$/_posts/paper/2022-05-03-HAT.md" />
+        <option value="$PROJECT_DIR$/_posts/activities/2021-04-20-Three-papers-from-our-team-were-accepted-in-CVPR2021.md" />
+        <option value="$PROJECT_DIR$/_posts/activities/2022-04-20-Two-papers-from-our-team-were-accepted-in-CVPR2022.md" />
+        <option value="$PROJECT_DIR$/_posts/activities/2022-05-01-Our-Xpixel-team-won-one-champions-in-the-NTIRE2022.md" />
+        <option value="$PROJECT_DIR$/_posts/activities/2022-04-01-Our-Xpixel-team-held-two-competitions-and-won-one-champion-in-the-NTIRE2022.md" />
+        <option value="$PROJECT_DIR$/_posts/activities/2022-04-01-Our-Xpixel-team-held-one-competition-and-won-one-champion-in-the-NTIRE2022.md" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -363,7 +364,13 @@
               <item name="SuperLowLevel.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="SuperLowLevel.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="people" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuperLowLevel.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperLowLevel.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="paper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -378,15 +385,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\SuperLowLevel.github.io-master\_posts\activities" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Envs\SuperLowLevel.github.io\_posts\activities" />
-      <recent name="D:\Envs\SuperLowLevel.github.io\paper" />
       <recent name="D:\Envs\SuperLowLevel.github.io\_posts\paper" />
       <recent name="D:\Envs\SuperLowLevel.github.io\_posts\people" />
+      <recent name="D:\Envs\SuperLowLevel.github.io\paper" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts\people" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SuperLowLevel.github.io-master\_posts\activities" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -489,11 +496,14 @@
       <workItem from="1634720322142" duration="250000" />
       <workItem from="1641712149553" duration="599000" />
       <workItem from="1651415753002" duration="545000" />
+      <workItem from="1651416493227" duration="166000" />
+      <workItem from="1652007479631" duration="1198000" />
+      <workItem from="1652160060823" duration="5538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220946000" />
+    <option name="totallyTimeSpent" value="227848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -525,121 +535,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2021-03-07-Interpreting-Super-Resolution-Networks-with-Local-Attribution-Maps.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2021-03-12-NTIRE-2021-Challenge-on-Perceptual-Image-Quality-Assessment.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/activities/2020-09-01-Our-Xpixel-team-won-the-champions-in-Video-Temporal-Super-Resolution-tracks-in-the-AIM2020.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="209">
-            <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2019-06-19-Deep-Network-Interpolation-for-Continuous-Imagery-Effect-Transition.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2021-02-01-Understanding-Deformable-Alignment-in-Video-Super-Resolution.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="361">
-            <caret line="19" selection-start-line="19" selection-end-line="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2014-03-27-Learning-a-Deep-Convolutional-Network-for-Image-Super-Resolution .md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2016-02-27-Image-Super-Resolution-Using-Deep-Convolutional-Networks .md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="8" column="76" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="76" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220951">
-          <caret line="11629" column="20" selection-start-line="11629" selection-start-column="20" selection-end-line="11629" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2021-7-23-Path-Restore-Learning-Network-Path-Selection-for-Image-Restoration.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="399">
-            <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2021-7-21-RankSRGAN-Super-Resolution-Generative-Adversarial-Networks-with-Learning-to-Rank.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2021-8-3-Discovering-Semantics-in-Super-Resolution-Networks.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="361">
-            <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/paper/2021-7-7-Blind-Image-Super-Resolution-A-Survey-and-Beyond.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="361">
-            <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/people/2010-03-28-weipengguan.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -710,16 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/people/2010-03-27-xiangtaokong.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/people/2010-03-26-xinaliu.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -778,31 +663,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/activities/2021-04-01-Our-Xpixel-team-held-one-competition-and-won-three-champions-two-runner-up-in-the-NTIRE2021.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="9" column="13" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/people/2010-03-28-liangbinxie.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="228">
             <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/people/2010-03-23-xiangyuchen.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="133">
-            <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
           </first_editor>
           <second_editor />
         </state>
@@ -911,25 +776,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/activities/2021-04-20-Three-papers-from-our-team-were-accepted-in-CVPR2021.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="52" column="121" selection-start-line="52" selection-start-column="121" selection-end-line="52" selection-end-column="121" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -976,6 +824,173 @@
             <caret line="22" column="104" selection-start-line="22" selection-start-column="104" selection-end-line="22" selection-end-column="104" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/people/2010-03-23-xiangyuchen.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="304">
+            <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/people/2010-03-29-yihaoliu.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="76">
+            <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/people/2010-03-22-junluo.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="266">
+            <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/people/2010-03-26-wenlongzhang.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/people/2009-03-27-xiangtaokong.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="361">
+            <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/people/2010-03-27-linzhou.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="418">
+            <caret line="22" column="181" selection-start-line="22" selection-start-column="181" selection-end-line="22" selection-end-column="181" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/people/2010-03-29-jinfanhu.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="266">
+            <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/paper/2022-05-03-HAT.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="361">
+            <caret line="19" selection-start-line="19" selection-end-line="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/paper/2021-12-22-Reflash-Dropout-in-Image-Super-Resolution.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/paper/2022-03-01-GCFSR.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="1" column="104" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="104" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/paper/2022-05-02-VFHQ.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="342">
+            <caret line="18" column="1005" selection-start-line="18" selection-start-column="1005" selection-end-line="18" selection-end-column="1005" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/activities/2021-04-20-Three-papers-from-our-team-were-accepted-in-CVPR2021.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="456">
+            <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/activities/2020-09-01-Our-Xpixel-team-won-the-champions-in-Video-Temporal-Super-Resolution-tracks-in-the-AIM2020.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="304">
+            <caret line="25" column="90" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="90" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/activities/2022-03-20-Two-papers-from-our-team-were-accepted-in-CVPR2022.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="1" column="60" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="60" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/activities/2021-04-01-Our-Xpixel-team-held-one-competition-and-won-three-champions-two-runner-up-in-the-NTIRE2021.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="1" column="90" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="90" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/activities/2022-04-01-Our-Xpixel-team-held-one-competition-and-won-one-champion-in-the-NTIRE2022.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="1" column="88" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="88" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="49" column="132" selection-start-line="49" selection-start-column="132" selection-end-line="49" selection-end-column="132" />
         </state>
       </provider>
     </entry>

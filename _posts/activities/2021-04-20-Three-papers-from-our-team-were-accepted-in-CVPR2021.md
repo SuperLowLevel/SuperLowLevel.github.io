@@ -22,7 +22,7 @@ paperLink: None  # post paper pdf link here
 <center>
 <p style="font-size:20px;width:100%;text-align:left" >
 
-Three papers from our team were accepted in CVPR 2020! Congratulations to all the authors!
+Three papers from our team were accepted in CVPR 2021! Congratulations to all the authors!
 
 </p>
 </center>

@@ -1,8 +1,8 @@
 ---
 name: Wenlong Zhang
 type: people
-people_type : Alumni
-showtitle: Research Assistant
+people_type : X-Pixel at Shanghai AI Lab
+showtitle: PhD Student
 title: Wenlong Zhang - X-Pixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
@@ -16,9 +16,8 @@ email: zhangwenlong0724@gmail.com
 google : None
 github : https://github.com/WenlongZhang0724
 linkedin: None
-institution: Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences (CAS)
-institutionShort: SIAT, CAS
+institution: Shanghai AI Lab
+institutionShort: Shanghai AI Lab, HKPU
 ---
 
-Wenlong Zhang currently work as a research intern in Multimedia Laboratory at SIAT-CAS & CUHK. He is supervised by Prof. Yu Qiao and Prof. Chao Dong. He received his Master Degree in Beijing Institute of Technology in 2018. His current work involves GAN-based super resolution and generative model, etc. 
-
+Wenlong Zhang is currently studying in Shanghai AI Lab and The Hong Kong Polytechnic University (HKPU). He is supervised by Prof. Chao Dong and Prof. Xiao-Ming Wu towards the Ph.D. degree. Prior to that, he is a research assistant in Multimedia Laboratory, SIAT, CAS with Prof. Chao Dong. In 2018, he received the Master degree from the Beijing Institute of Technology. His primary research interests are low-level vision problem in real-world.
