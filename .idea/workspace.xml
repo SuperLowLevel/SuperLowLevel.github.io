@@ -154,7 +154,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="html" value="32" />
+          <entry key="html" value="34" />
           <entry key="md" value="181" />
           <entry key="rnc" value="1" />
         </counts>
@@ -162,7 +162,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="32" />
+          <entry key="HTML" value="34" />
           <entry key="Markdown" value="181" />
           <entry key="RNG Compact" value="1" />
         </counts>
@@ -170,14 +170,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="11" />
-          <entry key="html" value="381" />
+          <entry key="html" value="383" />
           <entry key="md" value="1930" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="11" />
-          <entry key="HTML" value="381" />
+          <entry key="HTML" value="383" />
           <entry key="Markdown" value="1930" />
         </counts>
       </usages-collector>
@@ -185,11 +185,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="254">
+              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -232,8 +246,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Publications</find>
-      <find>paper</find>
       <find>teser</find>
       <find>center</find>
       <find>127.0.0.1:4000</find>
@@ -262,6 +274,8 @@
       <find>liyuhang</find>
       <find>2021</find>
       <find>XPixel</find>
+      <find>X-Pixel</find>
+      <find>xpixel</find>
     </findStrings>
     <replaceStrings>
       <replace>xpixel.group</replace>
@@ -316,7 +330,6 @@
         <option value="$PROJECT_DIR$/_posts/paper/2021-05-09-Toward-Interactive-Modulation-for-Photo-Realistic-Image-Restoration.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2021-7-22-Real-ESRGAN-Training-Real-World-Blind-Super-Resolution-with-Pure-Synthetic-Data.md" />
         <option value="$PROJECT_DIR$/_posts/paper/2021-7-25-A-New-Journey-from-SDRTV-to-HDRTV.md" />
-        <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_posts/activities/2021-10-17-Interpreting-super-resolution-networks-talk.md" />
         <option value="$PROJECT_DIR$/_posts/people/2010-01-22-xintaowang.md" />
@@ -340,6 +353,7 @@
         <option value="$PROJECT_DIR$/_posts/paper/2022-05-03-HAT.md" />
         <option value="$PROJECT_DIR$/_posts/activities/2022-05-14-party2022.md" />
         <option value="$PROJECT_DIR$/_posts/activities/2022-05-01-Our-Xpixel-team-held-one-competition-and-won-one-champion-in-the-NTIRE2022.md" />
+        <option value="$PROJECT_DIR$/_includes/nav.html" />
       </list>
     </option>
   </component>
@@ -368,6 +382,11 @@
             <path>
               <item name="SuperLowLevel.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="SuperLowLevel.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuperLowLevel.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperLowLevel.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -501,21 +520,22 @@
       <workItem from="1652168897611" duration="63000" />
       <workItem from="1652280930030" duration="1291000" />
       <workItem from="1652356115090" duration="1129000" />
-      <workItem from="1652610903794" duration="2751000" />
+      <workItem from="1652610903794" duration="2928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233755000" />
+    <option name="totallyTimeSpent" value="233932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21070014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21070014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -688,9 +708,6 @@
         <state relative-caret-position="-278" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/people/2010-03-15-youxiaosun.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -733,13 +750,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="60" column="114" selection-start-line="60" selection-start-column="114" selection-end-line="60" selection-end-column="114" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/activities/2021-10-17-Interpreting-super-resolution-networks-talk.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -989,8 +999,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="254">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
         </state>
       </provider>
     </entry>
