@@ -1,9 +1,9 @@
 ---
 name: Haoming Cai
 type: people
-people_type : X-Pixel at CUHK
+people_type : XPixel at CUHK
 showtitle: Undergraduate Student
-title: Haoming Cai - X-Pixel
+title: Haoming Cai - XPixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]

@@ -1,9 +1,9 @@
 ---
 name: Liangbin Xie
 type: people
-people_type : X-Pixel at SIAT
+people_type : XPixel at SIAT
 showtitle: Master Student
-title: Liangbin Xie - X-Pixel
+title: Liangbin Xie - XPixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]

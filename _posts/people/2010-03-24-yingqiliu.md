@@ -1,9 +1,9 @@
 ---
 name: Yingqi Liu
 type: people
-people_type : X-Pixel at SIAT
+people_type : XPixel at SIAT
 showtitle: Master Student
-title: Yingqi Liu - X-Pixel
+title: Yingqi Liu - XPixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]

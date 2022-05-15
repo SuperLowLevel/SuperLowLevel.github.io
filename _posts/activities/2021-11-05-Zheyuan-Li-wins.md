@@ -3,7 +3,7 @@ title:  "Zheyuan Li Won the Champion of Men's Table Tennis Singles Competition i
 teser: tabletennis1.jpg
 type:  activities
 tag : Award
-introduction: Congratulations to Zheyuan Li and X-pixel
+introduction: Congratulations to Zheyuan Li and XPixel
 layout: activitiespost  #  Do not change this
 date:   2021-11-05 11:59:59 +0800  # paper pub data, only change year and month according to this format
 year:   2021  # paper year, number
@@ -23,8 +23,8 @@ paperLink: https://link.springer.com/chapter/10.1007/978-3-319-10593-2_13  # pos
 <p style="font-size:20px;width:100%;text-align:left" >
 
 Recently, the sport day of SIAT was held. Zheyuan Li from Xpixel won the champion of Men's Table Tennis Singles Competition. 
-After the competition, he donated his prize (table tennis bats) to X-pixel.
-Congratulations to Zheyuan Li and X-pixel.
+After the competition, he donated his prize (table tennis bats) to XPixel.
+Congratulations to Zheyuan Li and XPixel.
 
 </p>
 </center>

@@ -1,9 +1,9 @@
 ---
 name: AI Imaging Team
 type: people
-people_type : X-Pixel at SenseTime
+people_type : XPixel at SenseTime
 showtitle: None
-title: AI Imaging Team - X-Pixel
+title: AI Imaging Team - XPixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]

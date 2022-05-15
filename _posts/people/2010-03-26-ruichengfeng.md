@@ -1,9 +1,9 @@
 ---
 name: Ruicheng Feng
 type: people
-people_type : X-Pixel at NTU
+people_type : XPixel at NTU
 showtitle: PhD Student
-title: Ruicheng Feng - X-Pixel
+title: Ruicheng Feng - XPixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]

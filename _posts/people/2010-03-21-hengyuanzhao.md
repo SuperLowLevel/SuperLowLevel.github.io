@@ -3,7 +3,7 @@ name: Hengyuan Zhao
 type: people
 people_type : Alumni
 showtitle: Research Assistant
-title: Hengyuan Zhao - X-Pixel
+title: Hengyuan Zhao - XPixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]

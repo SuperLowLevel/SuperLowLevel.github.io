@@ -3,7 +3,7 @@ name: Qingling Duan
 type: people
 people_type : Alumni
 showtitle: Alumni
-title: Qingling Duan - X-Pixel
+title: Qingling Duan - XPixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]

@@ -1,7 +1,7 @@
 ---
 name: Xiangyu Chen
 type: people
-people_type : X-Pixel at UM
+people_type : XPixel at UM
 showtitle: PhD Student
 title: Xiangyu Chen - UM
 # [PhD Student, Master Student, Visiting Student,

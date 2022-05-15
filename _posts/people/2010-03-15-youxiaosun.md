@@ -3,7 +3,7 @@ name: Youxiao Sun
 type: people
 people_type : Alumni
 showtitle: Research Assistant
-title: Yuoxiao Sun - X-Pixel
+title: Yuoxiao Sun - XPixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]

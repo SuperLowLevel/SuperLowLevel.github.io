@@ -3,7 +3,7 @@ name: Jingwen He
 type: people
 people_type : Alumni
 showtitle: Research Assistant
-title: Jingwen He - X-Pixel
+title: Jingwen He - XPixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]

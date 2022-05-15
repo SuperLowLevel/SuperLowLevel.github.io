@@ -3,7 +3,7 @@ name: Weipeng Guan
 type: people
 people_type : Alumni
 showtitle: None
-title: Weipeng Guan - X-Pixel
+title: Weipeng Guan - XPixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]

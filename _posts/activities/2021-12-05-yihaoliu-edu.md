@@ -3,7 +3,7 @@ title:  "Yihao Liu Brings Popular Science Courses to Middle School Students"  # 
 teser: edu1.jpg
 type:  activities
 tag : activities
-introduction: X-pixel is committed to science popularization and charity
+introduction: XPixel is committed to science popularization and charity
 layout: activitiespost  #  Do not change this
 date:   2021-12-05 11:59:59 +0800  # paper pub data, only change year and month according to this format
 year:   2021  # paper year, number
@@ -31,6 +31,6 @@ From December 1st to 3rd, the "Science and Technology Building Dreams" education
 <center>
 <p style="font-size:20px;width:100%;text-align:left" >
 
-Yihao Liu of X-pixel participated in this teaching activity, having a popular science course entitled "AI Magic in Image Enhancement" for middle school students.
+Yihao Liu of XPixel participated in this teaching activity, having a popular science course entitled "AI Magic in Image Enhancement" for middle school students.
 </p>
 </center>

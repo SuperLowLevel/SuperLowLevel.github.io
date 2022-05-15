@@ -1,9 +1,9 @@
 ---
 name: Xiaohui Li
 type: people
-people_type : X-Pixel at Shanghai AI Lab
+people_type : XPixel at Shanghai AI Lab
 showtitle: PhD Student
-title: Xiaohui Li - X-Pixel
+title: Xiaohui Li - XPixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]

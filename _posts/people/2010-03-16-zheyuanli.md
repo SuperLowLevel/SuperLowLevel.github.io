@@ -1,9 +1,9 @@
 ---
 name: Zheyuan Li
 type: people
-people_type : X-Pixel at SIAT
+people_type : XPixel at SIAT
 showtitle: Research Assistant
-title: Zheyuan Li - X-Pixel
+title: Zheyuan Li - XPixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]

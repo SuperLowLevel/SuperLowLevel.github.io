@@ -3,7 +3,7 @@ name: Chen Change Loy
 type: people
 people_type : Co-Founders
 showtitle: Associate Professor
-title: Chen Change Loy - X-Pixel
+title: Chen Change Loy - XPixel
 profileName: chenchangeloy.png  # 186 * 186
 profile: chenchangeloyBig.jpg  # 570 * 725
 direction : Computer Vision and Deep Learning with focus on Face Analysis, Image Processing, and Visual Surveillance

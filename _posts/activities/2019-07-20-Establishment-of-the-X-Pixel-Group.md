@@ -1,5 +1,5 @@
 ---
-title:  'Formal establishment of the X-Pixel Group'  #  Paper title, covered by ''
+title:  'Formal establishment of the XPixel Group'  #  Paper title, covered by ''
 teser: meeting.jpg
 type:  activities
 tag : meeting
@@ -22,7 +22,7 @@ paperLink: https://link.springer.com/chapter/10.1007/978-3-319-10593-2_13  # pos
 <center>
 <p style="font-size:20px;width:100%;text-align:left" >
 
-We held a meeting at the Multimedia Laboratory of The Chinese University of Hong Kong, during which the X-Pixel Group was formally established.
+We held a meeting at the Multimedia Laboratory of The Chinese University of Hong Kong, during which the XPixel Group was formally established.
 
 </p>
 </center>
@@ -36,7 +36,7 @@ We held a meeting at the Multimedia Laboratory of The Chinese University of Hong
 <center>
 <p style="font-size:20px;width:100%;text-align:left" >
 
-We had dinner together to celebrate the formal establishment of the X-Pixel Group.
+We had dinner together to celebrate the formal establishment of the XPixel Group.
 
 </p>
 </center>

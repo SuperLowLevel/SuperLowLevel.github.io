@@ -3,7 +3,7 @@ name: Zhengwen Zhang
 type: people
 people_type : Alumni
 showtitle: Research Assistant
-title: Zhengwen Zhang - X-Pixel
+title: Zhengwen Zhang - XPixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
