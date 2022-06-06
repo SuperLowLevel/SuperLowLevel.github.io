@@ -46,6 +46,18 @@ layout: default
                         <div class="card-header" role="tab">
                             <div class="card-title">
 
+
+
+                                {% for post in site.posts %}
+                                {% if post.title == 'We release XPixel Metaverse' %}
+                                <a role="button" d class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
+                                    [June 2022] We release XPixel Metaverse! Check out for <font class="text-primary">more details</font>.
+                                    <div class="card-arrow"></div>
+                                </a>
+                                {% endif %}
+                                {% endfor %}
+
                                 {% for post in site.posts %}
                                 {% if post.title == 'We held one competition and won one champion & one third place in the NTIRE2022' %}
                                 <a role="button" d class="collapsed"
