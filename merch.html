@@ -1,0 +1,83 @@
+---
+title: XPixel - Merch
+layout: default
+---
+
+<section>
+    <!--Swiper-->
+    <div class="swiper-container swiper-slider" data-autoplay="5000" data-slide-effect="fade" data-loop="false"
+         style="height: 400px;">
+        <div class="jumbotron text-center">
+            <h1 style="margin-top: 70px">Merch
+            </h1>
+            <p class="big"></p>
+        </div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" data-slide-bg="images/header-1.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+            <div class="swiper-slide" data-slide-bg="images/header-3.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+            <div class="swiper-slide" data-slide-bg="images/header-4.jpg">
+                <div class="swiper-slide-caption"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<main class="page-content">
+    <section class="text-center text-lg-left margin-1">
+        <div class="container">
+            <div class="row">
+                {% for post in site.posts %}
+                {% if post.type == 'merch' %}
+                <div class="col-lg-6">
+                    <article class="thumbnail thumbnail-6 section-border well slow-hover">
+                        <div class="image-slow-wrapper"><a href="{{ post.url }}"><img src="{{ BASE_PATH }}/images/activities/{{ post.teser }}" alt=""></a></div>
+                        <div class="caption">
+                            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                            <p class="text-dark-variant-2">{{post.introduction}}</p>
+                            <div class="blog-info">
+                                <div class="pull-md-left">
+                                    <time class="meta fa-calendar" datetime="2018">{{ post.year }}
+                                        {{ post.month }}</time>
+                                </div><a class="button-link" href="{{ post.url }}">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <!--Start section-->
+    <section class="well well-sm well-inset-2 text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-12">
+                    <h1 class="font-weight-bold text-center">XPixel Group</h1>
+
+                    <p class="lead big">
+                        Our vision is to make the world look clearer and better!
+                    </p>
+                    <p class="lead big">
+                        If you are interested in the above merchandise, you are welcome to send emails to liyuhang_98@163.com.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+
+
+
+
+
+
+
+
