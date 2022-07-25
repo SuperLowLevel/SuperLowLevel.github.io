@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<section>
+  <!--Swiper-->
+  <div class="swiper-container swiper-slider" data-autoplay="5000" data-slide-effect="fade" data-loop="false"
+       style="height: 250px;">
+    <div class="jumbotron text-center">
+      <!-- <h1>Activities</h1> -->
+      <!-- <p class="big"></p> -->
+    </div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" data-slide-bg="{{ BASE_PATH }}/images/header-1.jpg">
+        <div class="swiper-slide-caption"></div>
+      </div>
+      <div class="swiper-slide" data-slide-bg="{{ BASE_PATH }}/images/header-3.jpg">
+        <div class="swiper-slide-caption"></div>
+      </div>
+      <div class="swiper-slide" data-slide-bg="{{ BASE_PATH }}/images/header-4.jpg">
+        <div class="swiper-slide-caption"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main class="page-content">
+  <section class="section-border text-center text-lg-left">
+    <div class="container">
+      <ol class="breadcrumb">
+        <li><a href="{{ BASE_PATH }}/index.html">Home</a></li>
+        <li><a href="{{ BASE_PATH }}/souvenir.html">Souvenir</a></li>
+      </ol>
+    </div>
+  </section>
+  <section class="text-center text-lg-left margin-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 section-border">
+          <article class="well" style="padding-top: 10px">
+            <h2>{{ page.title }}</h2>
+            <div id="images" style="margin-left: 15%; float:left">
+              <img id="image1" src={{page.photo}} />
+              {% if page.mutiphoto == "T" %}
+              <img id="image2" src={{page.photo2}} />
+              {% endif %}
+            </div>
+            {% if page.mutiphoto == "T" %}
+            <div id="slider" style="float:left; left:1px">
+              <a href="#image1">1</a> <a href="#image2">2</a>
+            </div>
+            {% endif %}
+            <div style="margin-top: 40px;margin-right:240px; float:right;font-size:21px">
+              {{ page.introduction }}
+              {{page.supplemental}}
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="well well-sm well-inset-2 text-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-12" >
+          <p class="lead big" style="line-height:2em">
+            If you are interested in the above souvenir please feel free to contact
+          <h4>liyuhang_98@163.com</h4>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

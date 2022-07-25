@@ -171,7 +171,7 @@ html p a:hover {
 
 .icon-xl {
 	line-height: 96px;
-	font-size: 74px;
+	font-size: 80px;
 	border-width: 2px;
 }
 
@@ -11561,7 +11561,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	display: inline-block;
 	position: relative;
 	width: 48px;
-	height: 48px;
+	height: 48px;.
 	line-height: 48px;
 	cursor: pointer;
 	color: #262032;
@@ -11698,10 +11698,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .rd-navbar-nav .rd-navbar-dropdown .marked {
 	text-transform: uppercase;
 	color: #fff;
-	font-size: 9px;
+	font-size: 20px;
 	line-height: 10px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 	float: right;
 	background: #e75854;
 	width: 35px;
@@ -17728,4 +17728,48 @@ button.swiper-pagination-bullet {
 .news-time{
   color: #888888 !important;
   padding-right: 10px;
+}
+
+
+
+@CHARSET "UTF-8";
+#images {
+	width: 288px;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+#images img {
+	width: 288px;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	opacity: 1;
+	transition: all linear 500ms;
+	-o-transition: all linear 500ms;
+	-moz-transition: all linear 500ms;
+	-webkit-transition: all linear 500ms;
+}
+#images img:target {
+	left: 0;
+	z-index: 9;
+	opacity: 1;
+}
+#images img:first-child {
+	left: 0;
+}
+#slider {
+	margin-top: 420px;
+	margin-left:-180px
+
+}
+#slider a {
+	text-decoration: none;
+	background: #fff;
+	padding: 4px 6px;
+	color: #79b4f3;
+}
+#slider a:hover {
+	background: #C6E4F2;
 }
