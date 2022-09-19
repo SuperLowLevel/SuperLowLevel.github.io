@@ -46,7 +46,15 @@ layout: default
                         <div class="card-header" role="tab">
                             <div class="card-title">
 
-
+                                {% for post in site.posts %}
+                                {% if post.title == 'Blind Image Super-Resolution: A Survey and Beyond' %}
+                                <a role="button" d class="collapsed"
+                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
+                                    [August 2022] 'Blind Image Super-Resolution: A Survey and Beyond' is accepts by IEEE T-PAMI! Check out for <font class="text-primary">more details</font>.
+                                    <div class="card-arrow"></div>
+                                </a>
+                                {% endif %}
+                                {% endfor %}
 
                                 {% for post in site.posts %}
                                 {% if post.title == 'We release XPixel Metaverse' %}
