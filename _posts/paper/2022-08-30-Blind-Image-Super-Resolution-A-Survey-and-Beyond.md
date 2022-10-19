@@ -8,7 +8,7 @@ date:   2022-08-30 11:59:59 +0800  # paper pub data, only change year and month 
 author: Anran Liu, Yihao Liu, Jinjin Gu, Yu Qiao, Chao Dong  # authors information
 venue:  IEEE Transactions on Pattern Analysis and Machine Intelligence, 2022 #Where it be, ICCV and CVPR remove IEEE Conference on,
 year:   2022  # paper year, number
-month:  AUGUST  # paper month, full name
+month:  August  # paper month, full name
 projectPage: None  # If has project page, link here, otherwise None
 supplemental : None
 data: None  # If has data, post data link here, otherwise None
