@@ -1,9 +1,9 @@
 ---
 name: Liangbin Xie
 type: people
-people_type : XPixel at SIAT
-showtitle: Master Student
-title: Liangbin Xie - XPixel
+people_type : XPixel at UM
+showtitle: PhD Student
+title: Liangbin Xie - UM
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
@@ -16,7 +16,7 @@ email: lb.xie@siat.ac.cn
 google : None
 github : https://github.com/LiangbinXie
 linkedin: None
-institution: Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences (CAS)
+institution: University of Macau (UM)
 institutionShort: SIAT, CAS
 ---
 
