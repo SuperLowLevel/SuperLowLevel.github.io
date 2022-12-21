@@ -6,7 +6,7 @@ pro_type: Efficient Image Super-Resolution
 layout: post  #  Do not change this
 date:   2022-09-21 11:59:59 +0800  # paper pub data, only change year and month according to this format
 author: Lin Zhou, Haoming Cai, Jinjin Gu, Zheyuan Li, Yingqi Liu, Xiangyu Chen, Yu Qiao, Chao Dong
-venue:  The European Conference on Computer Vision, AIM Workshop (ECCVW), 2022 #Where it be, ICCV and CVPR remove IEEE Conference on,
+venue:  The European Conference on Computer Vision Workshop (ECCVW), 2022 #Where it be, ICCV and CVPR remove IEEE Conference on,
 year:   2022  # paper year, number
 month:  September # paper month, full name
 projectPage: None  # If has project page, link here, otherwise None

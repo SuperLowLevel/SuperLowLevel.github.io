@@ -8,7 +8,7 @@ title: Xiangyu Chen - XPixel
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
 profileName: chenxiangyu.png  # 186 * 186
-profile: chenxiangyuBig.png  # 570 * 725
+profile: chenxiangyu2.png  # 570 * 725
 direction : Image Restoration, High Dynamic Range Imaging
 layout: peoplepost  #  Do not change this
 homepage: https://chxy95.github.io
