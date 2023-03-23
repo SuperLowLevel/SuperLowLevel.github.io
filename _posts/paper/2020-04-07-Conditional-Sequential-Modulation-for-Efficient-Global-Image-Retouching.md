@@ -5,7 +5,7 @@ type:   paper
 pro_type: Image Restoration
 layout: post  #  Do not change this
 date:   2020-07-25 11:59:59 +0800  # paper pub data, only change year and month according to this format
-author: Jingwen He*, Yihao Liu*, Yu Qiao, Chao Dong # authors information
+author: Jingwen He, Yihao Liu, Yu Qiao, Chao Dong # authors information
 venue:  The European Conference on Computer Vision (ECCV), 2020  # Where it be, ICCV and CVPR remove IEEE Conference on,
 year:   2020  # paper year, number
 month:  August  # paper month, full name

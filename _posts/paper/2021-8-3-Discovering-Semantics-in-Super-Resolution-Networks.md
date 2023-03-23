@@ -1,5 +1,5 @@
 ---
-title:  'Discovering "Semantics" in Super-Resolution Networks'  #  Paper title, covered by ''
+title:  'Discovering Distinctive "Semantics" in Super-Resolution Networks'  #  Paper title, covered by ''
 teser: Discovering.png
 type:   paper
 pro_type: Image Super-Resolution

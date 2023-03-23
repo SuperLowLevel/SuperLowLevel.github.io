@@ -6,7 +6,7 @@ teser: srcnn.png
 layout: post  #  Do not change this
 date:   2016-02-27 11:59:59 +0800  # paper pub data, only change year and month according to this format
 author: Chao Dong, Chen Change Loy, Kaiming He, Xiaoou Tang  # authors information
-venue:  IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, 2016  # Where it be, ICCV and CVPR remove IEEE Conference on, 
+venue:  IEEE Transactions on Pattern Analysis and Machine Intelligence(TPAMI), 2016 # Where it be, ICCV and CVPR remove IEEE Conference on, 
 year:   2016  # paper year, number
 month:  February  # paper month, full name
 projectPage: http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html  # If has project page, link here, otherwise None

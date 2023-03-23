@@ -31,217 +31,50 @@ layout: default
     </div>
 </section>
 
-<main class="page-content">
-    <!--Start section-->
-    <section class="well well-inset-2">
-        <div class="container">
-            <h1 class="text-center font-weight-bold">Recent News</h1>
-            <div class="row justify-content-center">
-                <div class="col-10">
-                    <!-- Bootstrap collapse-->
-                    <!-- <div class="card-group-custom card-group-corporate" id="accordion1" role="tablist"
-                        aria-multiselectable="false"> -->
-                    <!-- Bootstrap card-->
-                    <article class="card card-custom card-corporate">
-                        <div class="card-header" role="tab">
-                            <div class="card-title">
-
-                                {% for post in site.posts %}
-                                {% if post.title == 'Blind Image Super-Resolution: A Survey and Beyond' %}
-                                <a role="button" d class="collapsed"
-                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
-                                    [August 2022] 'Blind Image Super-Resolution: A Survey and Beyond' is accepts by IEEE T-PAMI! Check out for <font class="text-primary">more details</font>.
-                                    <div class="card-arrow"></div>
-                                </a>
-                                {% endif %}
-                                {% endfor %}
-
-                                {% for post in site.posts %}
-                                {% if post.title == 'We release XPixel Metaverse' %}
-                                <a role="button" d class="collapsed"
-                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
-                                    [June 2022] We release XPixel Metaverse! Check out for <font class="text-primary">more details</font>.
-                                    <div class="card-arrow"></div>
-                                </a>
-                                {% endif %}
-                                {% endfor %}
-
-                                {% for post in site.posts %}
-                                {% if post.title == 'We held one competition and won one champion & one third place in the NTIRE2022' %}
-                                <a role="button" d class="collapsed"
-                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
-                                    [April 2022] We held one competition and won one champion & one third place in the NTIRE2022! Check out for <font class="text-primary">more details</font>.
-                                    <div class="card-arrow"></div>
-                                </a>
-                                {% endif %}
-                                {% endfor %}
-
-                                {% for post in site.posts %}
-                                {% if post.title == 'Two papers from our team were accepted in CVPR 2022' %}
-                                <a role="button" d class="collapsed"
-                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">
-                                    [March 2022] Two papers from our team are accepted in CVPR 2022! Check out for <font class="text-primary">more details</font>.
-                                    <div class="card-arrow"></div>
-                                </a>
-                                {% endif %}
-                                {% endfor %}
+<!--<main class="page-content">-->
+<!--    &lt;!&ndash;Start section&ndash;&gt;-->
+<!--    <section class="well well-inset-2">-->
+<!--        <div class="container">-->
+<!--            <h1 class="text-center font-weight-bold">Recent Activities</h1>-->
+<!--            <div class="row justify-content-center">-->
+<!--                <div class="col-10">-->
+<!--                    &lt;!&ndash; Bootstrap collapse&ndash;&gt;-->
+<!--                    &lt;!&ndash; <div class="card-group-custom card-group-corporate" id="accordion1" role="tablist"-->
+<!--                        aria-multiselectable="false"> &ndash;&gt;-->
+<!--                    &lt;!&ndash; Bootstrap card&ndash;&gt;-->
+<!--                    <article class="card card-custom card-corporate">-->
+<!--                        <div class="card-header" role="tab">-->
+<!--                            <div class="card-title">-->
 
 <!--                                {% for post in site.posts %}-->
-<!--                                {% if post.title == "Yihao Liu Brings Popular Science Courses to Middle School Students" %}-->
+<!--                                {% if post.title == 'Blind Image Super-Resolution: A Survey and Beyond' %}-->
 <!--                                <a role="button" d class="collapsed"-->
 <!--                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">-->
-<!--                                    [November 2021] Yihao Liu brings popular science courses to middle school students! Check out for <font class="text-primary">more details</font>.-->
-<!--                                    <div class="card-arrow"></div>-->
-<!--                                </a>-->
-<!--                                {% endif %}-->
-<!--                                {% endfor %}-->
-
-
-<!--                                {% for post in site.posts %}-->
-<!--                                {% if post.title == 'Interactive Multi-Dimension Modulation for Image Restoration' %}-->
-<!--                                <a role="button"  class="collapsed"-->
-<!--                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="index.html">-->
-<!--                                    [November 2021] CResMD is accepted by IEEE T-PAMI! Check out for <font class="text-primary">the journal version-->
+<!--                                    [August 2022] 'Blind Image Super-Resolution: A Survey and Beyond' is accepts by IEEE T-PAMI! Check out for <font class="text-primary">more details</font>.-->
 <!--                                    <div class="card-arrow"></div>-->
 <!--                                </a>-->
 <!--                                {% endif %}-->
 <!--                                {% endfor %}-->
 
 <!--                                {% for post in site.posts %}-->
-<!--                                {% if post.title == "Zheyuan Li Won the Champion of Men's Table Tennis Singles Competition in SIAT" %}-->
+<!--                                {% if post.title == 'We release XPixel Metaverse' %}-->
 <!--                                <a role="button" d class="collapsed"-->
 <!--                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">-->
-<!--                                    [November 2021] Zheyuan Li from Xpixel won the champion of Men's Table Tennis Singles Competition in SIAT! Check out for <font class="text-primary">more details</font>.-->
+<!--                                    [June 2022] We release XPixel Metaverse! Check out for <font class="text-primary">more details</font>.-->
 <!--                                    <div class="card-arrow"></div>-->
 <!--                                </a>-->
 <!--                                {% endif %}-->
 <!--                                {% endfor %}-->
 
-<!--                                {% for post in site.posts %}-->
-<!--                                {% if post.title == 'We have a talk in AIM2021' %}-->
-<!--                                <a role="button" d class="collapsed"-->
-<!--                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">-->
-<!--                                    [October 2021] We have a talk about Interpreting Super-Resolution Networks in AIM2021! Check out for <font class="text-primary">more details</font>.-->
-<!--                                    <div class="card-arrow"></div>-->
-<!--                                </a>-->
-<!--                                {% endif %}-->
-<!--                                {% endfor %}-->
-
-<!--                                {% for post in site.posts %}-->
-<!--                                {% if post.title == 'Finding Discriminative Filters for Specific Degradations in Blind Super-Resolution' %}-->
-<!--                                <a role="button" d class="collapsed"-->
-<!--                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">-->
-<!--                                    [September 2021] One paper from our team is selected for Spotlight in NeurIPS 2021! Check out for <font class="text-primary">the paper</font>.-->
-<!--                                    <div class="card-arrow"></div>-->
-<!--                                </a>-->
-<!--                                {% endif %}-->
-<!--                                {% endfor %}-->
-
-<!--                                {% for post in site.posts %}-->
-<!--                                {% if post.title == 'A New Journey from SDRTV to HDRTV' %}-->
-<!--                                <a role="button" d class="collapsed"-->
-<!--                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">-->
-<!--                                    [July 2021] One paper from our team is accepted in ICCV 2021! Check out for <font class="text-primary">the paper</font>.-->
-<!--                                    <div class="card-arrow"></div>-->
-<!--                                </a>-->
-<!--                                {% endif %}-->
-<!--                                {% endfor %}-->
-
-<!--                                {% for post in site.posts %}-->
-<!--                                {% if post.title == 'Path-Restore: Learning Network Path Selection for Image Restoration' %}-->
-<!--                                <a role="button"  class="collapsed"-->
-<!--                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">-->
-<!--                                    [July 2021] Path-Restore is accepted by IEEE T-PAMI! Check out for <font class="text-primary">the journal version</font>.-->
-<!--                                    <div class="card-arrow"></div>-->
-<!--                                </a>-->
-<!--                                {% endif %}-->
-<!--                                {% endfor %}-->
-
-<!--                                {% for post in site.posts %}-->
-<!--                                {% if post.title == 'RankSRGAN: Super Resolution Generative Adversarial Networks with Learning to Rank' %}-->
-<!--                                <a role="button"  class="collapsed"-->
-<!--                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">-->
-<!--                                    [July 2021] RankSRGAN is accepted by IEEE T-PAMI! Check out for <font class="text-primary">the journal version</font>.-->
-<!--                                    <div class="card-arrow"></div>-->
-<!--                                </a>-->
-<!--                                {% endif %}-->
-<!--                                {% endfor %}-->
-
-<!--                                {% for post in site.posts %}-->
-<!--                                {% if post.title == 'We held one competition and won three champions & two runners-up in the NTIRE2021' %}-->
-<!--                                <a role="button" d class="collapsed"-->
-<!--                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">-->
-<!--                                    [April 2021] We hold one competition and won three champions & two runners-up in the NTIRE2021! Check out for <font class="text-primary">more details</font>.-->
-<!--                                    <div class="card-arrow"></div>-->
-<!--                                </a>-->
-<!--                                {% endif %}-->
-<!--                                {% endfor %}-->
-
-<!--                                {% for post in site.posts %}-->
-<!--                                {% if post.title == 'Three papers from our team were accepted in CVPR 2021' %}-->
-<!--                                <a role="button" d class="collapsed"-->
-<!--                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">-->
-<!--                                    [March 2021] Three papers from our team are accepted in CVPR 2021! Check out for <font class="text-primary">more details</font>.-->
-<!--                                    <div class="card-arrow"></div>-->
-<!--                                </a>-->
-<!--                                {% endif %}-->
-<!--                                {% endfor %}-->
-
-
-<!--                                {% for post in site.posts %}-->
-<!--                                {% if post.title == 'Our Xpixel team won the champion in Video Temporal Super Resolution track in the AIM2020' %}-->
-<!--                                <a role="button" d class="collapsed"-->
-<!--                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">-->
-<!--                                    [September 2020] Our Xpixel team win a champions and a forth place in ECCV Workshop AIM2020! Check out for <font class="text-primary">more details</font>.-->
-<!--                                    <div class="card-arrow"></div>-->
-<!--                                </a>-->
-<!--                                {% endif %}-->
-<!--                                {% endfor %}-->
-
-<!--                                {% for post in site.posts %}-->
-<!--                                {% if post.title == 'Three papers from our team were accepted in ECCV 2020' %}-->
-<!--                                <a role="button" d class="collapsed"-->
-<!--                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">-->
-<!--                                    [August 2020] Three papers from our team are accepted in ECCV 2020! Check out for <font class="text-primary">more details</font>.-->
-<!--                                    <div class="card-arrow"></div>-->
-<!--                                </a>-->
-<!--                                {% endif %}-->
-<!--                                {% endfor %}-->
-
-
-<!--                                {% for post in site.posts %}-->
-<!--                                {% if post.title == 'RankSRGAN: Generative Adversarial Networks with Ranker for Image Super-Resolution' %}-->
-<!--                                <a role="button"  class="collapsed"-->
-<!--                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">-->
-<!--                                    [July 2019] Our paper is selected for oral presentation in ICCV 2019! Check out for <font class="text-primary">more details</font>.-->
-<!--                                    <div class="card-arrow"></div>-->
-<!--                                </a>-->
-<!--                                {% endif %}-->
-<!--                                {% endfor %}-->
-
-
-
-                            </div>
-                        </div>
-                    </article>
-                    <!-- </div> -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End section-->
-
-    <!--Start section-->
-    <section class="well well-sm well-inset-2 text-center">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-12">
-                    <h1 class="font-weight-bold text-center">About Us</h1>
-                    <p class="lead big">
-                        XPixel (/eks-ˈpɪksəl/) group is established with a primary focus on tackling low-level vision problems, including but not limited to image/video super-resolution, denoising, deblurring etc. We strive to examine images and video footages <b>across all pixels</b>. Our members comprises researchers, students and academics, coming from <a class="text-primary" href="https://www.shlab.org.cn/">Shanghai AI Lab</a>, <a class="text-primary" href="http://english.siat.cas.cn/">SIAT (Shenzhen)</a>, <a class="text-primary" href="http://mmlab.ie.cuhk.edu.hk/">CUHK (Hong Kong)</a>, <a class="text-primary" href="http://scse.ntu.edu.sg/Pages/Home.aspx">NTU (Singapore)</a>, <a class="text-primary" href="http://english.siat.cas.cn/">UM (Macao)</a>, <a class="text-primary" href="https://www.tencent.com/">Tencent</a> and <a class="text-primary" href="https://www.sensetime.com/">SenseTime</a>. We devote ourselves to research and develop on low-level vision problems, aiming to translate the outcome of our work into solving real-world obstacles.
-                    </p>
-                </div>
-            </div>
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </article>-->
+<!--                    &lt;!&ndash; </div> &ndash;&gt;-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--    &lt;!&ndash;End section&ndash;&gt;-->
 
     <section class="well well-sm well-inset-2 text-center">
         <div class="container">
@@ -249,15 +82,43 @@ layout: default
                 <div class="col-xl-12">
                     <h1 class="font-weight-bold text-center">XPixel Metaverse</h1>
                     <img src="images/activities/poster.jpg">
-
                     </img>
-                    <p class="lead big">
+                    <h3 class="lead big">
                         XPixel Metaverse is the wisdom fruit of the whole XPixel Group. It represents our perseverance to research, our taste of art, our enthusiasm for life, and our responsibility to the world. XPixel Metaverse not only records our glorious history, but also previews our brighter future. Welcome excellent scholars from all over the world to work together for a clearer and better world! <a class="text-primary" href="https://xpixel.group/2022/06/06/Metaverse.html">Click here to read more details.</a>
-
-                    </p>
+                    </h3>
                 </div>
             </div>
-
+        </div>
+    </section>>
+    <!--Start section-->
+    <section class="well well-sm well-inset-2 text-center text-lg-left">
+        <div class="container">
+            <h1 class="font-weight-bold text-center">Recent Activities</h1>
+            <div class="row row-30">
+                {% assign count=0%}
+                {% for post in site.posts %}
+                {% if post.type == 'activities' and count<3%}
+                {% assign count = count | plus:1 %}
+                <div class="col-lg-4">
+                    <article class="thumbnail thumbnail-4"><img src="{{ BASE_PATH }}/images/activities/{{ post.teser }}" width=400px height=200px  alt="">
+                        <div class="caption">
+                            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+<!--                            <p class="text-dark-variant-2">{{ post.author }}</p>-->
+                            <div class="blog-info">
+                                <div class="pull-md-left">
+                                    <time class="meta fa-calendar" datetime="2019">{{ post.year }}
+                                        {{ post.month }}</time>
+                                </div><a class="button-link" href="{{ post.url }}">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <!--End section-->
     <!--Start section-->
     <section class="well well-sm well-inset-2 text-center text-lg-left">
         <div class="container">
@@ -300,6 +161,14 @@ layout: default
                 <!--Owl Carousel-->
                 <div class="owl-carousel" data-autoplay="true" data-items="1" data-md-items="2" data-sm-items="1"
                     data-lg-items="3" data-nav="true" data-margin="30" data-loop="true">
+                    <blockquote class="quote-2"><img class="img-rounded" href="https://www.shlab.org.cn/" src="images/shagnhai_ailab.png" alt="">
+                        <h6>
+                            <cite>Shanghai AI Lab</cite>
+                        </h6>
+                        <p class="heading-6 font-italic font-base text-base">
+                            <q>Shanghai Artificial Intelligence Laboratory conducts advanced research on the core theories of artificial intelligence, such as machine learning, reinforcement learning, deep learning, knowledge computation, causal inference, and information security. The laboratory has a strong focus on interdisciplinary research in artificial intelligence and is dedicated to exploring innovative paradigms for data-driven scientific inquiry.</q>
+                        </p>
+                    </blockquote>
                     <blockquote class="quote-2"><img class="img-rounded" href="http://english.siat.cas.cn/" src="images/SIATlogo.png" alt="">
                         <h6>
                             <cite>SIAT</cite>
@@ -316,14 +185,6 @@ layout: default
                             <q>The CUHK Multimedia Lab (MMLab) is one of the pioneering institutes on deep learning. In GPU Technology Conference (GTC) 2016, a world-wide technology summit, MMlab is recognized as one of the top ten AI pioneers, and listed together with top research groups in the world (e.g. MIT, Stanford, Berkeley, and Univ. of Toronto). Today, it remains one of the most active research labs in computer vision and deep learning, publishing over 40 papers on top conferences (CVPR/ICCV/ECCV/NIPS) every year.</q>
                         </p>
                     </blockquote>
-                    <blockquote class="quote-2" ><img class="img-rounded" href="https://www.sensetime.com/" src="images/Sensetimelogo.png" alt="">
-                        <h6>
-                            <cite href="https://www.sensetime.com/">SenseTime Inc.</cite>
-                        </h6>
-                        <p class="heading-6 font-italic font-base text-base">
-                            <q>SenseTime is a global company focused on developing innovative AI technologies that positively contribute to economies, society and humanity. With roots in the academic world, SenseTime invest in fundamental research to further understanding and advance the state of art in AI technology. SenseTime is a global team of talented individuals with over half dedicated to research and development activities. This has made it a leading global AI algorithm provider and one of the most prolific contributors of related papers in the research community.</q>
-                        </p>
-                    </blockquote>
                     <blockquote class="quote-2"><img class="img-rounded" src="images/NTUlogo.png" href="http://scse.ntu.edu.sg/Pages/Home.aspx" alt="">
                         <h6>
                             <cite>NTU</cite>
@@ -332,6 +193,31 @@ layout: default
                             <q>The Nanyang Technological University is the second oldest public autonomous research university in Singapore. With a population of 33,500 students and 10,000 faculty and staff, NTU is the second largest university in Singapore.  </q>
                         </p>
                     </blockquote>
+                    <blockquote class="quote-2"><img class="img-rounded" src="images/UM_logo.png" href="https://www.um.edu.mo/zh-hant/" alt="">
+                        <h6>
+                            <cite>UM</cite>
+                        </h6>
+                        <p class="heading-6 font-italic font-base text-base">
+                            <q>The University of Macau (UM) is a leading public research university located in Macau, China. It offers a wide range of undergraduate and postgraduate programs in various fields including computer science, engineering, business. Its research achievements have gained international recognition, positioning UM as a major player in the field of higher education and research in Asia.</q>
+                        </p>
+                    </blockquote>
+                    <blockquote class="quote-2"><img class="img-rounded" src="images/ARC_Lab.png" href="https://arc.tencent.com/en/index" alt="">
+                        <h6>
+                            <cite>ARC Lab, Tencent PCG</cite>
+                        </h6>
+                        <p class="heading-6 font-italic font-base text-base">
+                            <q>Applied Research Center (ARC) develops the cutting-edge technology of intelligent media, and aims to be a world-class research center. ARC empowers Tencent PCG, a large business group running Tencent social media, information feed, search, and content platforms, which require almost all the technics regarding artificial intelligence and big data. Benefited from these demands, ARC advantages in research breadth, depth, and industry integration.</q>
+                        </p>
+                    </blockquote>
+                    <blockquote class="quote-2" ><img class="img-rounded" href="https://www.sensetime.com/" src="images/Sensetimelogo.png" alt="">
+                        <h6>
+                            <cite href="https://www.sensetime.com/">SenseTime Inc.</cite>
+                        </h6>
+                        <p class="heading-6 font-italic font-base text-base">
+                            <q>SenseTime is a global company focused on developing innovative AI technologies that positively contribute to economies, society and humanity. With roots in the academic world, SenseTime invest in fundamental research to further understanding and advance the state of art in AI technology. SenseTime is a global team of talented individuals with over half dedicated to research and development activities. This has made it a leading global AI algorithm provider and one of the most prolific contributors of related papers in the research community.</q>
+                        </p>
+                    </blockquote>
+
                 </div>
             </div>
         </div>

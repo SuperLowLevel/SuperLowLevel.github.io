@@ -419,7 +419,20 @@ mark,
 	line-height: 30px;
 	color: #546e7a;
 }
+.middle_justify15{
+	font-weight: 300;
+	font-size: 24px;
+	text-align: justify;
+	text-align-last: left;
+	line-height: 1.5;
+}
+.middle_justify{
+	font-weight: 300;
+	font-size: 24px;
+	text-align: justify;
+	text-align-last: left;
 
+}
 @media (min-width: 1200px) {
 	.lead.big {
 		padding-left: 12%;

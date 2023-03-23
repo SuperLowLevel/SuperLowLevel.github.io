@@ -6,7 +6,7 @@ pro_type: Image Super-Resolution
 layout: post  #  Do not change this
 date:   2021-07-21 11:59:59 +0800  # paper pub data, only change year and month according to this format
 author: Wenlong Zhang, Yihao Liu, Chao Dong, Yu Qiao  # authors information
-venue:  IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE (PAMI), 2021 #Where it be, ICCV and CVPR remove IEEE Conference on,
+venue:  IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021 #Where it be, ICCV and CVPR remove IEEE Conference on,
 year:   2021  # paper year, number
 month:  July  # paper month, full name
 projectPage: https://wenlongzhang0724.github.io/Projects/RankSRGAN  # If has project page, link here, otherwise None
