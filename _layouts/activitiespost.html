@@ -42,8 +42,10 @@ layout: default
                         <div class="blog-info">
                             <div class="pull-md-left">
                                 <time class="meta fa-calendar" datetime="2019">{{ page.year }} {{ page.month }}</time>
-                                <a class="badge fa-user text-uppercase font-secondary" >XPixel</a>
-                                <div class="tags d-inline-block"><span class="badge fa-tags"> </span><a class="post-tag round-xl small" href="#">{{page.tag}}</a></div>
+                                    {% if page.ppt %}
+                                    <div><a class="ppt-button" href="{{ page.ppt }}">PowerPoint</a></div>
+                                    {% endif %}
+
                             </div>
                         </div>
                         <!-- <img class="margin-5" src="images/blog-19.jpg" alt=""> -->
@@ -59,6 +61,9 @@ layout: default
                         {% endif %}
                         {% if page.next and page.next.type=='activities' %}
                         <a class="button-link pull-md-right fa-angle-right" href="{{ page.next.url }}">{{ page.next.title }}</a>
+                        {% endif %}
+                        {% if page.details %}
+                        <div><a class="small-ppt-button" href="{{ page.details }}">XPixel微信公众号见内容详情</a></div>
                         {% endif %}
                     </div>
                 </div>

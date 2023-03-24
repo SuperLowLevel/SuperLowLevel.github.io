@@ -888,6 +888,24 @@ button.button-xs[type='submit'], .button-group-xs > button[type='submit'].button
 	text-transform: uppercase;
 	transition: .33s;
 }
+.small-ppt-button {
+	display: inline-block;
+	padding: 6px 16px;
+	background-color: #e0f2f7;
+	color: #333;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 3px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+.small-ppt-button:hover {
+	background-color: #e0f2f7;
+}
+
 
 .btn-primary, .btn-primary:active, .btn-primary:focus {
 	color: #ffffff;
@@ -17461,6 +17479,48 @@ button.swiper-pagination-bullet {
 .rd-search-results .search-list-item + .search-list-item {
 	margin-top: 40px;
 }
+
+.ppt-button {
+	display: inline-block;
+	padding: 6px 20px;
+	background-color: #e0f2f7;
+	color: #333;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	transition: all 0.2s ease-in-out;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+	border: none;
+}
+
+.ppt-button:before {
+	content: '';
+	position: absolute;
+	top: -120px;
+	left: -120px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
+	opacity: 0;
+	transition: opacity 0.2s ease-in-out;
+}
+
+.ppt-button:hover:before {
+	opacity: 1;
+}
+
+.ppt-button:hover {
+	background-color: #b7d9e8;
+	transform: scale(1.1);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
 
 .rd-search-results .search-title {
 	font-size: 16px;
