@@ -3,16 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="b23671f5-456c-470b-af22-86ca96e08dfc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/people/2010-03-25-jingwenhe.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/people/2010-03-25-jingwenhe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/xpixel-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/xpixel-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/xpixel-logob.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/paper/2022-05-14-Evaluating-the-Generalization-Ability-of-Super-Resolution-Networks.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/paper/2023-01-05-Evaluating-the-Generalization-Ability-of-Super-Resolution-Networks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/paper/2022-09-30-TCVC.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/paper/2022-09-30-TCVC.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/paper/2022-10-20-DegAE.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/paper/2022-10-20-DegAE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/paper/2022-10-21-DeSRA.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/paper/2022-10-21-DeSRA.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -138,6 +144,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
@@ -187,22 +196,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/SuperLowLevel.github.io",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/SuperLowLevel.github.io/_posts/paper&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Envs\SuperLowLevel.github.io\_posts\paper" />
-      <recent name="D:\Envs\SuperLowLevel.github.io\_posts\activities" />
-      <recent name="D:\Envs\SuperLowLevel.github.io\_posts\people" />
-      <recent name="D:\Envs\SuperLowLevel.github.io\paper" />
-      <recent name="D:\SuperLowLevel.github.io-master\_posts\people" />
+      <recent name="E:\SuperLowLevel.github.io\_posts\paper" />
+      <recent name="E:\SuperLowLevel.github.io\_posts\activities" />
+      <recent name="E:\SuperLowLevel.github.io" />
+      <recent name="E:\SuperLowLevel.github.io\_posts\people" />
+      <recent name="E:\SuperLowLevel.github.io\images\souvenir" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SuperLowLevel.github.io\_posts" />
       <recent name="E:\SuperLowLevel.github.io\_includes" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts\activities" />
     </key>
@@ -310,7 +324,51 @@
       <workItem from="1655186880676" duration="1899000" />
       <workItem from="1655539174044" duration="1892000" />
       <workItem from="1655645289262" duration="192000" />
-      <workItem from="1658343774298" duration="339000" />
+      <workItem from="1658343774298" duration="1485000" />
+      <workItem from="1658473157265" duration="9235000" />
+      <workItem from="1658484217843" duration="1124000" />
+      <workItem from="1658647941162" duration="47803000" />
+      <workItem from="1658739830582" duration="18146000" />
+      <workItem from="1658806338126" duration="7618000" />
+      <workItem from="1663573018629" duration="6000" />
+      <workItem from="1663573033835" duration="516000" />
+      <workItem from="1663573699752" duration="7634000" />
+      <workItem from="1663593413212" duration="700000" />
+      <workItem from="1666178696215" duration="354000" />
+      <workItem from="1666179377689" duration="2813000" />
+      <workItem from="1670151394825" duration="2140000" />
+      <workItem from="1670161864355" duration="414000" />
+      <workItem from="1670164990996" duration="141000" />
+      <workItem from="1670994151406" duration="1946000" />
+      <workItem from="1671184170278" duration="1522000" />
+      <workItem from="1671273903413" duration="679000" />
+      <workItem from="1671287528738" duration="1491000" />
+      <workItem from="1671289145309" duration="359000" />
+      <workItem from="1671435400399" duration="8438000" />
+      <workItem from="1671445931037" duration="599000" />
+      <workItem from="1671526072038" duration="3888000" />
+      <workItem from="1671544437788" duration="2508000" />
+      <workItem from="1671548433575" duration="303000" />
+      <workItem from="1671549471089" duration="5707000" />
+      <workItem from="1671606685198" duration="2813000" />
+      <workItem from="1672660532289" duration="206000" />
+      <workItem from="1672661276743" duration="267000" />
+      <workItem from="1672661587030" duration="63000" />
+      <workItem from="1672662150769" duration="246000" />
+      <workItem from="1677788283911" duration="3000" />
+      <workItem from="1678283450135" duration="1179000" />
+      <workItem from="1679381028832" duration="1156000" />
+      <workItem from="1679492693416" duration="7884000" />
+      <workItem from="1679555409450" duration="24004000" />
+      <workItem from="1679629004532" duration="1155000" />
+      <workItem from="1679666231156" duration="5488000" />
+      <workItem from="1682605154165" duration="1498000" />
+      <workItem from="1682606980196" duration="381000" />
+      <workItem from="1682668272527" duration="60000" />
+      <workItem from="1682668706837" duration="73000" />
+      <workItem from="1682669385287" duration="22000" />
+      <workItem from="1695994395160" duration="46000" />
+      <workItem from="1696063665217" duration="6025000" />
     </task>
     <servers />
   </component>
