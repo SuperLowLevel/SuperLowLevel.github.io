@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b23671f5-456c-470b-af22-86ca96e08dfc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/paper/2022-05-14-Evaluating-the-Generalization-Ability-of-Super-Resolution-Networks.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/paper/2023-01-05-Evaluating-the-Generalization-Ability-of-Super-Resolution-Networks.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/paper/2022-09-30-TCVC.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/paper/2022-09-30-TCVC.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/paper/2022-10-20-DegAE.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/paper/2022-10-20-DegAE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/paper/2022-10-21-DeSRA.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/paper/2022-10-21-DeSRA.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/paper/2023-01-07-SEAL.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/paper/2023-01-07-SEAL.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -368,7 +365,8 @@
       <workItem from="1682668706837" duration="73000" />
       <workItem from="1682669385287" duration="22000" />
       <workItem from="1695994395160" duration="46000" />
-      <workItem from="1696063665217" duration="6025000" />
+      <workItem from="1696063665217" duration="6430000" />
+      <workItem from="1696600087558" duration="345000" />
     </task>
     <servers />
   </component>
