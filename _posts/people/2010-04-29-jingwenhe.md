@@ -1,7 +1,7 @@
 ---
 name: Jingwen He
 type: people
-people_type : XPixel at Shanghai AI Lab
+people_type : Alumni
 showtitle: Research Assistant
 title: Jingwen He - XPixel
 # [PhD Student, Master Student, Visiting Student,

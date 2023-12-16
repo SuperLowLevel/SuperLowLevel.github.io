@@ -1,7 +1,7 @@
 ---
 name: Shuwei Shi
 type: people
-people_type : XPixel at SIAT
+people_type : Alumni
 showtitle: Research Assistant
 title: Shuwei Shi - XPixel
 # [PhD Student, Master Student, Visiting Student,

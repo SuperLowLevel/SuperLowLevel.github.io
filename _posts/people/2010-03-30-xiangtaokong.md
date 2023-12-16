@@ -1,7 +1,7 @@
 ---
 name: Xiangtao Kong
 type: people
-people_type : XPixel at Shanghai AI Lab
+people_type : Alumni
 showtitle: Master Student
 title: Xiangtao Kong - XPixel
 # [PhD Student, Master Student, Visiting Student,

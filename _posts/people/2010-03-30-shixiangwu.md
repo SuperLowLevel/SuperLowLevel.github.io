@@ -1,7 +1,7 @@
 ---
 name: Shixiang Wu
 type: people
-people_type : XPixel at SIAT
+people_type : Alumni
 showtitle: PhD Student
 title: Shixiang Wu - XPixel
 # [PhD Student, Master Student, Visiting Student,
