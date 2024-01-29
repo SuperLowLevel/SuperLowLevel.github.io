@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b23671f5-456c-470b-af22-86ca96e08dfc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/paper/2023-01-09-TGsr.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/paper/2023-01-09-TGsr.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/paper/2023-01-07-SEAL.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/paper/2023-02-07-SEAL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/people/2010-03-26-wenlongzhang.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/people/2010-03-31-wenlongzhang.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/people.html" beforeDir="false" afterPath="$PROJECT_DIR$/people.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +149,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
@@ -193,17 +201,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/SuperLowLevel.github.io/_posts/paper&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/SuperLowLevel.github.io/_posts/paper",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\SuperLowLevel.github.io\_posts\paper" />
@@ -217,6 +229,13 @@
       <recent name="E:\SuperLowLevel.github.io\_includes" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts\activities" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-fd6de256fdba-JavaScript-WS-241.8102.134" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -372,7 +391,13 @@
       <workItem from="1701682104013" duration="6000" />
       <workItem from="1701682122798" duration="514000" />
       <workItem from="1702728199752" duration="1657000" />
-      <workItem from="1704440203779" duration="68000" />
+      <workItem from="1704440203779" duration="218000" />
+      <workItem from="1705988665823" duration="4000" />
+      <workItem from="1705988679472" duration="118000" />
+      <workItem from="1706512270254" duration="31000" />
+      <workItem from="1706516903245" duration="61000" />
+      <workItem from="1706517176456" duration="767000" />
+      <workItem from="1706518357766" duration="5162000" />
     </task>
     <servers />
   </component>

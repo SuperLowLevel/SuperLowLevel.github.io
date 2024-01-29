@@ -1,7 +1,7 @@
 ---
 name: Wenlong Zhang
 type: people
-people_type : XPixel at Shanghai AI Lab
+people_type : Alumni
 showtitle: PhD Student
 title: Wenlong Zhang - XPixel
 # [PhD Student, Master Student, Visiting Student,

@@ -380,9 +380,12 @@ layout: default
     <!--Start section 4 Columns with text-->
     <section class="text-center well well-sm">
         <div class="container">
-            <h5 class="font-weight-bold text-lg-left">Alumni</h5>
+            <div class="d-flex justify-content-between align-items-center">
+                <h5 class="font-weight-bold text-lg-left">Alumni</h5>
+                <button id="toggleAlumni" class="btn btn-link">Collapse Details</button>
+            </div>
             <hr>
-            <div class="row row-50">
+            <div class="row row-50" id="alumniContent">
                 {% for post in site.posts %}
                 {% if post.people_type == 'Alumni' %}
                 <div class="col-sm-6 col-lg-3">
@@ -422,6 +425,37 @@ layout: default
         </div>
     </section>
     <!--End section-->
+    <!-- JavaScript 脚本 -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // 找到校友部分的容器
+            var alumniContent = document.getElementById('alumniContent');
 
+            // 找到触发按钮
+            var toggleButton = document.getElementById('toggleAlumni');
 
+            // 初始状态为折叠
+            var alumniCollapsed = true;
+
+            // 切换校友部分的显示/隐藏
+            function toggleAlumniSection() {
+                alumniCollapsed = !alumniCollapsed;
+                if (alumniCollapsed) {
+                    alumniContent.style.display = 'none';
+                } else {
+                    // 展开时动态设置列数为4
+                    alumniContent.style.display = 'flex';
+                    alumniContent.style.flexWrap = 'wrap';
+                    alumniContent.style.justifyContent = 'space-between';
+                    alumniContent.querySelectorAll('.col-lg-3').forEach(function(col) {
+                        col.style.flex = '0 0 25%';
+                        col.style.maxWidth = '25%';
+                    });
+                }
+            }
+
+            // 添加按钮点击事件监听器
+            toggleButton.addEventListener('click', toggleAlumniSection);
+        });
+    </script>
 </main>
