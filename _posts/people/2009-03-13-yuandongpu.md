@@ -16,8 +16,8 @@ email: puyuandong@pjlab.org.cn
 google : None
 github : :https://github.com/Andrew0613
 linkedin: None
-institution: Shanghai AI Lab
-institutionShort: Shanghai AI Lab
+institution: Shanghai AI Lab, Shanghai Jiao Tong University (SJTU)
+institutionShort: Shanghai AI Lab, SJTU
 ---
 
 Yuandong Pu is currently a research intern in Shanghai AI Lab. He is currently a prospective joint Ph.D. student in Shanghai Jiao Tong University and Shanghai AI Lab, supervised by Prof. Chao Dong. He will receive his Bachelor’s degree from the Beijing Institute of Technology in 2023.

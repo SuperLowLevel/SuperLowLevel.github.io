@@ -17,7 +17,7 @@ google : None
 github : https://github.com/celinechanny
 linkedin: None
 institution: Shanghai AI Lab, SIAT
-institutionShort: Shanghai AI Lab
+institutionShort: Shanghai AI Lab, SIAT
 ---
 
 I'm currenly a senior student in Shandong University and a research  intern at XPixel group in Shanghai AI Lab. I'm going to be admitted to study for a M.Sc. degree at SIAT-CAS supervised by Prof. Chao Dong and Prof. Shifeng Chen without entrance examination in Sep. 2023. Most recently, I'm intrested in low-level vision, especially in face restoration.
