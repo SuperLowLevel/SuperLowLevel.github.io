@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b23671f5-456c-470b-af22-86ca96e08dfc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/paper/2023-01-07-SEAL.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/paper/2023-02-07-SEAL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/people/2010-03-26-wenlongzhang.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/people/2010-03-31-wenlongzhang.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/paper/2023-02-17-SUPIR .md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/paper/2023-02-17-SUPIR .md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/people/2010-03-29-yihaoliu.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/people/2010-03-29-yihaoliu.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/people/2010-05-28-chaodong.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/people/2010-05-28-chaodong.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/people.html" beforeDir="false" afterPath="$PROJECT_DIR$/people.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,9 +150,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
@@ -219,9 +220,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\SuperLowLevel.github.io\_posts\paper" />
+      <recent name="E:\SuperLowLevel.github.io\_posts\people" />
       <recent name="E:\SuperLowLevel.github.io\_posts\activities" />
       <recent name="E:\SuperLowLevel.github.io" />
-      <recent name="E:\SuperLowLevel.github.io\_posts\people" />
       <recent name="E:\SuperLowLevel.github.io\images\souvenir" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -229,13 +230,6 @@
       <recent name="E:\SuperLowLevel.github.io\_includes" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts\activities" />
     </key>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-fd6de256fdba-JavaScript-WS-241.8102.134" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -397,7 +391,13 @@
       <workItem from="1706512270254" duration="31000" />
       <workItem from="1706516903245" duration="61000" />
       <workItem from="1706517176456" duration="767000" />
-      <workItem from="1706518357766" duration="5162000" />
+      <workItem from="1706518357766" duration="5294000" />
+      <workItem from="1709529531655" duration="14000" />
+      <workItem from="1709529554164" duration="8000" />
+      <workItem from="1709529575670" duration="5000" />
+      <workItem from="1709529592289" duration="7000" />
+      <workItem from="1709529631653" duration="10000" />
+      <workItem from="1709529926999" duration="4982000" />
     </task>
     <servers />
   </component>
