@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b23671f5-456c-470b-af22-86ca96e08dfc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/paper/2023-02-17-SUPIR .md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/paper/2023-02-17-SUPIR .md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/people/2010-03-29-yihaoliu.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/people/2010-03-29-yihaoliu.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/people/2010-05-28-chaodong.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/people/2010-05-28-chaodong.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people.html" beforeDir="false" afterPath="$PROJECT_DIR$/people.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +204,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/SuperLowLevel.github.io/_posts/paper",
+    "last_opened_file_path": "E:/SuperLowLevel.github.io/_posts/people",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -219,8 +215,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\SuperLowLevel.github.io\_posts\paper" />
       <recent name="E:\SuperLowLevel.github.io\_posts\people" />
+      <recent name="E:\SuperLowLevel.github.io\_posts\paper" />
       <recent name="E:\SuperLowLevel.github.io\_posts\activities" />
       <recent name="E:\SuperLowLevel.github.io" />
       <recent name="E:\SuperLowLevel.github.io\images\souvenir" />
@@ -397,7 +393,8 @@
       <workItem from="1709529575670" duration="5000" />
       <workItem from="1709529592289" duration="7000" />
       <workItem from="1709529631653" duration="10000" />
-      <workItem from="1709529926999" duration="4982000" />
+      <workItem from="1709529926999" duration="5060000" />
+      <workItem from="1709538630906" duration="398000" />
     </task>
     <servers />
   </component>
