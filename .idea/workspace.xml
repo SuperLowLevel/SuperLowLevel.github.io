@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b23671f5-456c-470b-af22-86ca96e08dfc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/people/2010-05-28-chaodong.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/people/2010-05-28-chaodong.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/people/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/people/img_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/people/img_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/people/img_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/people/img_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/people/kainanyan.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/people/kainanyan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/people/2009-03-12-kainanyan.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/people/2009-03-12-kainanyan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/paper_teser/smartedit.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -403,7 +398,8 @@
       <workItem from="1709529926999" duration="5060000" />
       <workItem from="1709538630906" duration="544000" />
       <workItem from="1709539432201" duration="1249000" />
-      <workItem from="1709542771773" duration="129000" />
+      <workItem from="1709542771773" duration="151000" />
+      <workItem from="1709707693075" duration="36000" />
     </task>
     <servers />
   </component>

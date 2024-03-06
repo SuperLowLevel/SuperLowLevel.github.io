@@ -9,7 +9,7 @@ title: Kainan Yan - XPixel
 #  Alumni, Cooperation Professor]
 profileName: kainanyan.png  # 186 * 186
 profile: kainanyan2.png  # 570 * 725
-direction : 3D vision, 3D reconstruction
+direction : Low-level Vision
 layout: peoplepost  #  Do not change this
 homepage: None
 email: yankainan667@gmail.com
