@@ -14,7 +14,7 @@ layout: peoplepost  #  Do not change this
 homepage: https://andrew0613.github.io
 email: puyuandong@pjlab.org.cn
 google : None
-github : :https://github.com/Andrew0613
+github : https://github.com/Andrew0613
 linkedin: None
 institution: Shanghai AI Lab, Shanghai Jiao Tong University (SJTU)
 institutionShort: Shanghai AI Lab, SJTU

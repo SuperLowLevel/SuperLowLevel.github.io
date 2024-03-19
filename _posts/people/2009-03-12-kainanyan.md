@@ -14,7 +14,7 @@ layout: peoplepost  #  Do not change this
 homepage: None
 email: yankainan667@gmail.com
 google : None
-github : :None
+github : None
 linkedin: None
 institution: Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences (CAS)
 institutionShort: SIAT, CAS
