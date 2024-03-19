@@ -13,7 +13,7 @@ data: None  # If has data, post data link here, otherwise None
 code: None  # If has data, post code link here, otherwise None
 ---
 
-<center><img src="http://xpixel.group/images/activities/GraduationCeremony2.jpg" width = "800" height = "auto"/></center>
+<center><img src="http://xpixel.group/images/activities/2023GraduationCeremony2.jpg" width = "800" height = "auto"/></center>
 <h5 class="text-center">
 
 The atmosphere crackled with excitement as Xpixel Team members gathered for their long-awaited costume party, each one embodying a beloved character from the wizarding world of Harry Potter.
