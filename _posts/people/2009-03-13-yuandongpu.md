@@ -3,7 +3,7 @@ name: Yuandong Pu
 type: people
 people_type : XPixel at Shanghai AI Lab
 showtitle: PhD Student
-title: Shuo Cao - XPixel
+title: Yuandong Pu - XPixel
 # [PhD Student, Master Student, Visiting Student,
 #  Professor, Assistant Professor, Associate professor,
 #  Alumni, Cooperation Professor]
