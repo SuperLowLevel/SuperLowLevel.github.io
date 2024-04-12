@@ -10,7 +10,7 @@ direction : Multi-modality vision for low-level vision.
 layout: peoplepost  #  Do not change this
 homepage: https://zhiyuanyou.github.io/
 email: zhiyuanyou@foxmail.com
-google : https://scholar.google.com/citations?user=YRnwvDwAAAAJ&hl=zh-CN
+google : https://scholar.google.com/citations?user=Gwo9O8sAAAAJ
 github : https://github.com/zhiyuanyou/
 linkedin: None
 institution: Chinese University of Hong Kong
