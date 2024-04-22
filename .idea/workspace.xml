@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b23671f5-456c-470b-af22-86ca96e08dfc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/activitiespost.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/activitiespost.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about_img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about_img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about_img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about_img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team-member_img1.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,25 +204,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/SuperLowLevel.github.io/_posts/people&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/SuperLowLevel.github.io/_posts/activities",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\SuperLowLevel.github.io\_posts\people" />
       <recent name="E:\SuperLowLevel.github.io\_posts\activities" />
+      <recent name="E:\SuperLowLevel.github.io\_posts\people" />
       <recent name="E:\SuperLowLevel.github.io\_posts\paper" />
       <recent name="E:\SuperLowLevel.github.io" />
       <recent name="E:\SuperLowLevel.github.io\images\souvenir" />
@@ -226,6 +232,13 @@
       <recent name="E:\SuperLowLevel.github.io\_includes" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts\activities" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-2e7d6887c066-JavaScript-WS-241.15989.47" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -406,7 +419,17 @@
       <workItem from="1710857700189" duration="2497000" />
       <workItem from="1710860373909" duration="205000" />
       <workItem from="1710861199258" duration="123000" />
-      <workItem from="1710917417003" duration="339000" />
+      <workItem from="1710917417003" duration="555000" />
+      <workItem from="1712838413168" duration="16000" />
+      <workItem from="1712934573118" duration="112000" />
+      <workItem from="1712935043007" duration="137000" />
+      <workItem from="1712935227554" duration="68000" />
+      <workItem from="1713772197620" duration="1129000" />
+      <workItem from="1713774140272" duration="62000" />
+      <workItem from="1713779666349" duration="77000" />
+      <workItem from="1713787290866" duration="2575000" />
+      <workItem from="1713791796583" duration="30000" />
+      <workItem from="1713793785145" duration="2839000" />
     </task>
     <servers />
   </component>
