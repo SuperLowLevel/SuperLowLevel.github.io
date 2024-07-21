@@ -8,8 +8,8 @@ GEM
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
-    eventmachine (1.2.7)
-    ffi (1.15.5-x64-mingw-ucrt)
+    eventmachine (1.2.7-x64-mingw32)
+    ffi (1.15.5-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
     i18n (0.9.5)
@@ -62,13 +62,15 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2024.1)
+      tzinfo (>= 1.0.0)
     wdm (0.1.1)
     webrick (1.7.0)
 
 PLATFORMS
-  x64-mingw-ucrt
   x64-mingw32
-  x86-mingw32
 
 DEPENDENCIES
   jekyll (~> 3.9)
@@ -80,4 +82,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.2.30
+   2.4.22
