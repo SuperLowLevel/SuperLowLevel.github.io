@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b23671f5-456c-470b-af22-86ca96e08dfc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact_us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,6 +239,7 @@
       <recent name="E:\SuperLowLevel.github.io\images\souvenir" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebstormProjects\SuperLowLevel.github.io\images" />
       <recent name="E:\SuperLowLevel.github.io\_posts" />
       <recent name="E:\SuperLowLevel.github.io\_includes" />
       <recent name="D:\SuperLowLevel.github.io-master\_posts\activities" />
@@ -442,6 +446,8 @@
       <workItem from="1721558499341" duration="816000" />
       <workItem from="1721560788150" duration="4548000" />
       <workItem from="1727413290019" duration="205000" />
+      <workItem from="1733745130991" duration="29000" />
+      <workItem from="1733840722341" duration="3690000" />
     </task>
     <servers />
   </component>
