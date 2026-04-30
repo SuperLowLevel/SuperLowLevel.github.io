@@ -5,7 +5,7 @@ type:  activities
 tag : Party
 introduction: After successfully defending their graduation, Xpixel members celebrated with a lively evening of barbecue and karaoke, fostering camaraderie and joy.
 layout: activitiespost  #  Do not change this
-date:   2022-12-12 11:59:59 +0800  # paper pub data, only change year and month according to this format
+date:   2023-06-12 11:59:59 +0800  # paper pub data, only change year and month according to this format
 year:   2023  # paper year, number
 month:  June  # paper month, full name
 supplemental : None

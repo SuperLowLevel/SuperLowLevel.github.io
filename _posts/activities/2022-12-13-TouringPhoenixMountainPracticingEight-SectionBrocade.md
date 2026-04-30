@@ -5,7 +5,7 @@ type:  activities
 tag : Climb and Practicing the Eight-Section Brocade
 introduction: In the spring of 2024, the members of the Xpixel Group embarked on a spring outing to Phoenix Mountain. Upon reaching a secluded spot at the mountain top, they began practicing the Eight-Section Brocade.
 layout: activitiespost  #  Do not change this
-date:   2022-12-13 11:59:59 +0800  # paper pub data, only change year and month according to this format
+date:   2024-04-13 11:59:59 +0800  # paper pub data, only change year and month according to this format
 year:   2024  # paper year, number
 month:  April  # paper month, full name
 supplemental : None

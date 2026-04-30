@@ -3,459 +3,323 @@ title: XPixel - People
 layout: default
 ---
 
-<section>
-    <!--Swiper-->
-    <div class="swiper-container swiper-slider" data-autoplay="5000" data-slide-effect="fade" data-loop="false"
-         style="height: 400px;">
-        <div class="jumbotron text-center">
-            <h1 style="margin-top: 70px">Meet Our Members
-            </h1>
-            <p class="big"></p>
-        </div>
-        <div class="swiper-wrapper">
-            <div class="swiper-slide" data-slide-bg="images/header-1.jpg">
-                <div class="swiper-slide-caption"></div>
+<!-- ======== HERO: The Visionaries ======== -->
+<section class="xp-vis-hero">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5">
+                <p class="xp-vis-label">OUR MEMBERS</p>
+                <h1 class="xp-vis-heading">DECODING<br>THE <span class="xp-vis-fade">PIXEL.</span></h1>
             </div>
-            <div class="swiper-slide" data-slide-bg="images/header-3.jpg">
-                <div class="swiper-slide-caption"></div>
-            </div>
-            <div class="swiper-slide" data-slide-bg="images/header-4.jpg">
-                <div class="swiper-slide-caption"></div>
+            <div class="col-lg-6 offset-lg-1">
+                <p class="xp-vis-desc">
+                    Faculty, students, and collaborators across SIAT, Shanghai AI Lab, CUHK, NTU, Macau University, Tencent, and SenseTime—one group focused on low-level vision. We work on restoration, super-resolution, and imaging fundamentals, and we ship papers, code, and models that hold up in the real world.
+                </p>
             </div>
         </div>
     </div>
 </section>
 
-<main class="page-content">
-    <ol class="breadcrumb section-border">
-        <li><a href="index.html">About Us</a></li>
-        <li class="active">Members</li>
-    </ol>
+<!-- ======== Director ======== -->
+<section class="xp-team-section xp-team-section--director">
+    <div class="container">
+        <h2 class="xp-team-heading text-center">Director</h2>
+        <div class="xp-team-heading-line"></div>
 
-    {% assign cooperation = false %}
-    {% assign student = false %}
-    {% assign alumni = false %}
-
-    {% for post in site.posts %}
-    {% if post.type == 'people' %}
-
-
-    {% endif %}
-    {% endfor %}
-
-
-    <!--Start section 4 Columns with text-->
-    <section class="text-center well well-sm">
-        <div class="container">
-            <h5 class="font-weight-bold text-lg-left">Director</h5>
-            <hr>
-            <div class="row row-50">
-                {% for post in site.posts %}
-                {% if post.people_type == 'Director' %}
-                <div class="col-sm-6 col-lg-4">
-                    <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img  class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
-                        <div class="caption margin-1">
-                            <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
-                            <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
-                            <p><b>{{ post.showtitle }}</b><br>{{ post.institutionShort }}</p>
-                            <p class="text-light-clr" style="margin-top: 0px" align="text-center">
-                                Direction: {{ post.direction }}
-                                <br>
-                                Email: {{ post.email }}
-                            </p>
-                            <ul class="list-inline list-inline-3" style="margin-top: 10px">
-                                {% if post.homepage != 'None' %}
-                                <li><a class="fa-home" href="{{ post.homepage }}"></a></li>
-                                {% endif %}
-                                {% if post.github != 'None' %}
-                                <li><a class="fa-github" href="{{ post.github }}"></a></li>
-                                {% endif %}
-                                {% if post.linkedin != 'None' %}
-                                <li><a class="fa-linkedin" href="{{ post.linkedin }}"></a></li>
-                                {% endif %}
-                                {% if post.google != 'None' %}
-                                <li><a class="fa-graduation-cap" href="{{ post.google }}"></a></li>
-                                {% endif %}
-                            </ul>
-                        </div>
+        {% for post in site.posts %}
+        {% if post.people_type == 'Director' %}
+        <div class="xp-pi-card">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <a href="{{ post.url }}"><img class="xp-pi-photo" src="{{ "images/people/" | append: post.profileName }}" alt="{{ post.name }}"></a>
+                </div>
+                <div class="col-md-8">
+                    <h3 class="xp-pi-name"><a href="{{ post.url }}">{{ post.name }}</a></h3>
+                    <p class="xp-pi-title">{{ post.showtitle }}</p>
+                    <p class="xp-pi-inst">{{ post.institutionShort }}</p>
+                    <p class="xp-pi-bio">
+                        {% if post.direction != 'None' %}
+                        Research Direction: {{ post.direction }}
+                        {% endif %}
+                    </p>
+                    <div class="xp-pi-links">
+                        {% if post.homepage != 'None' %}
+                        <a class="xp-pill-btn" href="{{ post.homepage }}">Personal Website</a>
+                        {% endif %}
+                        {% if post.google != 'None' %}
+                        <a class="xp-pill-btn" href="{{ post.google }}">Google Scholar</a>
+                        {% endif %}
+                        {% if post.github != 'None' %}
+                        <a class="xp-pill-btn" href="{{ post.github }}">GitHub</a>
+                        {% endif %}
+                        {% if post.linkedin != 'None' %}
+                        <a class="xp-pill-btn" href="{{ post.linkedin }}">LinkedIn</a>
+                        {% endif %}
                     </div>
                 </div>
-                {% endif %}
-                {% endfor %}
             </div>
         </div>
-    </section>
-    <!--End section-->
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>
 
-    <!--Start section 4 Columns with text-->
-    <section class="text-center well well-sm">
-        <div class="container">
-            <h5 class="font-weight-bold text-lg-left">Co-Founders</h5>
-            <hr>
-            <div class="row row-50">
-                {% for post in site.posts %}
-                {% if post.people_type == 'Co-Founders' %}
-                <div class="col-sm-6 col-lg-4">
-                    <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img  class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
-                        <div class="caption margin-1">
-                            <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
-                            <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
-                            <p><b>{{ post.showtitle }}</b><br>{{ post.institutionShort }}</p>
-                            <p class="text-light-clr" style="margin-top: 0px" align="text-center">
-                                Direction: {{ post.direction }}
-                                <br>
-                                Email: {{ post.email }}
-                            </p>
-                            <ul class="list-inline list-inline-3" style="margin-top: 10px">
-                                {% if post.homepage != 'None' %}
-                                <li><a class="fa-home" href="{{ post.homepage }}"></a></li>
-                                {% endif %}
-                                {% if post.github != 'None' %}
-                                <li><a class="fa-github" href="{{ post.github }}"></a></li>
-                                {% endif %}
-                                {% if post.linkedin != 'None' %}
-                                <li><a class="fa-linkedin" href="{{ post.linkedin }}"></a></li>
-                                {% endif %}
-                                {% if post.google != 'None' %}
-                                <li><a class="fa-graduation-cap" href="{{ post.google }}"></a></li>
-                                {% endif %}
-                            </ul>
-                        </div>
+<!-- ======== Co-Founders ======== -->
+<section class="xp-team-section xp-team-section--cofounders">
+    <div class="container">
+        <h2 class="xp-team-heading text-center">Co-Founders</h2>
+        <div class="xp-team-heading-line"></div>
+
+        <div class="row xp-stagger" style="justify-content:center">
+            {% for post in site.posts %}
+            {% if post.people_type == 'Co-Founders' %}
+            <div class="col-sm-6 col-lg-4">
+                <div class="xp-member-card xp-member-card--featured">
+                    <a href="{{ post.url }}"><img class="xp-member-photo" src="{{ "images/people/" | append: post.profileName }}" alt="{{ post.name }}"></a>
+                    <h4 class="xp-member-name"><a href="{{ post.url }}">{{ post.name }}</a></h4>
+                    <p class="xp-member-title">{{ post.showtitle }}</p>
+                    <p class="xp-member-inst">{{ post.institutionShort }}</p>
+                    <p class="xp-member-meta">
+                        {% if post.direction != 'None' %}Direction: {{ post.direction }}{% endif %}
+                        {% if post.email != 'None' %}<br>Email: {{ post.email }}{% endif %}
+                    </p>
+                    <div class="xp-member-links">
+                        {% if post.homepage != 'None' %}
+                        <a href="{{ post.homepage }}"><span class="fa-home"></span></a>
+                        {% endif %}
+                        {% if post.google != 'None' %}
+                        <a href="{{ post.google }}"><span class="fa-graduation-cap"></span></a>
+                        {% endif %}
+                        {% if post.github != 'None' %}
+                        <a href="{{ post.github }}"><span class="fa-github"></span></a>
+                        {% endif %}
+                        {% if post.linkedin != 'None' %}
+                        <a href="{{ post.linkedin }}"><span class="fa-linkedin"></span></a>
+                        {% endif %}
                     </div>
                 </div>
-                {% endif %}
-                {% endfor %}
             </div>
+            {% endif %}
+            {% endfor %}
         </div>
-    </section>
-    <!--End section-->
+    </div>
+</section>
 
-    <!--Start section 4 Columns with text-->
-    <section class="text-center well well-sm">
-        <div class="container">
-            <h5 class="font-weight-bold text-lg-left">XPixel at Shanghai AI Lab</h5>
-            <hr>
-            <div class="row row-50">
-                {% for post in site.posts %}
-                {% if post.people_type == 'XPixel at Shanghai AI Lab' %}
-                <div class="col-sm-6 col-lg-3">
-                    <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img  class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
-                        <div class="caption margin-1">
-                            <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
-                            <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
-                            <p><b>{{ post.showtitle }}</b><br>{{ post.institutionShort }}</p>
-                            <p class="text-light-clr" style="margin-top: 0px">
-                                Direction: {{ post.direction }}
-                                <br>
-                                Email: {{ post.email }}
-                            </p>
-                            <ul class="list-inline list-inline-3" style="margin-top: 10px">
-                                {% if post.homepage != 'None' %}
-                                <li><a class="fa-home" href="{{ post.homepage }}"></a></li>
-                                {% endif %}
-                                {% if post.github != 'None' %}
-                                <li><a class="fa-github" href="{{ post.github }}"></a></li>
-                                {% endif %}
-                                {% if post.linkedin != 'None' %}
-                                <li><a class="fa-linkedin" href="{{ post.linkedin }}"></a></li>
-                                {% endif %}
-                                {% if post.google != 'None' %}
-                                <li><a class="fa-graduation-cap" href="{{ post.google }}"></a></li>
-                                {% endif %}
-                            </ul>
-                        </div>
+<!-- ======== Researchers at Shanghai AI Lab ======== -->
+<section class="xp-team-section">
+    <div class="container">
+        <h2 class="xp-team-heading text-center">XPixel at Shanghai AI Lab</h2>
+        <div class="xp-team-heading-line"></div>
+
+        <div class="row xp-stagger" style="justify-content:center">
+            {% for post in site.posts %}
+            {% if post.people_type == 'XPixel at Shanghai AI Lab' %}
+            <div class="col-6 col-sm-4 col-lg-3">
+                <div class="xp-member-card">
+                    <a href="{{ post.url }}"><img class="xp-member-photo" src="{{ "images/people/" | append: post.profileName }}" alt="{{ post.name }}"></a>
+                    <h4 class="xp-member-name"><a href="{{ post.url }}">{{ post.name }}</a></h4>
+                    <p class="xp-member-title">{{ post.showtitle }}<br>{{ post.institutionShort }}</p>
+                    <p class="xp-member-meta">
+                        {% if post.direction != 'None' %}Direction: {{ post.direction }}{% endif %}
+                        {% if post.email != 'None' %}<br>Email: {{ post.email }}{% endif %}
+                    </p>
+                    <div class="xp-member-links">
+                        {% if post.homepage != 'None' %}
+                        <a href="{{ post.homepage }}"><span class="fa-home"></span></a>
+                        {% endif %}
+                        {% if post.google != 'None' %}
+                        <a href="{{ post.google }}"><span class="fa-graduation-cap"></span></a>
+                        {% endif %}
+                        {% if post.github != 'None' %}
+                        <a href="{{ post.github }}"><span class="fa-github"></span></a>
+                        {% endif %}
+                        {% if post.linkedin != 'None' %}
+                        <a href="{{ post.linkedin }}"><span class="fa-linkedin"></span></a>
+                        {% endif %}
                     </div>
                 </div>
-                {% endif %}
-                {% endfor %}
             </div>
+            {% endif %}
+            {% endfor %}
         </div>
-    </section>
-    <!--End section-->
+    </div>
+</section>
 
-    <!--Start section 4 Columns with text-->
-    <section class="text-center well well-sm">
-        <div class="container">
-            <h5 class="font-weight-bold text-lg-left">XPixel at SIAT</h5>
-            <hr>
-            <div class="row row-50">
-                {% for post in site.posts %}
-                {% if post.people_type == 'XPixel at SIAT' %}
-                <div class="col-sm-6 col-lg-3">
-                    <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img  class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
-                        <div class="caption margin-1">
-                            <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
-                            <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
-                            <p><b>{{ post.showtitle }}</b></p>
-                            <p class="text-light-clr" style="margin-top: 0px">
-                                Direction: {{ post.direction }}
-                                <br>
-                                Email: {{ post.email }}
-                            </p>
-                            <ul class="list-inline list-inline-3" style="margin-top: 10px">
-                                {% if post.homepage != 'None' %}
-                                <li><a class="fa-home" href="{{ post.homepage }}"></a></li>
-                                {% endif %}
-                                {% if post.github != 'None' %}
-                                <li><a class="fa-github" href="{{ post.github }}"></a></li>
-                                {% endif %}
-                                {% if post.linkedin != 'None' %}
-                                <li><a class="fa-linkedin" href="{{ post.linkedin }}"></a></li>
-                                {% endif %}
-                                {% if post.google != 'None' %}
-                                <li><a class="fa-graduation-cap" href="{{ post.google }}"></a></li>
-                                {% endif %}
-                            </ul>
-                        </div>
+<!-- ======== Researchers at SIAT ======== -->
+<section class="xp-team-section">
+    <div class="container">
+        <h2 class="xp-team-heading text-center">XPixel at SIAT</h2>
+        <div class="xp-team-heading-line"></div>
+
+        <div class="row xp-stagger" style="justify-content:center">
+            {% for post in site.posts %}
+            {% if post.people_type == 'XPixel at SIAT' %}
+            <div class="col-6 col-sm-4 col-lg-3">
+                <div class="xp-member-card">
+                    <a href="{{ post.url }}"><img class="xp-member-photo" src="{{ "images/people/" | append: post.profileName }}" alt="{{ post.name }}"></a>
+                    <h4 class="xp-member-name"><a href="{{ post.url }}">{{ post.name }}</a></h4>
+                    <p class="xp-member-title">{{ post.showtitle }}</p>
+                    <p class="xp-member-meta">
+                        {% if post.direction != 'None' %}Direction: {{ post.direction }}{% endif %}
+                        {% if post.email != 'None' %}<br>Email: {{ post.email }}{% endif %}
+                    </p>
+                    <div class="xp-member-links">
+                        {% if post.homepage != 'None' %}
+                        <a href="{{ post.homepage }}"><span class="fa-home"></span></a>
+                        {% endif %}
+                        {% if post.google != 'None' %}
+                        <a href="{{ post.google }}"><span class="fa-graduation-cap"></span></a>
+                        {% endif %}
+                        {% if post.github != 'None' %}
+                        <a href="{{ post.github }}"><span class="fa-github"></span></a>
+                        {% endif %}
+                        {% if post.linkedin != 'None' %}
+                        <a href="{{ post.linkedin }}"><span class="fa-linkedin"></span></a>
+                        {% endif %}
                     </div>
                 </div>
-                {% endif %}
-                {% endfor %}
             </div>
+            {% endif %}
+            {% endfor %}
         </div>
-    </section>
-    <!--End section-->
+    </div>
+</section>
 
-<!--    &lt;!&ndash;Start section 4 Columns with text&ndash;&gt;-->
-<!--    <section class="text-center well well-sm">-->
-<!--        <div class="container">-->
-<!--            <h5 class="font-weight-bold text-lg-left">XPixel at NTU</h5>-->
-<!--            <hr>-->
-<!--            <div class="row row-50">-->
-<!--                {% for post in site.posts %}-->
-<!--                {% if post.people_type == 'XPixel at NTU' %}-->
-<!--                <div class="col-sm-6 col-lg-3">-->
-<!--                    <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img  class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>-->
-<!--                        <div class="caption margin-1">-->
-<!--                            <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>-->
-<!--                            &lt;!&ndash; <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> &ndash;&gt;-->
-<!--                            <p><b>{{ post.showtitle }}</b><br>{{ post.institutionShort }}</p>-->
-<!--                            <p class="text-light-clr" style="margin-top: 0px">-->
-<!--                                Direction: {{ post.direction }}-->
-<!--                                <br>-->
-<!--                                Email: {{ post.email }}-->
-<!--                            </p>-->
-<!--                            <ul class="list-inline list-inline-3" style="margin-top: 10px">-->
-<!--                                {% if post.homepage != 'None' %}-->
-<!--                                <li><a class="fa-home" href="{{ post.homepage }}"></a></li>-->
-<!--                                {% endif %}-->
-<!--                                {% if post.github != 'None' %}-->
-<!--                                <li><a class="fa-github" href="{{ post.github }}"></a></li>-->
-<!--                                {% endif %}-->
-<!--                                {% if post.linkedin != 'None' %}-->
-<!--                                <li><a class="fa-linkedin" href="{{ post.linkedin }}"></a></li>-->
-<!--                                {% endif %}-->
-<!--                                {% if post.google != 'None' %}-->
-<!--                                <li><a class="fa-graduation-cap" href="{{ post.google }}"></a></li>-->
-<!--                                {% endif %}-->
-<!--                            </ul>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                {% endif %}-->
-<!--                {% endfor %}-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
-<!--    &lt;!&ndash;End section&ndash;&gt;-->
+<!-- ======== Researchers at CUHK ======== -->
+<section class="xp-team-section">
+    <div class="container">
+        <h2 class="xp-team-heading text-center">XPixel at CUHK</h2>
+        <div class="xp-team-heading-line"></div>
 
-
-    <!--Start section 4 Columns with text-->
-    <section class="text-center well well-sm">
-        <div class="container">
-            <h5 class="font-weight-bold text-lg-left">XPixel at CUHK</h5>
-            <hr>
-            <div class="row row-50">
-                {% for post in site.posts %}
-                {% if post.people_type == 'XPixel at CUHK' %}
-                <div class="col-sm-6 col-lg-3">
-                    <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img  class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
-                    <div class="caption margin-1">
-                            <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
-                            <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
-                            <p><b>{{ post.showtitle }}</b><br>{{ post.institutionShort }}</p>
-                            <p class="text-light-clr" style="margin-top: 0px">
-                                Direction: {{ post.direction }}
-                                <br>
-                                Email: {{ post.email }}
-                            </p>
-                            <ul class="list-inline list-inline-3" style="margin-top: 10px">
-                                {% if post.homepage != 'None' %}
-                                <li><a class="fa-home" href="{{ post.homepage }}"></a></li>
-                                {% endif %}
-                                {% if post.github != 'None' %}
-                                <li><a class="fa-github" href="{{ post.github }}"></a></li>
-                                {% endif %}
-                                {% if post.linkedin != 'None' %}
-                                <li><a class="fa-linkedin" href="{{ post.linkedin }}"></a></li>
-                                {% endif %}
-                                {% if post.google != 'None' %}
-                                <li><a class="fa-graduation-cap" href="{{ post.google }}"></a></li>
-                                {% endif %}
-                            </ul>
-                        </div>
+        <div class="row xp-stagger" style="justify-content:center">
+            {% for post in site.posts %}
+            {% if post.people_type == 'XPixel at CUHK' %}
+            <div class="col-6 col-sm-4 col-lg-3">
+                <div class="xp-member-card">
+                    <a href="{{ post.url }}"><img class="xp-member-photo" src="{{ "images/people/" | append: post.profileName }}" alt="{{ post.name }}"></a>
+                    <h4 class="xp-member-name"><a href="{{ post.url }}">{{ post.name }}</a></h4>
+                    <p class="xp-member-title">{{ post.showtitle }}<br>{{ post.institutionShort }}</p>
+                    <p class="xp-member-meta">
+                        {% if post.direction != 'None' %}Direction: {{ post.direction }}{% endif %}
+                        {% if post.email != 'None' %}<br>Email: {{ post.email }}{% endif %}
+                    </p>
+                    <div class="xp-member-links">
+                        {% if post.homepage != 'None' %}
+                        <a href="{{ post.homepage }}"><span class="fa-home"></span></a>
+                        {% endif %}
+                        {% if post.google != 'None' %}
+                        <a href="{{ post.google }}"><span class="fa-graduation-cap"></span></a>
+                        {% endif %}
+                        {% if post.github != 'None' %}
+                        <a href="{{ post.github }}"><span class="fa-github"></span></a>
+                        {% endif %}
+                        {% if post.linkedin != 'None' %}
+                        <a href="{{ post.linkedin }}"><span class="fa-linkedin"></span></a>
+                        {% endif %}
                     </div>
                 </div>
-                {% endif %}
-                {% endfor %}
             </div>
+            {% endif %}
+            {% endfor %}
         </div>
-    </section>
-    <!--End section-->
+    </div>
+</section>
 
+<!-- ======== Researchers at UM ======== -->
+<section class="xp-team-section">
+    <div class="container">
+        <h2 class="xp-team-heading text-center">XPixel at UM</h2>
+        <div class="xp-team-heading-line"></div>
 
-
-    <!--Start section 4 Columns with text-->
-    <section class="text-center well well-sm">
-        <div class="container">
-            <h5 class="font-weight-bold text-lg-left">XPixel at UM</h5>
-            <hr>
-            <div class="row row-50">
-                {% for post in site.posts %}
-                {% if post.people_type == 'XPixel at UM' %}
-                <div class="col-sm-6 col-lg-3">
-                    <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img  class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
-                        <div class="caption margin-1">
-                            <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
-                            <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
-                            <p><b>{{ post.showtitle }}</b></p>
-                            <p class="text-light-clr" style="margin-top: 0px">
-                                Direction: {{ post.direction }}
-                                <br>
-                                Email: {{ post.email }}
-                            </p>
-                            <ul class="list-inline list-inline-3" style="margin-top: 10px">
-                                {% if post.homepage != 'None' %}
-                                <li><a class="fa-home" href="{{ post.homepage }}"></a></li>
-                                {% endif %}
-                                {% if post.github != 'None' %}
-                                <li><a class="fa-github" href="{{ post.github }}"></a></li>
-                                {% endif %}
-                                {% if post.linkedin != 'None' %}
-                                <li><a class="fa-linkedin" href="{{ post.linkedin }}"></a></li>
-                                {% endif %}
-                                {% if post.google != 'None' %}
-                                <li><a class="fa-graduation-cap" href="{{ post.google }}"></a></li>
-                                {% endif %}
-                            </ul>
-                        </div>
+        <div class="row xp-stagger" style="justify-content:center">
+            {% for post in site.posts %}
+            {% if post.people_type == 'XPixel at UM' %}
+            <div class="col-6 col-sm-4 col-lg-3">
+                <div class="xp-member-card">
+                    <a href="{{ post.url }}"><img class="xp-member-photo" src="{{ "images/people/" | append: post.profileName }}" alt="{{ post.name }}"></a>
+                    <h4 class="xp-member-name"><a href="{{ post.url }}">{{ post.name }}</a></h4>
+                    <p class="xp-member-title">{{ post.showtitle }}</p>
+                    <p class="xp-member-meta">
+                        {% if post.direction != 'None' %}Direction: {{ post.direction }}{% endif %}
+                        {% if post.email != 'None' %}<br>Email: {{ post.email }}{% endif %}
+                    </p>
+                    <div class="xp-member-links">
+                        {% if post.homepage != 'None' %}
+                        <a href="{{ post.homepage }}"><span class="fa-home"></span></a>
+                        {% endif %}
+                        {% if post.google != 'None' %}
+                        <a href="{{ post.google }}"><span class="fa-graduation-cap"></span></a>
+                        {% endif %}
+                        {% if post.github != 'None' %}
+                        <a href="{{ post.github }}"><span class="fa-github"></span></a>
+                        {% endif %}
+                        {% if post.linkedin != 'None' %}
+                        <a href="{{ post.linkedin }}"><span class="fa-linkedin"></span></a>
+                        {% endif %}
                     </div>
                 </div>
-                {% endif %}
-                {% endfor %}
             </div>
+            {% endif %}
+            {% endfor %}
         </div>
-    </section>
-    <!--End section-->
+    </div>
+</section>
 
-    <!--Start section 4 Columns with text-->
-    <section class="text-center well well-sm">
-        <div class="container">
-            <h5 class="font-weight-bold text-lg-left">XPixel at SenseTime</h5>
-            <hr>
-            <div class="row row-50">
-                {% for post in site.posts %}
-                {% if post.people_type == 'XPixel at SenseTime' %}
-                <div class="col-sm-6 col-lg-3">
-                    <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img height="188px" class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
-                        <div class="caption margin-1">
-                            <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
-                            <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
-                            <p>
-                                {% if post.institutionShort != 'None' %}
-                                <br>
-                                {{ post.institutionShort }}
-                                {% endif %}
-                            </p>
-                        </div>
+<!-- ======== XPixel at SenseTime ======== -->
+<section class="xp-team-section">
+    <div class="container">
+        <h2 class="xp-team-heading text-center">XPixel at SenseTime</h2>
+        <div class="xp-team-heading-line"></div>
+
+        <div class="row xp-stagger" style="justify-content:center">
+            {% for post in site.posts %}
+            {% if post.people_type == 'XPixel at SenseTime' %}
+            <div class="col-6 col-sm-4 col-lg-3">
+                <div class="xp-member-card">
+                    <a href="{{ post.url }}"><img class="xp-member-photo" src="{{ "images/people/" | append: post.profileName }}" alt="{{ post.name }}"></a>
+                    <h4 class="xp-member-name"><a href="{{ post.url }}">{{ post.name }}</a></h4>
+                    {% if post.institutionShort != 'None' %}
+                    <p class="xp-member-inst">{{ post.institutionShort }}</p>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- ======== Alumni ======== -->
+<section class="xp-team-section">
+    <div class="container">
+        <h2 class="xp-team-heading text-center">Alumni</h2>
+        <div class="xp-team-heading-line"></div>
+
+        <div class="row xp-stagger" style="justify-content:center">
+            {% for post in site.posts %}
+            {% if post.people_type == 'Alumni' %}
+            <div class="col-6 col-sm-4 col-lg-3">
+                <div class="xp-member-card">
+                    <a href="{{ post.url }}"><img class="xp-member-photo" src="{{ "images/people/" | append: post.profileName }}" alt="{{ post.name }}"></a>
+                    <h4 class="xp-member-name"><a href="{{ post.url }}">{{ post.name }}</a></h4>
+                    <p class="xp-member-title">
+                        {% if post.direction != 'None' %}{{ post.direction }}{% endif %}
+                    </p>
+                    <div class="xp-member-links">
+                        {% if post.homepage != 'None' %}
+                        <a href="{{ post.homepage }}"><span class="fa-home"></span></a>
+                        {% endif %}
+                        {% if post.google != 'None' %}
+                        <a href="{{ post.google }}"><span class="fa-graduation-cap"></span></a>
+                        {% endif %}
+                        {% if post.github != 'None' %}
+                        <a href="{{ post.github }}"><span class="fa-github"></span></a>
+                        {% endif %}
                     </div>
                 </div>
-                {% endif %}
-                {% endfor %}
             </div>
+            {% endif %}
+            {% endfor %}
         </div>
-    </section>
-    <!--End section-->
-
-    <!--Start section 4 Columns with text-->
-    <section class="text-center well well-sm">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center">
-                <h5 class="font-weight-bold text-lg-left">Alumni</h5>
-                <button id="toggleAlumni" class="btn btn-link">Collapse Details</button>
-            </div>
-            <hr>
-            <div class="row row-50" id="alumniContent">
-                {% for post in site.posts %}
-                {% if post.people_type == 'Alumni' %}
-                <div class="col-sm-6 col-lg-3">
-                    <div class="thumbnail thumbnail-3"><a href="{{ post.url }}"><img height="188px" class="rounded-circle" style="width: 70%" src="{{ "images/people/" | append: post.profileName }}" alt=""></a>
-                        <div class="caption margin-1">
-                            <h6><a href="{{ post.url }}">{{ post.name }}</a></h6>
-                            <!-- <p class="small text-light-clr">Now at {{ post.institutionShort }}</p> -->
-                            <p class="text-light-clr" style="margin-top: 0px">
-                                {% if post.direction != 'None' %}
-                                Direction: {{ post.direction }}
-                                {% endif %}
-                                {% if post.email != 'None' %}
-                                <br>
-                                Email: {{ post.email }}
-                                {% endif %}
-                            </p>
-                            <ul class="list-inline list-inline-3" style="margin-top: 10px">
-                                {% if post.homepage != 'None' %}
-                                <li><a class="fa-home" href="{{ post.homepage }}"></a></li>
-                                {% endif %}
-                                {% if post.github != 'None' %}
-                                <li><a class="fa-github" href="{{ post.github }}"></a></li>
-                                {% endif %}
-                                {% if post.linkedin != 'None' %}
-                                <li><a class="fa-linkedin" href="{{ post.linkedin }}"></a></li>
-                                {% endif %}
-                                {% if post.google != 'None' %}
-                                <li><a class="fa-graduation-cap" href="{{ post.google }}"></a></li>
-                                {% endif %}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-    </section>
-    <!--End section-->
-    <!-- JavaScript 脚本 -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // 找到校友部分的容器
-            var alumniContent = document.getElementById('alumniContent');
-
-            // 找到触发按钮
-            var toggleButton = document.getElementById('toggleAlumni');
-
-            // 初始状态为折叠
-            var alumniCollapsed = true;
-
-            // 切换校友部分的显示/隐藏
-            function toggleAlumniSection() {
-                alumniCollapsed = !alumniCollapsed;
-                if (alumniCollapsed) {
-                    alumniContent.style.display = 'none';
-                } else {
-                    // 展开时动态设置列数为4
-                    alumniContent.style.display = 'flex';
-                    alumniContent.style.flexWrap = 'wrap';
-                    alumniContent.style.justifyContent = 'space-between';
-                    alumniContent.querySelectorAll('.col-lg-3').forEach(function(col) {
-                        col.style.flex = '0 0 25%';
-                        col.style.maxWidth = '25%';
-                    });
-                }
-            }
-
-            // 添加按钮点击事件监听器
-            toggleButton.addEventListener('click', toggleAlumniSection);
-        });
-    </script>
-</main>
+    </div>
+</section>

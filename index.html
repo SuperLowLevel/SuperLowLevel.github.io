@@ -2,20 +2,36 @@
 title: XPixel Group
 
 labNameBig: XPixel Group
-labNameSmall: Shanghai AI Lab, SIAT, CUHK, NTU, UM, Tencent, SenseTime
-labNameDescript: Our mission is to make the world look clearer and better!
+labNameSmall: Our mission is to make the world look clearer and better!
 layout: default
 ---
 
-<section>
-    <!--Swiper-->
+<section class="xp-hero">
     <div class="swiper-container swiper-slider" data-autoplay="5000" data-slide-effect="fade" data-loop="false">
         <div class="jumbotron text-center">
-            <h1>{{ page.labNameBig }}</h1>
-            <hr>
-            <h3>{{ page.labNameSmall }}</h3>
-            <p class="big"><em>{{ page.labNameDescript }}</em> </p>
-            <!--<div class='button-group-variant'> <a class='button button-default round-xl button-sm' href='https://www.templatemonster.com/website-templates/58434.html'>Buy Now</a> <a class='button button-default round-xl button-sm' href='#'>View Features</a></div>-->
+            <div class="xp-hero-inner">
+                <h1 class="xp-hero-brand-heading" aria-label="{{ page.labNameBig }}">
+                    <span class="xp-hero-brand-stack">
+                        <img class="xp-hero-brand-logo xp-hero-brand-logo-static xp-hero-brand-logo-static--hidden" src="{{ '/images/xpixel-phoenix-black-transparent.png' | relative_url }}" alt="{{ page.labNameBig }}" width="900" height="225" loading="eager" decoding="async" fetchpriority="high">
+                        <video class="xp-hero-brand-logo xp-hero-brand-logo-video" muted playsinline autoplay preload="auto" aria-hidden="true">
+                            <source src="{{ '/images/xpixel_transparent_mask.webm' | relative_url }}" type="video/webm">
+                        </video>
+                    </span>
+                </h1>
+                <p class="xp-hero-tagline">{{ page.labNameSmall }}</p>
+                <p class="xp-hero-desc"><em>{{ page.labNameDescript }}</em></p>
+                <div class="xp-hero-stats">
+                    <div class="xp-stat">
+                        <span class="xp-stat-num" data-count="200">200+</span>
+                        <span class="xp-stat-label">Publications</span>
+                    </div>
+                    <div class="xp-stat-divider"></div>
+                    <div class="xp-stat">
+                        <span class="xp-stat-num" data-count="9">9</span>
+                        <span class="xp-stat-label">Competition Wins</span>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="swiper-wrapper">
             <div class="swiper-slide" data-slide-bg="images/header-1.jpg">
@@ -31,70 +47,55 @@ layout: default
     </div>
 </section>
 
-<!--<main class="page-content">-->
-<!--    &lt;!&ndash;Start section&ndash;&gt;-->
-<!--    <section class="well well-inset-2">-->
-<!--        <div class="container">-->
-<!--            <h1 class="text-center font-weight-bold">Recent Activities</h1>-->
-<!--            <div class="row justify-content-center">-->
-<!--                <div class="col-10">-->
-<!--                    &lt;!&ndash; Bootstrap collapse&ndash;&gt;-->
-<!--                    &lt;!&ndash; <div class="card-group-custom card-group-corporate" id="accordion1" role="tablist"-->
-<!--                        aria-multiselectable="false"> &ndash;&gt;-->
-<!--                    &lt;!&ndash; Bootstrap card&ndash;&gt;-->
-<!--                    <article class="card card-custom card-corporate">-->
-<!--                        <div class="card-header" role="tab">-->
-<!--                            <div class="card-title">-->
+{% assign xp_collab_brands = "Shanghai AI Lab|SIAT|CUHK|NTU|UM|Tencent|SenseTime" | split: "|" %}
+<div class="xp-collab-marquee" role="region" aria-label="Partner institutions">
+    <div class="container xp-collab-marquee-inner">
+        <div class="xp-collab-marquee-label-wrap">
+            <span class="xp-collab-marquee-label">Collaborating with</span>
+        </div>
+        <div class="xp-collab-marquee-viewport">
+            <span class="xp-collab-marquee-fade xp-collab-marquee-fade--left" aria-hidden="true"></span>
+            <span class="xp-collab-marquee-fade xp-collab-marquee-fade--right" aria-hidden="true"></span>
+            <div class="xp-collab-marquee-track">
+                {% for b in xp_collab_brands %}<span class="xp-collab-marquee-item">{{ b }}</span>{% endfor %}
+                {% for b in xp_collab_brands %}<span class="xp-collab-marquee-item">{{ b }}</span>{% endfor %}
+                {% for b in xp_collab_brands %}<span class="xp-collab-marquee-item">{{ b }}</span>{% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
 
-<!--                                {% for post in site.posts %}-->
-<!--                                {% if post.title == 'Blind Image Super-Resolution: A Survey and Beyond' %}-->
-<!--                                <a role="button" d class="collapsed"-->
-<!--                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">-->
-<!--                                    [August 2022] 'Blind Image Super-Resolution: A Survey and Beyond' is accepts by IEEE T-PAMI! Check out for <font class="text-primary">more details</font>.-->
-<!--                                    <div class="card-arrow"></div>-->
-<!--                                </a>-->
-<!--                                {% endif %}-->
-<!--                                {% endfor %}-->
-
-<!--                                {% for post in site.posts %}-->
-<!--                                {% if post.title == 'We release XPixel Metaverse' %}-->
-<!--                                <a role="button" d class="collapsed"-->
-<!--                                   aria-controls="accordion1Collapse1" aria-expanded="false" href="{{ post.url }}">-->
-<!--                                    [June 2022] We release XPixel Metaverse! Check out for <font class="text-primary">more details</font>.-->
-<!--                                    <div class="card-arrow"></div>-->
-<!--                                </a>-->
-<!--                                {% endif %}-->
-<!--                                {% endfor %}-->
-
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </article>-->
-<!--                    &lt;!&ndash; </div> &ndash;&gt;-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
-<!--    &lt;!&ndash;End section&ndash;&gt;-->
-
-    <section class="well well-sm well-inset-2 text-center">
+<main class="page-content">
+    <section class="well well-sm well-inset-2 text-center xp-glow-section">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-12">
-                    <h1 class="font-weight-bold text-center">XPixel Metaverse</h1>
-                    <img src="images/activities/poster.jpg">
-                    </img>
-                    <h3 class="lead big">
+                    <div class="xp-act-fm-header text-center xp-home-section-head">
+                        <p class="xp-act-section-eyebrow">Virtual World</p>
+                        <h2 class="xp-act-fm-title">XPixel Metaverse</h2>
+                        <div class="xp-act-title-accent"></div>
+                    </div>
+                    <div class="xp-metaverse-img">
+                        <a href="{{ BASE_PATH }}/images/activities/poster.jpg" class="xp-metaverse-zoom" data-lightgallery="item" data-lg-thumbnail="false" title="点击放大 / Click to enlarge">
+                            <img src="{{ BASE_PATH }}/images/activities/poster.jpg" alt="XPixel Metaverse poster — click to view full size">
+                        </a>
+                    </div>
+                    <h3 class="lead big" style="margin-top:32px">
                         XPixel Metaverse is the wisdom fruit of the whole XPixel Group. It represents our perseverance to research, our taste of art, our enthusiasm for life, and our responsibility to the world. XPixel Metaverse not only records our glorious history, but also previews our brighter future. Welcome excellent scholars from all over the world to work together for a clearer and better world! <a class="text-primary" href="https://xpixel.group/2022/06/06/Metaverse.html">Click here to read more details.</a>
                     </h3>
                 </div>
             </div>
         </div>
-    </section>>
-    <!--Start section-->
-    <section class="well well-sm well-inset-2 text-center text-lg-left">
+    </section>
+
+    <section class="well well-sm well-inset-2 text-center text-lg-left xp-glow-section">
         <div class="container">
-            <h1 class="font-weight-bold text-center">Recent Activities</h1>
-            <div class="row row-30">
+            <div class="xp-act-fm-header text-center xp-home-section-head">
+                <p class="xp-act-section-eyebrow">What&apos;s New</p>
+                <h2 class="xp-act-fm-title">Recent Activities</h2>
+                <div class="xp-act-title-accent"></div>
+            </div>
+            <div class="row row-30 xp-stagger">
                 {% assign count=0%}
                 {% for post in site.posts %}
                 {% if post.type == 'activities' and count<3%}
@@ -118,12 +119,15 @@ layout: default
             </div>
         </div>
     </section>
-    <!--End section-->
-    <!--Start section-->
-    <section class="well well-sm well-inset-2 text-center text-lg-left">
+
+    <section class="well well-sm well-inset-2 text-center text-lg-left xp-glow-section">
         <div class="container">
-            <h1 class="font-weight-bold text-center">Latest Publications</h1>
-            <div class="row row-30">
+            <div class="xp-act-fm-header text-center xp-home-section-head">
+                <p class="xp-act-section-eyebrow">Research Output</p>
+                <h2 class="xp-act-fm-title">Latest Publications</h2>
+                <div class="xp-act-title-accent"></div>
+            </div>
+            <div class="row row-30 xp-stagger">
                 {% assign count=0%}
                 {% for post in site.posts %}
                 {% if post.type == 'paper' and count<3%}
@@ -147,130 +151,66 @@ layout: default
             </div>
         </div>
     </section>
-    <!--End section-->
 
-    <!--Start section-->
-    <section class="well well-sm well-inset-2 text-center">
+    <section class="well well-sm well-inset-2 text-center xp-glow-section">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-xl-6">
-                    <h1 class="font-weight-bold text-center">Products</h1>
+                <div class="col-xl-10">
+                    <div class="xp-act-fm-header text-center xp-home-section-head">
+                        <p class="xp-act-section-eyebrow">Commercial Applications</p>
+                        <h2 class="xp-act-fm-title">Products</h2>
+                        <div class="xp-act-title-accent"></div>
+                    </div>
                 </div>
             </div>
-            <div class="row margin-1">
-                <div class="owl-carousel" data-autoplay="true" data-items="1" data-md-items="2" data-sm-items="1"
-                     data-lg-items="2" data-nav="true" data-margin="30" data-loop="false">
-                    <blockquote class="quote-2">
-                        <a href="https://www.suppixel.cn/home">
-                            <img class="img-rounded" src="images/product-1.png" alt="">
+            <div class="row margin-1 xp-product-row justify-content-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <article class="xp-product-card">
+                        <a class="xp-product-card-media" href="https://www.suppixel.cn/home" rel="noopener" target="_blank">
+                            <img src="{{ BASE_PATH }}/images/product-1.png" alt="suppixel.cn — product preview">
                         </a>
-                        <h6>
-                            <cite>suppixel.cn</cite>
-                        </h6>
-                        <p class="heading-6 font-italic font-base text-base">
-                            <q>
-                                用于卓越图像增强和放大技术的尖端AI工具。无论您的图像是压缩的、有噪点的还是模糊的，我们的模型都能提供超出您想象的惊人效果。
-                            </q>
-                        </p>
-                    </blockquote>
-                    <blockquote class="quote-2">
-                        <a href="https://supir.suppixel.ai/home">
-                            <img class="img-rounded" src="images/product-2.png" alt="">
+                        <div class="xp-product-card-body">
+                            <h3 class="xp-product-card-title"><a href="https://www.suppixel.cn/home" rel="noopener" target="_blank">suppixel.cn</a></h3>
+                            <p class="xp-product-card-desc">用于卓越图像增强和放大技术的尖端 AI 工具。无论您的图像是压缩的、有噪点的还是模糊的，我们的模型都能提供超出您想象的惊人效果。</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-6">
+                    <article class="xp-product-card">
+                        <a class="xp-product-card-media" href="https://supir.suppixel.ai/home" rel="noopener" target="_blank">
+                            <img src="{{ BASE_PATH }}/images/product-2.png" alt="suppixel.ai — product preview">
                         </a>
-                        <h6>
-                            <cite>suppixel.ai</cite>
-                        </h6>
-                        <p class="heading-6 font-italic font-base text-base">
-                            <q>
-                                The leading-edge AI tool for superior image enhancement and upscaling. Whether your images are compressed, noisy, or blurry, our model delivers astonishing results beyond your imagination.
-                            </q>
-                        </p>
-                    </blockquote>
+                        <div class="xp-product-card-body">
+                            <h3 class="xp-product-card-title"><a href="https://supir.suppixel.ai/home" rel="noopener" target="_blank">suppixel.ai</a></h3>
+                            <p class="xp-product-card-desc">The leading-edge AI tool for superior image enhancement and upscaling. Whether your images are compressed, noisy, or blurry, our model delivers astonishing results beyond your imagination.</p>
+                        </div>
+                    </article>
                 </div>
             </div>
         </div>
     </section>
-    <!--End section-->
 
-    <!--Start section-->
-    <section class="well well-sm well-inset-2 text-center">
+    <section class="well well-sm well-inset-2 text-center xp-glow-section">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-xl-6">
-                    <h1 class="font-weight-bold text-center">Collaboration</h1>
+                <div class="col-xl-10">
+                    <div class="xp-act-fm-header text-center xp-home-section-head">
+                        <p class="xp-act-section-eyebrow">Partners &amp; Affiliations</p>
+                        <h2 class="xp-act-fm-title">Collaboration</h2>
+                        <div class="xp-act-title-accent"></div>
+                    </div>
                 </div>
             </div>
             <div class="row margin-1">
-                <!--Owl Carousel-->
-                <div class="owl-carousel" data-autoplay="true" data-items="1" data-md-items="2" data-sm-items="1"
-                    data-lg-items="3" data-nav="true" data-margin="30" data-loop="true">
-                    <blockquote class="quote-2"><img class="img-rounded" href="https://www.shlab.org.cn/" src="images/shagnhai_ailab.png" alt="">
-                        <h6>
-                            <cite>Shanghai AI Lab</cite>
-                        </h6>
-                        <p class="heading-6 font-italic font-base text-base">
-                            <q>Shanghai Artificial Intelligence Laboratory conducts advanced research on the core theories of artificial intelligence, such as machine learning, reinforcement learning, deep learning, knowledge computation, causal inference, and information security. The laboratory has a strong focus on interdisciplinary research in artificial intelligence and is dedicated to exploring innovative paradigms for data-driven scientific inquiry.</q>
-                        </p>
-                    </blockquote>
-                    <blockquote class="quote-2"><img class="img-rounded" href="http://english.siat.cas.cn/" src="images/SIATlogo.png" alt="">
-                        <h6>
-                            <cite>SIAT</cite>
-                        </h6>
-                        <p class="heading-6 font-italic font-base text-base">
-                            <q>SIAT aims to enhance the innovative capacity of the equipment manufacturing and service industries in the Guangdong-Hong Kong region, promote the development of emerging industries possessing their own proprietary intellectual property, and become a world-class industrial research institute.</q>
-                        </p>
-                    </blockquote>
-                    <blockquote class="quote-2"><img class="img-rounded"  src="images/CUHKlogo.png" alt="" href="http://mmlab.ie.cuhk.edu.hk/">
-                        <h6>
-                            <cite>CUHK</cite>
-                        </h6>
-                        <p class="heading-6 font-italic font-base text-base">
-                            <q>The CUHK Multimedia Lab (MMLab) is one of the pioneering institutes on deep learning. In GPU Technology Conference (GTC) 2016, a world-wide technology summit, MMlab is recognized as one of the top ten AI pioneers, and listed together with top research groups in the world (e.g. MIT, Stanford, Berkeley, and Univ. of Toronto). Today, it remains one of the most active research labs in computer vision and deep learning, publishing over 40 papers on top conferences (CVPR/ICCV/ECCV/NIPS) every year.</q>
-                        </p>
-                    </blockquote>
-                    <blockquote class="quote-2"><img class="img-rounded" src="images/NTUlogo.png" href="http://scse.ntu.edu.sg/Pages/Home.aspx" alt="">
-                        <h6>
-                            <cite>NTU</cite>
-                        </h6>
-                        <p class="heading-6 font-italic font-base text-base">
-                            <q>The Nanyang Technological University is the second oldest public autonomous research university in Singapore. With a population of 33,500 students and 10,000 faculty and staff, NTU is the second largest university in Singapore.  </q>
-                        </p>
-                    </blockquote>
-                    <blockquote class="quote-2"><img class="img-rounded" src="images/UM_logo.png" href="https://www.um.edu.mo/zh-hant/" alt="">
-                        <h6>
-                            <cite>UM</cite>
-                        </h6>
-                        <p class="heading-6 font-italic font-base text-base">
-                            <q>The University of Macau (UM) is a leading public research university located in Macau, China. It offers a wide range of undergraduate and postgraduate programs in various fields including computer science, engineering, business. Its research achievements have gained international recognition, positioning UM as a major player in the field of higher education and research in Asia.</q>
-                        </p>
-                    </blockquote>
-                    <blockquote class="quote-2"><img class="img-rounded" src="images/ARC_Lab.png" href="https://arc.tencent.com/en/index" alt="">
-                        <h6>
-                            <cite>ARC Lab, Tencent PCG</cite>
-                        </h6>
-                        <p class="heading-6 font-italic font-base text-base">
-                            <q>Applied Research Center (ARC) develops the cutting-edge technology of intelligent media, and aims to be a world-class research center. ARC empowers Tencent PCG, a large business group running Tencent social media, information feed, search, and content platforms, which require almost all the technics regarding artificial intelligence and big data. Benefited from these demands, ARC advantages in research breadth, depth, and industry integration.</q>
-                        </p>
-                    </blockquote>
-                    <blockquote class="quote-2" ><img class="img-rounded" href="https://www.sensetime.com/" src="images/Sensetimelogo.png" alt="">
-                        <h6>
-                            <cite href="https://www.sensetime.com/">SenseTime Inc.</cite>
-                        </h6>
-                        <p class="heading-6 font-italic font-base text-base">
-                            <q>SenseTime is a global company focused on developing innovative AI technologies that positively contribute to economies, society and humanity. With roots in the academic world, SenseTime invest in fundamental research to further understanding and advance the state of art in AI technology. SenseTime is a global team of talented individuals with over half dedicated to research and development activities. This has made it a leading global AI algorithm provider and one of the most prolific contributors of related papers in the research community.</q>
-                        </p>
-                    </blockquote>
-
+                <div class="owl-carousel xp-collab-carousel" data-autoplay="true" data-items="1" data-md-items="2" data-sm-items="1"
+                    data-lg-items="3" data-nav="true" data-margin="24" data-loop="true" data-check-visible="false">
+{% include xp-collaboration-slides.html %}
+{% include xp-collaboration-slides.html %}
                 </div>
             </div>
         </div>
     </section>
-    <!--End section-->
             <div style="display:none;">
                 <a href="https://clustrmaps.com/site/1blqc"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=I0UKEIHAan9Bu_8TF2b9us3XWwlUaj6z7WnrReqBnqo&cl=ffffff" /></a>
             </div>
 </main>
-
-
-
-

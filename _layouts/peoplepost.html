@@ -2,26 +2,9 @@
 layout: default
 ---
 
-<section>
-    <!--Swiper-->
-    <div class="swiper-container swiper-slider" data-autoplay="5000" data-slide-effect="fade" data-loop="false"
-        style="height: 250px;">
-        <div class="jumbotron text-center">
-            <h1 style="margin-top: 70px">Meet Our People
-            </h1>
-            <p class="big"></p>
-        </div>
-        <div class="swiper-wrapper">
-            <div class="swiper-slide" data-slide-bg="{{ BASE_PATH }}/images/header-1.jpg">
-                <div class="swiper-slide-caption"></div>
-            </div>
-            <div class="swiper-slide" data-slide-bg="{{ BASE_PATH }}/images/header-1.jpg">
-                <div class="swiper-slide-caption"></div>
-            </div>
-            <div class="swiper-slide" data-slide-bg="{{ BASE_PATH }}/images/header-1.jpg">
-                <div class="swiper-slide-caption"></div>
-            </div>
-        </div>
+<section class="xp-vis-hero">
+    <div class="container text-center">
+        <h1 class="xp-vis-heading">MEET OUR <span class="xp-vis-fade">PEOPLE.</span></h1>
     </div>
 </section>
 
@@ -32,7 +15,6 @@ layout: default
         <li class="active">{{ page.name }}</li>
     </ol>
 
-    <!--Start section-->
     <section class="text-center text-lg-left well well-sm">
         <div class="container">
             <article class="team-member row row-30 flex-md-row-reverse justify-content-center">
@@ -88,5 +70,4 @@ layout: default
             </article>
         </div>
     </section>
-    <!--End section-->
 </main>

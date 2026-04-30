@@ -2,97 +2,128 @@
 layout: default
 ---
 
-<section>
-    <!--Swiper-->
-    <div class="swiper-container swiper-slider" data-autoplay="5000" data-slide-effect="fade" data-loop="false"
-        style="height: 250px;">
-        <div class="jumbotron text-center">
-            <!-- <h1>Publications</h1> -->
-            <!-- <p class="big"></p> -->
-        </div>
-        <div class="swiper-wrapper">
-            <div class="swiper-slide" data-slide-bg="{{ BASE_PATH }}/images/header-1.jpg">
-                <div class="swiper-slide-caption"></div>
-            </div>
-            <div class="swiper-slide" data-slide-bg="{{ BASE_PATH }}/images/header-3.jpg">
-                <div class="swiper-slide-caption"></div>
-            </div>
-            <div class="swiper-slide" data-slide-bg="{{ BASE_PATH }}/images/header-4.jpg">
-                <div class="swiper-slide-caption"></div>
-            </div>
-        </div>
+{% assign page_label = "Publication" %}
+{% assign crumb_parent_text = "Publications" %}
+{% assign crumb_parent_href = BASE_PATH | append: "/publication.html" %}
+{% assign crumb_child_text = "In Lab" %}
+{% assign crumb_child_href = BASE_PATH | append: "/publication_lab.html" %}
+
+{% if page.type == "spaper" %}
+  {% assign page_label = "SenseTime Paper" %}
+  {% assign crumb_child_text = "In Corporation" %}
+  {% assign crumb_child_href = BASE_PATH | append: "/publication_sensetime.html" %}
+{% endif %}
+
+<section class="xp-vis-hero xp-act-post-hero">
+    <div class="container text-center">
+        <p id="xp-post-label" class="xp-vis-label">{{ page_label }}</p>
+        <h1 class="xp-vis-heading xp-act-post-title-h1">{{ page.title }}</h1>
+        <ol class="breadcrumb xp-act-post-breadcrumb">
+            <li><a href="{{ BASE_PATH }}/index.html">Home</a></li>
+            <li><a id="xp-post-parent-link" href="{{ crumb_parent_href }}">{{ crumb_parent_text }}</a></li>
+            <li><a id="xp-post-child-link" href="{{ crumb_child_href }}">{{ crumb_child_text }}</a></li>
+            <li id="xp-post-project-cat-item" style="display:none;"><a id="xp-post-project-cat-link" href="#"></a></li>
+        </ol>
     </div>
 </section>
 
-<main class="page-content">
-    <section class="section-border text-center text-lg-left">
+<main class="page-content xp-act-post-page">
+    <section class="xp-act-post-body">
         <div class="container">
-            <ol class="breadcrumb">
-                <li><a href="{{ BASE_PATH }}/index.html">Home</a></li>
-                <li><a href="{{ BASE_PATH }}/publication.html">Publications</a></li>
-            </ol>
-        </div>
-    </section>
-    <section class="text-center text-lg-left margin-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 section-border">
-                    <article class="well" style="padding-top: 10px">
-                        <h1>{{ page.title }}</h1>
-                        <h4 style="padding-top: 20px">{{ page.author }}</h4>
-                        <div class="blog-info">
-                            <div class="pull-md-left">
-                                <time class="meta fa-calendar" datetime="2019">{{ page.year }} {{ page.month }}</time>
-                                <div class="tags d-inline-block">
-                                    <span class="badge fa-tags"></span>
-                                    {% if page.paperLink == 'None' %}
-                                    {% else %}
-                                    <a class="post-tag round-xl small text-primary"
-                                        href="{{ page.paperLink }}">Paper</a>
-                                    {% endif %}
-                                    {% if page.projectPage == 'None' %}
-                                    {% else %}
-                                    <a class="post-tag round-xl small text-primary"
-                                        href="{{ page.projectPage }}">Project Page</a>
-                                    {% endif %}
-                                    {% if page.code == 'None' %}
-                                    {% else %}
-                                    <a class="post-tag round-xl small text-primary" href="{{ page.code }}">Code</a>
-                                    {% endif %}
-                                    {% if page.data == 'None' %}
-                                    {% else %}
-                                    <a class="post-tag round-xl small text-primary" href="{{ page.data }}">Data</a>
-                                    {% endif %}
-                                    {% if page.supplemental == 'None' %}
-                                    {% else %}
-                                    <a class="post-tag round-xl small text-primary"
-                                        href="{{ page.supplemental }}">Supplemental</a>
-                                    {% endif %}
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <img class="margin-5" src="images/blog-19.jpg" alt=""> -->
-
-                        <img class="pull-md-left img-inset-1" src="{{ BASE_PATH }}/images/paper_teser/{{ page.teser }}" style="width: 50%" alt="">
-                        <p class="lead margin-2 text-justify">
-                            {{ content }}
-                        </p>
-                    </article>
-                </div>
-                <div class="col-12 text-center text-lg-left post-links margin-5" style="margin-bottom: 55px">
-                    <div
-                        class="d-flex align-items-center justify-content-center justify-content-md-between flex-wrap group">
-                        {% if page.previous and page.previous.type=='paper' %}
-                            <a class="button-link pull-md-left fa-angle-left" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
-                        {% endif %}
-                        {% if page.next and page.next.type=='paper' %}
-                        <a class="button-link pull-md-right fa-angle-right" href="{{ page.next.url }}">{{ page.next.title }}</a>
-                        {% endif %}
-                    </div>
+            <div class="xp-act-post-meta">
+                <time class="xp-act-post-date" datetime="{{ page.year }}-{{ page.month }}">{{ page.year }} {{ page.month }}</time>
+                <div class="xp-act-post-meta-links">
+                    {% if page.paperLink and page.paperLink != 'None' %}
+                    <a class="xp-act-meta-chip" href="{{ page.paperLink }}" rel="noopener">Paper</a>
+                    {% endif %}
+                    {% if page.projectPage and page.projectPage != 'None' %}
+                    <a class="xp-act-meta-chip" href="{{ page.projectPage }}" rel="noopener">Project Page</a>
+                    {% endif %}
+                    {% if page.code and page.code != 'None' %}
+                    <a class="xp-act-meta-chip" href="{{ page.code }}" rel="noopener">Code</a>
+                    {% endif %}
+                    {% if page.data and page.data != 'None' %}
+                    <a class="xp-act-meta-chip" href="{{ page.data }}" rel="noopener">Data</a>
+                    {% endif %}
+                    {% if page.supplemental and page.supplemental != 'None' %}
+                    <a class="xp-act-meta-chip" href="{{ page.supplemental }}" rel="noopener">Supplemental</a>
+                    {% endif %}
                 </div>
             </div>
+
+            <article class="xp-act-post-article">
+                {% if page.author %}
+                <h4>{{ page.author }}</h4>
+                {% endif %}
+                {% if page.venue %}
+                <h5>{{ page.venue }}</h5>
+                {% endif %}
+                {% if page.teser %}
+                <img src="{{ BASE_PATH }}/images/paper_teser/{{ page.teser }}" alt="{{ page.title }}">
+                {% endif %}
+                {{ content }}
+            </article>
+
+            <nav class="xp-act-post-nav" aria-label="Adjacent posts">
+                <div class="xp-act-post-nav-inner">
+                    {% if page.previous and page.previous.layout == 'post' %}
+                    <a class="xp-act-post-nav-link xp-act-post-nav-prev" href="{{ page.previous.url }}"><span class="xp-act-post-nav-dir">Previous</span><span class="xp-act-post-nav-title">{{ page.previous.title }}</span></a>
+                    {% endif %}
+                    {% if page.next and page.next.layout == 'post' %}
+                    <a class="xp-act-post-nav-link xp-act-post-nav-next" href="{{ page.next.url }}"><span class="xp-act-post-nav-dir">Next</span><span class="xp-act-post-nav-title">{{ page.next.title }}</span></a>
+                    {% endif %}
+                </div>
+            </nav>
         </div>
     </section>
-
-
 </main>
+
+<script>
+  (function () {
+    var params = new URLSearchParams(window.location.search);
+    var src = (params.get('src') || '').toLowerCase();
+    var label = document.getElementById('xp-post-label');
+    var parent = document.getElementById('xp-post-parent-link');
+    var child = document.getElementById('xp-post-child-link');
+    var projectCatItem = document.getElementById('xp-post-project-cat-item');
+    var projectCatLink = document.getElementById('xp-post-project-cat-link');
+    if (!label || !parent || !child || !projectCatItem || !projectCatLink) return;
+
+    var projectType = '{{ page.pro_type | default: "" | strip | escape }}';
+    var projectHref = '{{ BASE_PATH }}/projects.html';
+    if (projectType === 'Image Super-Resolution') projectHref = '{{ BASE_PATH }}/image_sr.html';
+    else if (projectType === 'Video Super-Resolution' || projectType === 'Video Super-resolution') projectHref = '{{ BASE_PATH }}/video_sr.html';
+    else if (projectType === 'Image Restoration' || projectType === 'Image Processing') projectHref = '{{ BASE_PATH }}/image_re.html';
+    else if (projectType === 'Style Transfer') projectHref = '{{ BASE_PATH }}/style_trasfer.html';
+    else if (projectType === 'Image Dehazing') projectHref = '{{ BASE_PATH }}/image_de.html';
+
+    if (src === 'projects') {
+      label.textContent = 'Project';
+      parent.textContent = 'Projects';
+      parent.href = '{{ BASE_PATH }}/projects.html';
+      child.textContent = projectType || 'Selected Area';
+      child.href = projectHref;
+      projectCatItem.style.display = 'none';
+      return;
+    }
+
+    if (src === 'corp') {
+      label.textContent = 'SenseTime Paper';
+      parent.textContent = 'Publications';
+      parent.href = '{{ BASE_PATH }}/publication.html';
+      child.textContent = 'In Corporation';
+      child.href = '{{ BASE_PATH }}/publication_sensetime.html';
+      projectCatItem.style.display = 'none';
+      return;
+    }
+
+    if (src === 'lab') {
+      label.textContent = 'Publication';
+      parent.textContent = 'Publications';
+      parent.href = '{{ BASE_PATH }}/publication.html';
+      child.textContent = 'In Lab';
+      child.href = '{{ BASE_PATH }}/publication_lab.html';
+      projectCatItem.style.display = 'none';
+    }
+  })();
+</script>

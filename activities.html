@@ -3,68 +3,105 @@ title: XPixel - Activities
 layout: default
 ---
 
-<section>
-    <!--Swiper-->
-    <div class="swiper-container swiper-slider" data-autoplay="5000" data-slide-effect="fade" data-loop="false"
-         style="height: 400px;">
-        <div class="jumbotron text-center">
-            <h1 style="margin-top: 70px">Activities
-            </h1>
-            <p class="big"></p>
-        </div>
-        <div class="swiper-wrapper">
-            <div class="swiper-slide" data-slide-bg="images/header-1.jpg">
-                <div class="swiper-slide-caption"></div>
+<section class="xp-act-hero">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5">
+                <p class="xp-act-label">TEAM DYNAMICS &amp; CULTURE</p>
+                <h1 class="xp-act-heading">EXPLORING BEYOND<br>THE <span class="xp-act-fade">PIXELS.</span></h1>
             </div>
-            <div class="swiper-slide" data-slide-bg="images/header-3.jpg">
-                <div class="swiper-slide-caption"></div>
-            </div>
-            <div class="swiper-slide" data-slide-bg="images/header-4.jpg">
-                <div class="swiper-slide-caption"></div>
+            <div class="col-lg-6 offset-lg-1">
+                <p class="xp-act-lead">
+                    From paper readings to retreats and conference milestones — a living record of how XPixel learns, collaborates, and pushes low-level vision forward together.
+                </p>
             </div>
         </div>
     </div>
 </section>
 
-    <main class="page-content">
-        <section class="section-border text-center text-lg-left">
-            <div class="container">
-                <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Activities</a></li>
-                </ol>
-            </div>
-        </section>
+<main class="page-content">
+    <section class="xp-act-body">
+        <div class="container">
+            {% assign act_total = 0 %}
+            {% for post in site.posts %}
+            {% if post.layout == 'activitiespost' %}
+            {% assign act_total = act_total | plus: 1 %}
+            {% endif %}
+            {% endfor %}
 
-        <!--Start section-->
-        <section class="text-center text-lg-left margin-1">
-            <div class="container">
-                <div class="row">
-                    {% for post in site.posts %}
-                    {% if post.type == 'activities' %}
-                    <div class="col-lg-6">
-                        <article class="thumbnail thumbnail-6 section-border well slow-hover">
-                            <div class="image-slow-wrapper"><a href="{{ post.url }}"><img src="{{ BASE_PATH }}/images/activities/{{ post.teser }}" alt=""></a></div>
-                            <div class="caption">
-                                <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-                                <p class="text-dark-variant-2">{{post.introduction}}</p>
-                                <div class="blog-info">
-                                    <div class="pull-md-left">
-                                        <time class="meta fa-calendar" datetime="2018">{{ post.year }}
-                                            {{ post.month }}</time>
-                                    </div><a class="button-link" href="{{ post.url }}">Read More</a>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    {% endif %}
-                    {% endfor %}
-                </div>
+            <!-- Featured Moments: latest 3 activities -->
+            <div class="xp-act-fm-header">
+                <h2 class="xp-act-fm-title">Featured Moments</h2>
+                <div class="xp-act-title-accent"></div>
             </div>
-        </section>
-    </main>
-    <!--
-    ========================================================
-                                                    FOOTER
-    ========================================================
-    -->
+
+            <div class="xp-act-fm-grid">
+                {% assign fm_i = 0 %}
+                {% for post in site.posts %}
+                {% if post.layout == 'activitiespost' and fm_i < 3 %}
+                <article class="xp-act-fm-card{% if fm_i == 0 %} xp-act-fm-card--hero{% endif %}">
+                    <a href="{{ post.url }}" class="xp-act-fm-media">
+                        <img src="{{ BASE_PATH }}/images/activities/{{ post.teser }}" alt="">
+                    </a>
+                    <div class="xp-act-fm-body">
+                        <time class="xp-act-fm-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%b %Y" | upcase }}</time>
+                        <h3 class="xp-act-fm-card-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                        <p class="xp-act-fm-desc">{{ post.introduction }}</p>
+                        <div class="xp-act-fm-foot">
+                            {% if post.tag %}
+                            <span class="xp-act-tag">#{{ post.tag | strip }}</span>
+                            {% endif %}
+                            <a class="xp-act-fm-link" href="{{ post.url }}">Read more <span class="xp-act-fm-arrow">↗</span></a>
+                        </div>
+                    </div>
+                </article>
+                {% assign fm_i = fm_i | plus: 1 %}
+                {% endif %}
+                {% endfor %}
+            </div>
+
+            {% if act_total > 3 %}
+            <!-- Full chronological timeline (skips featured 3) -->
+            <div class="xp-act-timeline-header">
+                <div>
+                    <h2 class="xp-act-section-title">Activity Timeline</h2>
+                    <div class="xp-act-title-accent"></div>
+                </div>
+                <p class="xp-act-view-hint">CHRONOLOGICAL VIEW</p>
+            </div>
+
+            <div class="xp-act-timeline">
+                {% assign tl_i = 0 %}
+                {% for post in site.posts %}
+                {% if post.layout == 'activitiespost' %}
+                {% assign tl_i = tl_i | plus: 1 %}
+                {% if tl_i > 3 %}
+                <div class="xp-act-row">
+                    <time class="xp-act-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%b %Y" | upcase }}</time>
+                    <div class="xp-act-track" aria-hidden="true">
+                        <span class="xp-act-dot"></span>
+                    </div>
+                    <article class="xp-act-card">
+                        <a href="{{ post.url }}" class="xp-act-card-media">
+                            <img src="{{ BASE_PATH }}/images/activities/{{ post.teser }}" alt="">
+                        </a>
+                        <div class="xp-act-card-body">
+                            <h3 class="xp-act-card-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                            <p class="xp-act-card-desc">{{ post.introduction }}</p>
+                            <div class="xp-act-card-foot">
+                                {% if post.tag %}
+                                <span class="xp-act-tag">#{{ post.tag | strip }}</span>
+                                {% endif %}
+                                <a class="xp-act-ghost" href="{{ post.url }}">Read more</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+    </section>
+</main>

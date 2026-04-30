@@ -3,37 +3,21 @@ title: XPixel - Image Restoration
 layout: default
 ---
 
-<section>
-    <!--Swiper-->
-    <div class="swiper-container swiper-slider" data-autoplay="5000" data-slide-effect="fade" data-loop="false"
-         style="height: 400px;">
-        <div class="jumbotron text-center">
-            <h1 style="margin-top: 70px">Image Restoration
-            </h1>
-            <p class="big"></p>
-        </div>
-        <div class="swiper-wrapper">
-            <div class="swiper-slide" data-slide-bg="images/header-1.jpg">
-                <div class="swiper-slide-caption"></div>
-            </div>
-            <div class="swiper-slide" data-slide-bg="images/header-3.jpg">
-                <div class="swiper-slide-caption"></div>
-            </div>
-            <div class="swiper-slide" data-slide-bg="images/header-4.jpg">
-                <div class="swiper-slide-caption"></div>
-            </div>
-        </div>
+<section class="xp-page-hero xp-project-hero">
+    <div class="container text-center">
+        <p class="xp-label">Project</p>
+        <h1 class="xp-gradient-text">Image Restoration</h1>
     </div>
 </section>
 
-<main class="page-content">
+<main class="page-content xp-pub-page">
     <ol class="breadcrumb section-border">
         <li class="active"><a href="projects.html">Projects</a></li>
         <li class="active"><a href="#">Image Restoration</a></li>
     </ol>
 
     <!--Start section-->
-    <section class="text-center text-lg-left inset-1">
+    <section class="text-center text-lg-left inset-1 xp-pub-section">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-8">
@@ -42,10 +26,10 @@ layout: default
                         {% for post in site.posts %}
                         {% if post.pro_type == 'Image Restoration' %}
                         <div class="col-12 section-border">
-                            <article class="thumbnail well slow-hover" style="padding-top: 20px; padding-bottom: 20px">
+                            <article class="thumbnail well slow-hover xp-pub-card" style="padding-top: 20px; padding-bottom: 20px">
                                 <!--<div class="image-slow-wrapper"><img src="images/Publication01.png" alt=""></div>-->
                                 <div class="caption">
-                                    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                                    <h4><a href="{{ post.url }}?src=projects">{{ post.title }}</a></h4>
                                     <h5>{{ post.author }}</h5>
                                     <h5>{{ post.venue }}</h5>
                                     <div class="blog-info">
@@ -88,7 +72,7 @@ layout: default
                         {% endfor %}
                     </div>
                 </div>
-                <div class="col-lg-3 col-lg-offset-1 inset-md sidebar inset-1">
+                <div class="col-lg-3 col-lg-offset-1 inset-md sidebar inset-1 xp-pub-rail">
                     <h5>Latest Papers</h5>
                     <ul class="list-unstyled-2">
                         {% assign count=0%}
@@ -97,9 +81,9 @@ layout: default
                         {% assign count = count | plus:1 %}
                         <li>
                             <div class="img-box">
-                                <a href="{{ post.url }}"><img src="{{ BASE_PATH }}/images/paper_teser/{{ post.teser }}" style="width: 100%" alt=""></a>
+                                <a href="{{ post.url }}?src=projects"><img src="{{ BASE_PATH }}/images/paper_teser/{{ post.teser }}" style="width: 100%" alt=""></a>
                             </div>
-                            <a class="text-primary" href="{{ post.url }}">{{ post.title }}</a>
+                            <a class="text-primary" href="{{ post.url }}?src=projects">{{ post.title }}</a>
                         </li>
                         <br>
                         {% endif %}
