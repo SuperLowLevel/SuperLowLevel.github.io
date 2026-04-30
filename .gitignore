@@ -2,6 +2,7 @@ _site
 .sass-cache
 .jekyll-metadata
 .DS_Store
+images/xpixel_transparent_mask_prores.mov
 
 # Jekyll / Ruby
 .jekyll-cache/

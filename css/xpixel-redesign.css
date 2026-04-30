@@ -1132,6 +1132,21 @@ section + section::before {
   .xp-collab-marquee {
     padding: 10px 0;
   }
+  .xp-collab-marquee-inner {
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+  .xp-collab-marquee-label-wrap {
+    width: 100%;
+    text-align: center;
+  }
+  .xp-collab-marquee-viewport {
+    width: 100%;
+  }
+  .xp-collab-marquee-track {
+    justify-content: center;
+  }
   .xp-collab-marquee-item {
     font-size: 1.9rem;
   }
@@ -3590,6 +3605,27 @@ body.xp-souvenir-modal-open {
   .well-sm { padding-top: 56px !important; padding-bottom: 56px !important; }
   h1, .heading-1 { font-size: 1.5rem !important; }
   .thumbnail .caption { padding: 20px 18px !important; }
+  .thumbnail.thumbnail-4 .blog-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    flex-wrap: nowrap;
+  }
+  .thumbnail.thumbnail-4 .blog-info .pull-md-left {
+    margin-right: 10px;
+    min-width: 0;
+  }
+  .thumbnail.thumbnail-4 .blog-info .meta {
+    letter-spacing: 0.08em;
+    white-space: nowrap;
+  }
+  .thumbnail.thumbnail-4 .blog-info .button-link {
+    margin-left: auto;
+    padding-left: 8px;
+    white-space: nowrap;
+    letter-spacing: 0.08em;
+  }
   .thumbnail.well.slow-hover { padding: 20px !important; }
   .footer-content .navbar-brand img { max-height: 70px; }
   .xp-hero-stats { flex-direction: column; gap: 20px; }
@@ -3626,6 +3662,33 @@ body.xp-souvenir-modal-open {
   }
   .xp-mobile-nav-drawer {
     width: min(62vw, 400px);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .xp-collab-marquee-inner {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    gap: 28px 32px;
+  }
+  .xp-collab-marquee-label-wrap {
+    width: auto;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+  .xp-collab-marquee-label {
+    line-height: 1;
+    margin: 0;
+  }
+  .xp-collab-marquee-viewport {
+    flex: 1;
+    min-width: 0;
+  }
+  .xp-collab-marquee-track {
+    justify-content: flex-start;
+    align-items: center;
   }
 }
 

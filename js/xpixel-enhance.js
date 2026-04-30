@@ -169,6 +169,8 @@
     var img = document.querySelector('.xp-hero-brand-logo-static');
     if (!video) return;
 
+    selectHeroVideoSource(video);
+
     var switched = false;
     var fallbackTimer = null;
 
@@ -238,6 +240,38 @@
 
     if (video.ended) {
       hideVideoLayerCrossfade();
+    }
+  }
+
+  function selectHeroVideoSource(video) {
+    var sources = video.querySelectorAll('source');
+    if (!sources.length) return;
+
+    var ua = navigator.userAgent || '';
+    var isIOS = /iPad|iPhone|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    var isSafari = /Safari/i.test(ua) && !/Chrome|Chromium|CriOS|Edg|OPR|Firefox|FxiOS|SamsungBrowser/i.test(ua);
+
+    var preferMov = isIOS || isSafari;
+    var movSource = video.querySelector('source[data-format="mov"]');
+    var webmSource = video.querySelector('source[data-format="webm"]');
+
+    var selected = preferMov ? movSource : webmSource;
+    var fallback = preferMov ? webmSource : movSource;
+
+    function canPlay(sourceEl) {
+      if (!sourceEl) return false;
+      var type = sourceEl.getAttribute('type') || '';
+      if (!type) return true;
+      return !!video.canPlayType(type);
+    }
+
+    if (!canPlay(selected)) selected = fallback;
+    if (!selected) return;
+
+    var selectedSrc = selected.getAttribute('src');
+    if (selectedSrc) {
+      video.src = selectedSrc;
+      video.load();
     }
   }
 
