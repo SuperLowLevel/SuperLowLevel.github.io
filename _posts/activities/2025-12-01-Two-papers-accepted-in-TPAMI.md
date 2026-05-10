@@ -1,5 +1,5 @@
 ---
-title:  'Two papers from our team were accepted in IEEE TPAMI'
+title:  'Two papers from our team were accepted in IEEE TPAMI in 2025'
 teser: TPAMI2025.png
 type:  activities
 tag : Paper
@@ -18,7 +18,7 @@ code: None
 &nbsp;
 
 <p style="font-size:20px;width:100%;text-align:left">
-Two papers from our team were accepted in IEEE TPAMI! Congratulations to all the authors!
+Two papers from our team were accepted in IEEE TPAMI 2025! Congratulations to all the authors!
 </p>
 
 &nbsp;
