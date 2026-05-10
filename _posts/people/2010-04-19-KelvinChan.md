@@ -1,7 +1,7 @@
----
+﻿---
 name: Kelvin Chan
 type: people
-people_type : XPixel at NTU
+people_type : Alumni
 showtitle: PhD Student
 title: Kelvin Chan - XPixel
 # [PhD Student, Master Student, Visiting Student,

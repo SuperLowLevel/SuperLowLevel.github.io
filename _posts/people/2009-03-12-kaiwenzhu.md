@@ -1,7 +1,7 @@
----
+﻿---
 name: Kaiwen Zhu
 type: people
-people_type : XPixel at Shanghai AI Lab
+people_type : Alumni
 showtitle: PhD Student
 title: Kaiwen Zhu - XPixel
 # [PhD Student, Master Student, Visiting Student,

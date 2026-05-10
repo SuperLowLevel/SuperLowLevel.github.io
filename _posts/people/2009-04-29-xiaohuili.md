@@ -1,7 +1,7 @@
----
+﻿---
 name: Xiaohui Li
 type: people
-people_type : XPixel at Shanghai AI Lab
+people_type : Alumni
 showtitle: PhD Student
 title: Xiaohui Li - XPixel
 # [PhD Student, Master Student, Visiting Student,

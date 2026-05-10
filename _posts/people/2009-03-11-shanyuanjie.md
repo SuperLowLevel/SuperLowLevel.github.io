@@ -1,7 +1,7 @@
----
+﻿---
 name: Shanyuan Jie
 type: people
-people_type : XPixel at SIAT
+people_type : Students at XPixel
 showtitle: Master Student
 title: Shanyuan Jie - XPixel
 # [PhD Student, Master Student, Visiting Student,

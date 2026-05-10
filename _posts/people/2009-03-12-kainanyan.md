@@ -1,7 +1,7 @@
----
+﻿---
 name: Kainan Yan
 type: people
-people_type : XPixel at SIAT
+people_type : Students at XPixel
 showtitle: PhD Student
 title: Kainan Yan - XPixel
 # [PhD Student, Master Student, Visiting Student,

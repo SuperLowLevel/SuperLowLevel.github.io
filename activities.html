@@ -36,10 +36,14 @@ layout: default
             </div>
 
             <div class="xp-act-fm-grid">
+                <!-- Left column: posts 0, 2 -->
+                <div class="xp-act-fm-col xp-act-fm-col--left">
                 {% assign fm_i = 0 %}
                 {% for post in site.posts %}
-                {% if post.layout == 'activitiespost' and fm_i < 3 %}
-                <article class="xp-act-fm-card{% if fm_i == 0 %} xp-act-fm-card--hero{% endif %}">
+                {% if post.layout == 'activitiespost' and fm_i < 4 %}
+                {% assign fm_mod = fm_i | modulo: 2 %}
+                {% if fm_mod == 0 %}
+                <article class="xp-act-fm-card">
                     <a href="{{ post.url }}" class="xp-act-fm-media">
                         <img src="{{ BASE_PATH }}/images/activities/{{ post.teser }}" alt="">
                     </a>
@@ -55,9 +59,39 @@ layout: default
                         </div>
                     </div>
                 </article>
+                {% endif %}
                 {% assign fm_i = fm_i | plus: 1 %}
                 {% endif %}
                 {% endfor %}
+                </div>
+                <!-- Right column: posts 1, 3 (staggered down) -->
+                <div class="xp-act-fm-col xp-act-fm-col--right">
+                {% assign fm_i = 0 %}
+                {% for post in site.posts %}
+                {% if post.layout == 'activitiespost' and fm_i < 4 %}
+                {% assign fm_mod = fm_i | modulo: 2 %}
+                {% if fm_mod == 1 %}
+                <article class="xp-act-fm-card">
+                    <a href="{{ post.url }}" class="xp-act-fm-media">
+                        <img src="{{ BASE_PATH }}/images/activities/{{ post.teser }}" alt="">
+                    </a>
+                    <div class="xp-act-fm-body">
+                        <time class="xp-act-fm-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%b %Y" | upcase }}</time>
+                        <h3 class="xp-act-fm-card-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                        <p class="xp-act-fm-desc">{{ post.introduction }}</p>
+                        <div class="xp-act-fm-foot">
+                            {% if post.tag %}
+                            <span class="xp-act-tag">#{{ post.tag | strip }}</span>
+                            {% endif %}
+                            <a class="xp-act-fm-link" href="{{ post.url }}">Read more <span class="xp-act-fm-arrow">↗</span></a>
+                        </div>
+                    </div>
+                </article>
+                {% endif %}
+                {% assign fm_i = fm_i | plus: 1 %}
+                {% endif %}
+                {% endfor %}
+                </div>
             </div>
 
             {% if act_total > 3 %}
@@ -75,7 +109,7 @@ layout: default
                 {% for post in site.posts %}
                 {% if post.layout == 'activitiespost' %}
                 {% assign tl_i = tl_i | plus: 1 %}
-                {% if tl_i > 3 %}
+                {% if tl_i > 4 %}
                 <div class="xp-act-row">
                     <time class="xp-act-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%b %Y" | upcase }}</time>
                     <div class="xp-act-track" aria-hidden="true">

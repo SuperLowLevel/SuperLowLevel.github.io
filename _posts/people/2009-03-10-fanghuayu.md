@@ -1,7 +1,7 @@
----
+﻿---
 name: Fanghua Yu
 type: people
-people_type : XPixel at SIAT
+people_type : Alumni
 showtitle: Research Assistant
 title: Fanghua Yu - XPixel
 # [PhD Student, Master Student, Visiting Student,

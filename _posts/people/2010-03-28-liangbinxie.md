@@ -1,7 +1,7 @@
----
+﻿---
 name: Liangbin Xie
 type: people
-people_type : XPixel at UM
+people_type : Students at XPixel
 showtitle: PhD Student
 title: Liangbin Xie - UM
 # [PhD Student, Master Student, Visiting Student,

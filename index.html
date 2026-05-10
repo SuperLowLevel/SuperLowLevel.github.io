@@ -15,7 +15,7 @@ layout: default
                         <img class="xp-hero-brand-logo xp-hero-brand-logo-static xp-hero-brand-logo-static--hidden" src="{{ '/images/xpixel-phoenix-black-transparent.png' | relative_url }}" alt="{{ page.labNameBig }}" width="900" height="225" loading="eager" decoding="async" fetchpriority="high">
                         <video class="xp-hero-brand-logo xp-hero-brand-logo-video" muted playsinline autoplay preload="auto" aria-hidden="true">
                             <source data-format="webm" src="{{ '/images/xpixel_transparent_mask.webm' | relative_url }}" type="video/webm">
-                            <source data-format="mov" src="{{ '/images/xpixel_transparent_mask_prores.mov' | relative_url }}" type='video/quicktime; codecs="hvc1"'>
+                            <!-- ProRes .mov omitted: exceeds GitHub file size limits; host externally if you need HEVC fallback. -->
                         </video>
                     </span>
                 </h1>
@@ -48,25 +48,114 @@ layout: default
     </div>
 </section>
 
-{% assign xp_collab_brands = "Shanghai AI Lab|SIAT|CUHK|NTU|UM|Tencent|SenseTime" | split: "|" %}
-<div class="xp-collab-marquee" role="region" aria-label="Partner institutions">
-    <div class="container xp-collab-marquee-inner">
-        <div class="xp-collab-marquee-label-wrap">
-            <span class="xp-collab-marquee-label">Collaborating with</span>
-        </div>
-        <div class="xp-collab-marquee-viewport">
-            <span class="xp-collab-marquee-fade xp-collab-marquee-fade--left" aria-hidden="true"></span>
-            <span class="xp-collab-marquee-fade xp-collab-marquee-fade--right" aria-hidden="true"></span>
-            <div class="xp-collab-marquee-track">
-                {% for b in xp_collab_brands %}<span class="xp-collab-marquee-item">{{ b }}</span>{% endfor %}
-                {% for b in xp_collab_brands %}<span class="xp-collab-marquee-item">{{ b }}</span>{% endfor %}
-                {% for b in xp_collab_brands %}<span class="xp-collab-marquee-item">{{ b }}</span>{% endfor %}
-            </div>
-        </div>
-    </div>
-</div>
 
 <main class="page-content">
+
+    <!-- ======== Book: 底层视觉之美 ======== -->
+    <section class="well well-sm well-inset-2 xp-glow-section xp-book-section">
+        <div class="container">
+            <div class="xp-act-fm-header text-center xp-home-section-head">
+                <p class="xp-act-section-eyebrow">Featured Publication</p>
+                <h2 class="xp-act-fm-title">Book Release</h2>
+            </div>
+            <div class="xp-book-card">
+                <div class="xp-book-cover-wrap">
+                    <img class="xp-book-cover" src="{{ '/images/book-lowlevel-vision.png' | relative_url }}" alt="底层视觉之美">
+                </div>
+                <div class="xp-book-info">
+                    <p class="xp-book-eyebrow">General Intelligence &amp; Large Model Series</p>
+                    <h3 class="xp-book-title">底层视觉之美</h3>
+                    <p class="xp-book-subtitle">The Beauty of Low-Level Vision — AI Behind High-Definition Films</p>
+                    <p class="xp-book-authors">Chao Dong &nbsp;&amp;&nbsp; Jinfan Hu</p>
+                    <p class="xp-book-publisher">Publishing House of Electronics Industry &nbsp;·&nbsp; Broadview</p>
+                    <div class="xp-book-divider"></div>
+                    <p class="xp-book-desc">
+                        More than a technical manual — this is a cross-disciplinary dialogue between science and aesthetics. Written in narrative prose by first-line researchers, the book traces the full arc of low-level vision: from the handcrafted algorithms of early computer vision to the intelligent flowering of deep learning, from laboratory breakthroughs to real-world deployment. Dense concepts become vivid stories, and research journeys become genuine conversations — making AI's quest to "make the world clearer" accessible to everyone.
+                    </p>
+                    <div class="xp-book-actions">
+                        <a class="button-link" href="https://mp.weixin.qq.com/s/5Xe8TjdBqIVBFefipakCRQ?scene=1&click_id=1" target="_blank" rel="noopener">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== Media Coverage ======== -->
+    <section class="well well-sm well-inset-2 xp-glow-section xp-news-section">
+        <div class="container">
+            <div class="xp-act-fm-header text-center xp-home-section-head">
+                <p class="xp-act-section-eyebrow">Press &amp; Media</p>
+                <h2 class="xp-act-fm-title">In the News</h2>
+            </div>
+            <div class="xp-news-track">
+
+                <!-- CCTV (hosted on ScreenApp — iframe, not in repo) -->
+                <div class="xp-news-card" data-modal-type="iframe" data-modal-src="https://screenapp.io/app/v/oSIs5kCrX8" data-modal-title="HYPIR: Ultra-HD Image Restoration — CCTV News" data-modal-desc="CCTV News covered the HYPIR large model for ultra-high-definition image restoration from the XPixel team at SIAT, CAS. The report highlights how the model can restore HD footage in about 1.7 seconds and what it means for low-level vision AI in broadcast- and cinema-grade applications.">
+                    <div class="xp-news-thumb xp-news-thumb--img">
+                        <img src="/images/news-thumb-cctv.png" alt="CCTV news report thumbnail">
+                        <div class="xp-news-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="xp-news-body">
+                        <p class="xp-news-source-label">CCTV-13 · CCTV News</p>
+                        <h4 class="xp-news-title">HYPIR: Ultra-HD image restoration model</h4>
+                        <p class="xp-news-meta">Video report · July 29, 2025</p>
+                    </div>
+                </div>
+
+                <!-- Shenzhen TV (hosted on ScreenApp) -->
+                <div class="xp-news-card" data-modal-type="iframe" data-modal-src="https://screenapp.io/app/v/kK-kxgf6c5" data-modal-title="HYPIR restores old Shenzhen photos — honoring 45 years of the Special Economic Zone" data-modal-desc="Shenzhen Satellite TV highlights how HYPIR, the image-restoration foundation model from Chao Dong’s team at SIAT, breaks through classical bottlenecks to bring faded street scenes and portraits back to life—turning every fix into a way to preserve Shenzhen’s memories and mark the 45th anniversary of the Shenzhen Special Economic Zone.">
+                    <div class="xp-news-thumb xp-news-thumb--img">
+                        <img src="/images/news-thumb-sztv.png" alt="Shenzhen TV report thumbnail">
+                        <div class="xp-news-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="xp-news-body">
+                        <p class="xp-news-source-label">Shenzhen TV</p>
+                        <h4 class="xp-news-title">HYPIR restores old Shenzhen photos — 45 years of the SEZ</h4>
+                        <p class="xp-news-meta">Video report · August 26, 2025</p>
+                    </div>
+                </div>
+
+                <!-- SIAT WeChat Article -->
+                <div class="xp-news-card" data-modal-type="article" data-modal-src="https://mp.weixin.qq.com/s/1cqDxurR1QxB4HXNoKmLkg" data-modal-title="Cinematic HD in 1.7 seconds: SIAT introduces HYPIR, a new image-restoration foundation model" data-modal-desc="SIAT’s official WeChat article explains how HYPIR pushes past the speed–quality trade-off of classical restoration—through ideas such as sparse attention, text–texture awareness, and stronger evaluation—and how the work is finding its way into industry deployments.">
+                    <div class="xp-news-thumb xp-news-thumb--img">
+                        <img src="/images/news-thumb-siat.png" alt="SIAT WeChat article thumbnail">
+                    </div>
+                    <div class="xp-news-body">
+                        <p class="xp-news-source-label">Shenzhen Institute of Advanced Technology (SIAT)</p>
+                        <h4 class="xp-news-title">Cinematic HD in 1.7 seconds — SIAT introduces HYPIR</h4>
+                        <p class="xp-news-meta">Article · July 28, 2025</p>
+                    </div>
+                </div>
+
+                <!-- Book Launch -->
+                <div class="xp-news-card" data-modal-type="article" data-modal-src="https://mp.weixin.qq.com/s/QZOnV0FqT0TUNYf7DK06Lw?scene=1&click_id=5" data-modal-title="Book launch: The Beauty of Low-Level Vision — Butterfly Salon, Session 21" data-modal-desc="Launch event for The Beauty of Low-Level Vision: Artificial Intelligence Behind High-Definition Blockbusters (Butterfly Salon, Session 21). Chao Dong shared the story behind the book and recent advances in low-level vision—how AI can bridge science, art, and narrative, and make “a clearer world” approachable for every reader.">
+                    <div class="xp-news-thumb xp-news-thumb--img">
+                        <img src="/images/news-thumb-booklaunch.png" alt="Book launch event thumbnail">
+                    </div>
+                    <div class="xp-news-body">
+                        <p class="xp-news-source-label">Butterfly Salon · Session 21</p>
+                        <h4 class="xp-news-title">The Beauty of Low-Level Vision — launch event</h4>
+                        <p class="xp-news-meta">Article · March 28, 2025</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== News Modal ======== -->
+    <div class="xp-modal-overlay" id="xpNewsModal" aria-hidden="true">
+        <div class="xp-modal-box">
+            <button class="xp-modal-close" id="xpModalClose" aria-label="Close">&times;</button>
+            <div class="xp-modal-header">
+                <h3 class="xp-modal-title" id="xpModalTitle"></h3>
+                <p class="xp-modal-desc" id="xpModalDesc"></p>
+            </div>
+            <div class="xp-modal-media" id="xpModalMedia"></div>
+            <div class="xp-modal-actions" id="xpModalActions"></div>
+        </div>
+    </div>
+
     <section class="well well-sm well-inset-2 text-center xp-glow-section">
         <div class="container">
             <div class="row justify-content-center">
@@ -191,26 +280,6 @@ layout: default
         </div>
     </section>
 
-    <section class="well well-sm well-inset-2 text-center xp-glow-section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-10">
-                    <div class="xp-act-fm-header text-center xp-home-section-head">
-                        <p class="xp-act-section-eyebrow">Partners &amp; Affiliations</p>
-                        <h2 class="xp-act-fm-title">Collaboration</h2>
-                        <div class="xp-act-title-accent"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row margin-1">
-                <div class="owl-carousel xp-collab-carousel" data-autoplay="true" data-items="1" data-md-items="2" data-sm-items="1"
-                    data-lg-items="3" data-nav="true" data-margin="24" data-loop="true" data-check-visible="false">
-{% include xp-collaboration-slides.html %}
-{% include xp-collaboration-slides.html %}
-                </div>
-            </div>
-        </div>
-    </section>
             <div style="display:none;">
                 <a href="https://clustrmaps.com/site/1blqc"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=I0UKEIHAan9Bu_8TF2b9us3XWwlUaj6z7WnrReqBnqo&cl=ffffff" /></a>
             </div>
