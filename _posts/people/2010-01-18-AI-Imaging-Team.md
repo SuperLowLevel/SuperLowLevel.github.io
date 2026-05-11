@@ -1,7 +1,7 @@
----
+﻿---
 name: AI Imaging Team
 type: people
-people_type : XPixel at SenseTime
+people_type : Alumni
 showtitle: None
 title: AI Imaging Team - XPixel
 # [PhD Student, Master Student, Visiting Student,

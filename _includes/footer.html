@@ -1,23 +1,33 @@
 <footer class="page-footer footer-centered text-center">
     <section class="footer-content">
         <div class="container">
-            <div class="navbar-brand" ><a href="{{ BASE_PATH }}/index.html" ><img height=200 src="images/xpixel-logo-new.png" alt="" href="{{ site.url }}/index.html"></a></div>
-            <br>
-            <p class="big"></p>
-            <p class="big">Love-Focus-Balance<br>
-                Our mission is to make the world look clearer and better!</p>
-            <!-- <ul class="list-inline">
-                <li class="list-inline-item"><a class="fa-facebook" href="#"></a></li>
-                <li class="list-inline-item"><a class="fa-pinterest-p" href="#"></a></li>
-                <li class="list-inline-item"><a class="fa-twitter" href="#"></a></li>
-                <li class="list-inline-item"><a class="fa-google-plus" href="#"></a></li>
-                <li class="list-inline-item"><a class="fa-instagram" href="#"></a></li>
-            </ul> 11-->
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="navbar-brand"><a href="{{ BASE_PATH }}/index.html"><img class="xp-footer-logo" src="{{ '/images/xpixel-white-transparent.png' | relative_url }}" alt="XPixel Group" width="360" height="90" loading="lazy" decoding="async"></a></div>
+                    <p class="xp-footer-tagline">Love · Focus · Balance</p>
+                    <p class="xp-footer-mission">Our mission is to make the world look clearer and better.</p>
+                    <p class="xp-footer-mission xp-footer-contact">
+                        Email: <a href="mailto:chao.dong@siat.ac.cn">chao.dong@siat.ac.cn</a>
+                    </p>
+
+                    <div class="xp-footer-links">
+                        <a href="{{ BASE_PATH }}/team.html">About</a>
+                        <span class="xp-footer-dot">·</span>
+                        <a href="{{ BASE_PATH }}/people.html">Members</a>
+                        <span class="xp-footer-dot">·</span>
+                        <a href="{{ BASE_PATH }}/publication.html">Publications</a>
+                        <span class="xp-footer-dot">·</span>
+                        <a href="{{ BASE_PATH }}/activities.html">Activities</a>
+                        <span class="xp-footer-dot">·</span>
+                        <a href="{{ BASE_PATH }}/contact_us.html">Contact</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section class="copyright">
         <div class="container">
-            <p>&#169; <span class="copyright-year"></span> All Rights Reserved.</p>
+            <p>&#169; <span class="copyright-year"></span> XPixel Group. All Rights Reserved.</p>
         </div>
     </section>
 </footer>

@@ -1,7 +1,7 @@
----
+﻿---
 name: Xiangyu Chen
 type: people
-people_type : XPixel at Shanghai AI Lab
+people_type : Alumni
 showtitle: PhD Student
 title: Xiangyu Chen - XPixel
 # [PhD Student, Master Student, Visiting Student,

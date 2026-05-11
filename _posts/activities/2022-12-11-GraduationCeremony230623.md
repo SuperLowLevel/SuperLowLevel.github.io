@@ -5,7 +5,7 @@ type:  activities
 tag : GraduationCeremony
 introduction: Xpixel Team Members Transform into Harry Potter Characters at Costume Party, Featuring Harry Potter, Hermione Granger, Ron Weasley, Draco Malfoy, Pansy Parkinson, and More!
 layout: activitiespost  #  Do not change this
-date:   2022-12-11 11:59:59 +0800  # paper pub data, only change year and month according to this format
+date:   2023-06-11 11:59:59 +0800  # paper pub data, only change year and month according to this format
 year:   2023  # paper year, number
 month:  June  # paper month, full name
 supplemental : None

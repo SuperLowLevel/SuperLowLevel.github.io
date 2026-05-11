@@ -1,7 +1,7 @@
----
+﻿---
 name: Ziyan Chen
 type: people
-people_type : XPixel at SIAT
+people_type : Students at XPixel
 showtitle: Master Student
 title: Ziyan Chen - XPixel
 # [PhD Student, Master Student, Visiting Student,

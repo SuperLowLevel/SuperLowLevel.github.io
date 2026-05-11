@@ -1,7 +1,7 @@
----
+﻿---
 name: Yuandong Pu
 type: people
-people_type : XPixel at Shanghai AI Lab
+people_type : Alumni
 showtitle: PhD Student
 title: Yuandong Pu - XPixel
 # [PhD Student, Master Student, Visiting Student,

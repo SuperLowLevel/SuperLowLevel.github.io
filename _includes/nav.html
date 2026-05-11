@@ -1,5 +1,34 @@
 <header class="{% if layout == home %} page-header {% else %} page-header subpage-header {% endif %}">
 
+    <div class="xp-mobile-nav" aria-label="Mobile navigation">
+        <div class="xp-mobile-nav-bar">
+            <a class="xp-mobile-nav-logo" href="{{ BASE_PATH }}/index.html">
+                <img src="{{ BASE_PATH }}/images/xpixel-white-transparent.png" alt="XPixel logo">
+            </a>
+            <button class="xp-mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="xp-mobile-nav-drawer" aria-label="Toggle navigation">
+                <span></span>
+            </button>
+        </div>
+        <div class="xp-mobile-nav-overlay" hidden></div>
+        <nav id="xp-mobile-nav-drawer" class="xp-mobile-nav-drawer" hidden>
+            <a href="/index.html">Home</a>
+            <div class="xp-mobile-nav-group">
+                <a href="/team.html">About Us</a>
+                <a class="xp-mobile-nav-sub" href="/people.html">Members</a>
+            </div>
+            <div class="xp-mobile-nav-group">
+                <a href="/publication.html">Publications</a>
+                <a class="xp-mobile-nav-sub" href="/publication_lab.html">In Lab</a>
+                <a class="xp-mobile-nav-sub" href="/publication_sensetime.html">In Corporation</a>
+                <a class="xp-mobile-nav-sub" href="/projects.html">Projects</a>
+            </div>
+            <a href="/activities.html">Activities</a>
+            <a href="https://github.com/XPixelGroup">Open Source</a>
+            <a href="/souvenir.html">Souvenir</a>
+            <a href="/contact_us.html">Recruitment & Contact</a>
+        </nav>
+    </div>
+
     <!--RD Navbar-->
     <div class="rd-navbar-wrap">
         <nav class="rd-navbar top-panel-none-items" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
@@ -28,11 +57,15 @@
                 <div class="rd-navbar-panel">
 
                     <!--RD Navbar Toggle-->
-                    <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar"><span></span></button>
+                    <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap" aria-expanded="false" aria-label="Toggle navigation"><span></span></button>
                     <!--END RD Navbar Toggle-->
 
                     <!--RD Navbar Brand-->
-                    <div class="rd-navbar-brand"><img style="position:absolute; top:-28px; left: 60px" height=50 src="images/xpixel-logo.png" alt="" href="{{ site.url }}/index.html"></div>
+                    <div class="rd-navbar-brand">
+                        <a href="{{ BASE_PATH }}/index.html">
+                            <img class="xp-nav-brand-logo" src="{{ BASE_PATH }}/images/xpixel-white-transparent.png" alt="XPixel logo">
+                        </a>
+                    </div>
                     <!--<div class="rd-navbar-brand"><img class="brand-name"><img height=50 src="images/xpixel-.png" alt="" href="{{ site.url }}/index.html"></a></div>-->
                     <!--<div class="rd-navbar-brand"><img height=50 src="images/xpixel-.png" alt="" href="{{ site.url }}/index.html"></div>-->
                     <!--END RD Navbar Brand-->
@@ -57,6 +90,7 @@
                             <ul class="rd-navbar-dropdown">
                                 <li><a href="/publication_lab.html">In Lab</a></li>
                                 <li><a href="/publication_sensetime.html">In Corporation</a></li>
+                                <li><a href="/projects.html">Projects</a></li>
                             </ul>
                         </li>
                         <!--<li style="margin-left: 50px"><a href="/products.html">Products</a></li>-->
@@ -83,3 +117,73 @@
     </div>
     <!--END RD Navbar-->
 </header>
+
+<script>
+  (function () {
+    var mq = window.matchMedia('(max-width: 1199px)');
+    var mobileRoot = document.querySelector('.xp-mobile-nav');
+    var mobileToggle = document.querySelector('.xp-mobile-nav-toggle');
+    var mobileDrawer = document.getElementById('xp-mobile-nav-drawer');
+    var mobileOverlay = document.querySelector('.xp-mobile-nav-overlay');
+    var legacyWrap = document.querySelector('.rd-navbar-wrap');
+    if (mobileRoot && mobileToggle && mobileDrawer && mobileOverlay) {
+      var applyMode = function () {
+        if (mq.matches) {
+          mobileRoot.style.display = 'block';
+          if (legacyWrap) legacyWrap.style.display = 'none';
+        } else {
+          mobileRoot.style.display = '';
+          if (legacyWrap) legacyWrap.style.display = '';
+        }
+      };
+      var closeMobile = function () {
+        mobileRoot.classList.remove('is-open');
+        mobileToggle.setAttribute('aria-expanded', 'false');
+        mobileDrawer.hidden = true;
+        mobileOverlay.hidden = true;
+        document.body.classList.remove('xp-mobile-nav-lock');
+      };
+      var openMobile = function () {
+        mobileRoot.classList.add('is-open');
+        mobileToggle.setAttribute('aria-expanded', 'true');
+        mobileDrawer.hidden = false;
+        mobileOverlay.hidden = false;
+        document.body.classList.add('xp-mobile-nav-lock');
+      };
+      mobileToggle.addEventListener('click', function () {
+        if (mobileRoot.classList.contains('is-open')) closeMobile();
+        else openMobile();
+      });
+      mobileOverlay.addEventListener('click', closeMobile);
+      var mobileLinks = mobileDrawer.querySelectorAll('a');
+      for (var m = 0; m < mobileLinks.length; m++) {
+        mobileLinks[m].addEventListener('click', closeMobile);
+      }
+      window.addEventListener('resize', function () {
+        if (!mq.matches) closeMobile();
+        applyMode();
+      });
+      applyMode();
+    }
+
+    var nav = document.querySelector('.rd-navbar');
+    var toggle = document.querySelector('.rd-navbar-toggle');
+    if (!nav || !toggle) return;
+
+    toggle.addEventListener('click', function () {
+      window.setTimeout(function () {
+        var opened = toggle.classList.contains('active');
+        nav.classList.toggle('xp-nav-open', opened);
+        toggle.setAttribute('aria-expanded', opened ? 'true' : 'false');
+      }, 0);
+    });
+
+    var links = nav.querySelectorAll('.rd-navbar-nav a');
+    for (var i = 0; i < links.length; i++) {
+      links[i].addEventListener('click', function () {
+        nav.classList.remove('xp-nav-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    }
+  })();
+</script>

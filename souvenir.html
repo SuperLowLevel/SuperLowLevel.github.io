@@ -3,50 +3,44 @@ title: XPixel - Souvenir
 layout: default
 ---
 
-<section>
-    <!--Swiper-->
-    <div class="swiper-container swiper-slider" data-autoplay="5000" data-slide-effect="fade" data-loop="false"
-         style="height: 400px;">
-        <div class="jumbotron text-center">
-            <h1 style="margin-top: 70px">Souvenir
-            </h1>
-            <p class="big"></p>
-        </div>
-        <div class="swiper-wrapper">
-            <div class="swiper-slide" data-slide-bg="images/header-1.jpg">
-                <div class="swiper-slide-caption"></div>
+<section class="xp-act-hero">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5">
+                <p class="xp-act-label">XPIXEL COLLECTION</p>
+                <h1 class="xp-act-heading">MEMORIES<br>YOU CAN <span class="xp-act-fade">HOLD.</span></h1>
             </div>
-            <div class="swiper-slide" data-slide-bg="images/header-3.jpg">
-                <div class="swiper-slide-caption"></div>
-            </div>
-            <div class="swiper-slide" data-slide-bg="images/header-4.jpg">
-                <div class="swiper-slide-caption"></div>
+            <div class="col-lg-6 offset-lg-1">
+                <p class="xp-act-lead">
+                    Souvenirs and merch from the group—a small piece of XPixel you can keep. Browse below and get in touch if something catches your eye.
+                </p>
             </div>
         </div>
     </div>
 </section>
 
-<main class="page-content">
-    <section class="section-border text-center text-lg-left">
-        <div class="container">
-            <ol class="breadcrumb">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Souvenir</a></li>
-            </ol>
-        </div>
-    </section>
-
+<main class="page-content xp-souvenir-page">
     <!--Start section-->
     <section class="text-center text-lg-left margin-1">
         <div class="container">
-            <div class="row">
+            <div class="row xp-souvenir-grid">
                 {% for post in site.posts %}
                 {% if post.type == 'souvenir' %}
                 <div class="col-md-6 col-lg-3"align="center">
-                    <article class="thumbnail thumbnail-6 section-border well slow-hover">
-                        <div class="image-slow-wrapper"><a href="{{ post.url }}"><img src="{{ BASE_PATH }}/images/souvenir/{{ post.teser }}" height="250px" alt=""></a></div>
+                    <article class="thumbnail thumbnail-6 section-border well slow-hover xp-souvenir-card"
+                             data-title="{{ post.title | escape }}"
+                             data-image="{{ post.photo | default: post.teser }}"
+                             data-image2="{{ post.photo2 | default: '' }}"
+                             data-multi="{{ post.mutiphoto | default: 'F' }}"
+                             data-intro="{{ post.introduction | strip_html | escape }}"
+                             data-extra="{{ post.supplemental | strip_html | escape }}">
+                        <div class="image-slow-wrapper">
+                            <button class="xp-souvenir-open" type="button" aria-label="View souvenir details">
+                                <img src="{{ BASE_PATH }}/images/souvenir/{{ post.teser }}" height="250px" alt="{{ post.title }}">
+                            </button>
+                        </div>
                         <div class="caption">
-                            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                            <h4><button class="xp-souvenir-open xp-souvenir-title-btn" type="button">{{ post.title }}</button></h4>
                         </div>
                     </article>
                 </div>
@@ -56,6 +50,24 @@ layout: default
         </div>
     </section>
 <!--End section-->
+
+    <div class="xp-souvenir-modal" id="xp-souvenir-modal" hidden>
+        <div class="xp-souvenir-modal-backdrop" data-close="1"></div>
+        <div class="xp-souvenir-modal-panel" role="dialog" aria-modal="true" aria-label="Souvenir details">
+            <div class="xp-souvenir-modal-head">
+                <button type="button" class="xp-souvenir-nav-btn" data-nav="prev" aria-label="Previous souvenir">‹</button>
+                <h3 class="xp-souvenir-modal-title"></h3>
+                <button type="button" class="xp-souvenir-nav-btn" data-nav="next" aria-label="Next souvenir">›</button>
+            </div>
+            <img class="xp-souvenir-modal-image" src="" alt="">
+            <div class="xp-souvenir-modal-thumbs">
+                <button type="button" class="xp-souvenir-thumb is-active" data-image-idx="0" aria-label="Image 1">1</button>
+                <button type="button" class="xp-souvenir-thumb" data-image-idx="1" aria-label="Image 2">2</button>
+            </div>
+            <p class="xp-souvenir-modal-intro"></p>
+            <p class="xp-souvenir-modal-extra"></p>
+        </div>
+    </div>
 
 
     <!--Start section-->
@@ -72,6 +84,98 @@ layout: default
         </div>
     </section>
 </main>
+
+<script>
+  (function () {
+    var modal = document.getElementById('xp-souvenir-modal');
+    if (!modal) return;
+    var body = document.body;
+    var title = modal.querySelector('.xp-souvenir-modal-title');
+    var image = modal.querySelector('.xp-souvenir-modal-image');
+    var intro = modal.querySelector('.xp-souvenir-modal-intro');
+    var extra = modal.querySelector('.xp-souvenir-modal-extra');
+    var thumbWrap = modal.querySelector('.xp-souvenir-modal-thumbs');
+    var thumbs = modal.querySelectorAll('.xp-souvenir-thumb');
+    var currentIndex = 0;
+    var currentImageIdx = 0;
+    var cards = Array.prototype.slice.call(document.querySelectorAll('.xp-souvenir-card'));
+
+    function normalizeImagePath(img) {
+      if (!img) return '';
+      if (img.indexOf('/images/') === 0) return img;
+      return '/images/souvenir/' + img;
+    }
+
+    function renderItem() {
+      var card = cards[currentIndex];
+      if (!card) return;
+      var t = card.getAttribute('data-title') || '';
+      var img1 = normalizeImagePath(card.getAttribute('data-image') || '');
+      var img2 = normalizeImagePath(card.getAttribute('data-image2') || '');
+      var isMulti = (card.getAttribute('data-multi') || '').toUpperCase() === 'T' && !!img2;
+      var i = card.getAttribute('data-intro') || '';
+      var e = card.getAttribute('data-extra') || '';
+
+      if (!isMulti) currentImageIdx = 0;
+      var selected = currentImageIdx === 1 && isMulti ? img2 : img1;
+      title.textContent = t;
+      image.src = selected;
+      image.alt = t;
+      intro.textContent = i;
+      extra.textContent = e;
+
+      thumbWrap.style.display = isMulti ? 'flex' : 'none';
+      for (var ti = 0; ti < thumbs.length; ti++) {
+        var isActive = ti === currentImageIdx;
+        thumbs[ti].classList.toggle('is-active', isActive);
+        thumbs[ti].hidden = ti === 1 && !isMulti;
+      }
+    }
+
+    function openModal(cardIndex) {
+      currentIndex = cardIndex;
+      currentImageIdx = 0;
+      renderItem();
+      modal.hidden = false;
+      body.classList.add('xp-souvenir-modal-open');
+    }
+
+    function closeModal() {
+      modal.hidden = true;
+      body.classList.remove('xp-souvenir-modal-open');
+    }
+
+    for (var i = 0; i < cards.length; i++) {
+      cards[i].setAttribute('data-card-index', String(i));
+      cards[i].addEventListener('click', function (ev) {
+        var btn = ev.target.closest('.xp-souvenir-open, .xp-souvenir-title-btn');
+        if (!btn) return;
+        ev.preventDefault();
+        openModal(Number(this.getAttribute('data-card-index')));
+      });
+    }
+
+    modal.addEventListener('click', function (ev) {
+      if (ev.target && ev.target.getAttribute('data-close') === '1') closeModal();
+      var nav = ev.target.closest('[data-nav]');
+      if (nav) {
+        var dir = nav.getAttribute('data-nav');
+        if (dir === 'prev') currentIndex = (currentIndex - 1 + cards.length) % cards.length;
+        if (dir === 'next') currentIndex = (currentIndex + 1) % cards.length;
+        currentImageIdx = 0;
+        renderItem();
+      }
+      var thumb = ev.target.closest('.xp-souvenir-thumb');
+      if (thumb) {
+        currentImageIdx = Number(thumb.getAttribute('data-image-idx') || '0');
+        renderItem();
+      }
+    });
+    document.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Escape' && !modal.hidden) closeModal();
+    });
+  })();
+</script>
 
 
 

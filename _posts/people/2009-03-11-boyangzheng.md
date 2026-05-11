@@ -1,7 +1,7 @@
----
+﻿---
 name: Boyang Zheng
 type: people
-people_type : XPixel at Shanghai AI Lab
+people_type : Alumni
 showtitle: Intern
 title: Boyang Zheng - XPixel
 # [PhD Student, Master Student, Visiting Student,

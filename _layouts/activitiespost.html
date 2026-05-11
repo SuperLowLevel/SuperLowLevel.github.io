@@ -2,74 +2,49 @@
 layout: default
 ---
 
-<section>
-    <!--Swiper-->
-    <div class="swiper-container swiper-slider" data-autoplay="5000" data-slide-effect="fade" data-loop="false"
-         style="height: 250px;">
-        <div class="jumbotron text-center">
-            <!-- <h1>Activities</h1> -->
-            <!-- <p class="big"></p> -->
-        </div>
-        <div class="swiper-wrapper">
-            <div class="swiper-slide" data-slide-bg="{{ BASE_PATH }}/images/header-1.jpg">
-                <div class="swiper-slide-caption"></div>
-            </div>
-            <div class="swiper-slide" data-slide-bg="{{ BASE_PATH }}/images/header-3.jpg">
-                <div class="swiper-slide-caption"></div>
-            </div>
-            <div class="swiper-slide" data-slide-bg="{{ BASE_PATH }}/images/header-4.jpg">
-                <div class="swiper-slide-caption"></div>
-            </div>
-        </div>
+<section class="xp-vis-hero xp-act-post-hero">
+    <div class="container text-center">
+        <p class="xp-vis-label">Activity</p>
+        <h1 class="xp-vis-heading xp-act-post-title-h1">{{ page.title }}</h1>
+        <ol class="breadcrumb xp-act-post-breadcrumb">
+            <li><a href="{{ BASE_PATH }}/index.html">Home</a></li>
+            <li><a href="{{ BASE_PATH }}/activities.html">Activities</a></li>
+        </ol>
     </div>
 </section>
 
-<main class="page-content">
-    <section class="section-border text-center text-lg-left">
+<main class="page-content xp-act-post-page">
+    <section class="xp-act-post-body">
         <div class="container">
-            <ol class="breadcrumb">
-                <li><a href="{{ BASE_PATH }}/index.html">Home</a></li>
-                <li><a href="{{ BASE_PATH }}/activities.html">Activities</a></li>
-            </ol>
-        </div>
-    </section>
-    <section class="text-center text-lg-left margin-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 section-border">
-                    <article class="well" style="padding-top: 10px">
-                        <h1>{{ page.title }}</h1>
-                        <div class="blog-info">
-                            <div class="pull-md-left">
-                                <time class="meta fa-calendar" datetime="2019">{{ page.year }} {{ page.month }}</time>
-                                    {% if page.ppt %}
-                                    <div><a class="ppt-button" href="{{ page.ppt }}">PowerPoint</a></div>
-                                    {% endif %}
-                                    {% if page.ReadMore %}
-                                    <div><a class="ppt-button" href="{{ page.ReadMore}}">ReadMore</a></div>
-                                    {% endif %}
-                            </div>
-                        </div>
-                        <!-- <img class="margin-5" src="images/blog-19.jpg" alt=""> -->
-                            {{ content }}
-                        </p>
-                    </article>
-                </div>
-                <div class="col-12 text-center text-lg-left post-links margin-5" style="margin-bottom: 55px">
-                    <div
-                            class="d-flex align-items-center justify-content-center justify-content-md-between flex-wrap group">
-                        {% if page.previous and page.previous.type=='activities'%}
-                        <a class="button-link pull-md-left fa-angle-left" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
-                        {% endif %}
-                        {% if page.next and page.next.type=='activities' %}
-                        <a class="button-link pull-md-right fa-angle-right" href="{{ page.next.url }}">{{ page.next.title }}</a>
-                        {% endif %}
-                        {% if page.details %}
-                        <div><a class="small-ppt-button" href="{{ page.details }}">XPixel微信公众号见内容详情</a></div>
-                        {% endif %}
-                    </div>
+            <div class="xp-act-post-meta">
+                <time class="xp-act-post-date" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+                <div class="xp-act-post-meta-links">
+                    {% if page.ppt %}
+                    <a class="xp-act-meta-chip" href="{{ page.ppt }}" rel="noopener">Slides</a>
+                    {% endif %}
+                    {% if page.ReadMore %}
+                    <a class="xp-act-meta-chip" href="{{ page.ReadMore }}" rel="noopener">Read more</a>
+                    {% endif %}
+                    {% if page.details %}
+                    <a class="xp-act-meta-chip" href="{{ page.details }}" rel="noopener">WeChat</a>
+                    {% endif %}
                 </div>
             </div>
+
+            <article class="xp-act-post-article">
+                {{ content }}
+            </article>
+
+            <nav class="xp-act-post-nav" aria-label="Adjacent activities">
+                <div class="xp-act-post-nav-inner">
+                    {% if page.previous and page.previous.layout == 'activitiespost' %}
+                    <a class="xp-act-post-nav-link xp-act-post-nav-prev" href="{{ page.previous.url }}"><span class="xp-act-post-nav-dir">Previous</span><span class="xp-act-post-nav-title">{{ page.previous.title }}</span></a>
+                    {% endif %}
+                    {% if page.next and page.next.layout == 'activitiespost' %}
+                    <a class="xp-act-post-nav-link xp-act-post-nav-next" href="{{ page.next.url }}"><span class="xp-act-post-nav-dir">Next</span><span class="xp-act-post-nav-title">{{ page.next.title }}</span></a>
+                    {% endif %}
+                </div>
+            </nav>
         </div>
     </section>
 </main>

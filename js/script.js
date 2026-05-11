@@ -377,7 +377,10 @@
 
 			c.owlCarousel({
 				autoplay: isNoviBuilder ? false : c.attr("data-autoplay") === "true",
+				autoplayTimeout: c.attr("data-autoplay-timeout") ? parseInt(c.attr("data-autoplay-timeout"), 10) : 5000,
+				autoplayHoverPause: c.attr("data-autoplay-hover-pause") !== "false",
 				loop: isNoviBuilder ? false : c.attr("data-loop") !== "false",
+				checkVisible: c.attr("data-check-visible") === "false" ? false : true,
 				items: 1,
 				center: c.attr("data-center") === "true",
 				dotsContainer: c.attr("data-pagination-class") || false,
